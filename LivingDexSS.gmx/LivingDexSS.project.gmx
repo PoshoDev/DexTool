@@ -52455,6 +52455,7 @@
     <script>scripts\form_get_alcremie.gml</script>
     <script>scripts\check_skip.gml</script>
     <script>scripts\check_jump.gml</script>
+    <script>scripts\make_screenshot.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_global</object>

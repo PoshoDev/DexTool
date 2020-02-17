@@ -9,7 +9,7 @@ var str = pkmn;
 if (form != "")
 {
     str = form_get_string(pkmn, form);
-    show_debug_message(str);   
+    //show_debug_message(str);   
 }
 
 sprtemp = sprite_add("Icons\Regular\"+string(str)+".png",0,false,false,19,14);
