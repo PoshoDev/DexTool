@@ -8,28 +8,6 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string></string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="6" enumb="11">
       <action>
         <libid>1</libid>
@@ -48,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>hover = false;
+
+color = get_color3(own, false);
 </string>
           </argument>
         </arguments>
@@ -71,6 +51,59 @@
           <argument>
             <kind>1</kind>
             <string>hover = true;
+
+global.selected[dex.dexno] = dexno;
+global.selected[dex.pokemon] = pokemon;
+global.selected[dex.form] = form;
+global.selected[dex.type1] = type1;
+global.selected[dex.type2] = type2;
+global.selected[dex.sprite] = -1;
+global.selected[dex.own] = own;
+
+color = get_color3(own, true);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// CLICKEDY CLICK
+
+if (++own &gt;= 3)
+    own = 0;
+    
+color = get_color3(own, true);
+
+global.selected[dex.own] = own;
+global.savedata[idno] = own;
+
+// Auto-Saves
+if (file_exists("save.ini"))
+{
+    ini_open("save.ini");
+        ini_write_real("Pokemon", string(idno), own)
+        //ini_write_real("Progress","count",global.count)
+        show_debug_message("Saved "+pokemon+" as "+string(own)+".");
+    ini_close();
+}
+else
+    show_debug_message("ERROR: Save file somehow went missing.");
 </string>
           </argument>
         </arguments>
@@ -93,26 +126,23 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (own)
-    if (hover)
-        draw_set_color(c_maroon)
-    else
-        draw_set_color(c_red)
-else
-    if (hover)
-        draw_set_color(c_gray)
-    else
-        draw_set_color(c_white)
+            <string>// Scaling
+image_xscale = global.icon_scale;
+image_yscale = global.icon_scale;
 
-draw_rectangle(x+1, y+1, x+global.box_len-1, y+global.box_len-1, false);
+
+// Back color
+draw_set_color(color);
+draw_rectangle(x+1, y+1, x+global.box_scale-1, y+global.box_scale-1, false);
 draw_set_color(c_white);
 
 //draw_self();
-draw_sprite_stretched(sprite_index, 0, x, y, global.box_len, global.box_len);
+//draw_sprite_stretched(sprite_index, 0, x, y, global.box_len, global.box_len);
+draw_self();
 
 // Sprite
 if (spr != -1)
-    draw_sprite_ext(spr, 0, x+global.box_len/2, y+global.box_len/2, global.icon_scale, global.icon_scale, image_angle, image_blend, image_alpha);
+    draw_sprite_ext(spr, 0, x+global.box_scale/2, y+global.box_scale/2, global.icon_scale, global.icon_scale, image_angle, image_blend, image_alpha);
     
     //draw_sprite(spr, 0, x+global.box_len/2, y+global.box_len/2);
 </string>

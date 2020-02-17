@@ -35,7 +35,9 @@ enum dex
     form,
     type1,
     type2,
-    sprite
+    boxable,
+    sprite,
+    own
 }
 
 global.dexdata = csv_load("pokedata");
@@ -80,6 +82,46 @@ global.selected[dex.form] = "";
 global.selected[dex.type1] = "Grass";
 global.selected[dex.type2] = "Poison";
 global.selected[dex.sprite] = -1;
+global.selected[dex.own] = 0;
+
+global.dex_len = array_height_2d(global.dexdata);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// SAVE DATA
+
+if (file_exists("save.ini"))
+{
+    ini_open("save.ini")
+        for (var i=0; i&lt;=global.dex_len; i++)
+            global.savedata[i] = ini_read_real("Pokemon", string(i), 0);
+    ini_close();
+    show_debug_message("LOADED SAVE FILE.");
+}
+else
+{
+    ini_open("save.ini");
+        ini_write_real("Version", "Number", 0.1);
+    ini_close();
+    show_debug_message("CREATED SAVE FILE.");
+}
 </string>
           </argument>
         </arguments>
@@ -118,12 +160,13 @@ for (var i=0; i&lt;100; i++)
             pokemon =   global.dexdata[global.current, dex.pokemon];
             form =      global.dexdata[global.current, dex.form];
             type1 =     global.dexdata[global.current, dex.type1];
-            //type2 =     global.dexdata[global.current, dex.type2];
+            type2 =     global.dexdata[global.current, dex.type2];
             
-            own = false;
+            own = global.savedata[global.current];
+            
+            color = get_color3(own, false);
             
             image_speed = 0;
-            color = c_white;
             hover = false;
             spr = sprite_add("Icons\Regular\"+string(pokemon)+".png",0,true,false,19,14);
             
@@ -134,6 +177,46 @@ for (var i=0; i&lt;100; i++)
         global.current++;
     }
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>scr_window_resize</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -179,6 +262,49 @@ for (var i=0; i&lt;100; i++)
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.box_scale = sprite_get_width(spr_slot)*global.icon_scale;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// WINDOW RESIZE CHECK
+
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="8" enumb="0">
       <action>
@@ -197,17 +323,28 @@ for (var i=0; i&lt;100; i++)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var len = global.box_len/8;
+            <string>color = get_color3(global.selected[dex.own], false);
+draw_set_color(color);
+
+/// DRAW HOVER INFO
+var len = global.box_len/8;
+var hal = len/2;
+var mid = room_width*0.75;
 
 draw_set_font(global.font)
 draw_set_halign(fa_middle)
-draw_text_transformed(room_width*0.75, room_height*0.1, global.selected[dex.dexno], len, len, 0);
-draw_text_transformed(room_width*0.75, room_height*0.5, global.selected[dex.pokemon], len, len, 0);
+draw_text_transformed(mid, room_height*0.1, scr_zeros(global.selected[dex.dexno]), len, len, 0);
+draw_text_transformed(mid, room_height*0.5, global.selected[dex.pokemon], len, len, 0);
+
+draw_set_color(c_white);
 
 if (global.selected[dex.type2] != "")
 {
-    draw_sprite_ext(spr_type, scr_typeget(global.selected[dex.type1]), room_width*0.75-(30*len/2)-len/2, room_height*0.6, len/2, len/2, image_angle, image_blend, image_alpha);
-    draw_sprite_ext(spr_type, scr_typeget(global.selected[dex.type2]), room_width*0.75+len/2, room_height*0.6, len/2, len/2, image_angle, image_blend, image_alpha);
+    draw_sprite_ext(spr_type, scr_typeget(global.selected[dex.type1]), mid-(30*hal)-hal, room_height*0.6, hal, hal, image_angle, image_blend, image_alpha);
+    draw_sprite_ext(spr_type, scr_typeget(global.selected[dex.type2]), mid+hal, room_height*0.6, hal, hal, image_angle, image_blend, image_alpha);
+}
+else
+{
 }
 </string>
           </argument>

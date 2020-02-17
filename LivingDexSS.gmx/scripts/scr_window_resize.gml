@@ -18,7 +18,7 @@ if ((   window_get_width() != global.window_width ||
     // If mult scale is allowed:
     //global.icon_scale = (1 * global.box_len) / 40;
     
-    for(var i=2; global.box_len>i*40; i++){show_debug_message("LOOPITY")}
+    for(var i=2; global.box_len>i*40; i++){}
     global.icon_scale = i-1;
     
     /*global.icon_scale = 2;
@@ -30,6 +30,9 @@ if ((   window_get_width() != global.window_width ||
     
     with obj_slot
     {
+        image_xscale = global.icon_scale;
+        image_yscale = global.icon_scale;
+        
         x = global.box_len/2 + global.box_len * slot_x;
         y = global.box_len * slot_y;
     }

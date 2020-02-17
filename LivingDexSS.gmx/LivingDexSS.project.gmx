@@ -39850,6 +39850,7 @@
   </datafiles>
   <NewExtensions>
     <extension index="0">extensions\CSV Manager</extension>
+    <extension index="1">extensions\nsfs</extension>
   </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
@@ -39868,6 +39869,8 @@
     <script>scripts\array_draw_debug.gml</script>
     <script>scripts\scr_window_resize.gml</script>
     <script>scripts\scr_typeget.gml</script>
+    <script>scripts\get_color3.gml</script>
+    <script>scripts\scr_zeros.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_global</object>

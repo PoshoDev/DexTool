@@ -1,0 +1,502 @@
+<html><head>
+<title>NSFS cheat sheet</title>
+<style type="text/css">
+html {
+	background-color: #f9f9f9;
+}
+body {
+	font: 15px 'Open Sans', sans-serif;
+	max-width: 640px;
+	background: #ffffff;
+	margin: 0 auto;
+	padding: 8px;
+	box-shadow: 0 0 0 2px #eee;
+}
+tt {
+	font-size: 85%;
+	font-family: Consolas, monospace;
+	background: #fff9f0;
+	padding: 0 3px;
+	box-shadow: 0 1px 2px rgba(0,0,0, 0.2);
+}
+#doc, #doc ul {
+	list-style: none;
+	padding-left: 0;
+}
+#doc div > ul {
+	list-style-type: disc;
+	padding-left: 30px ;
+}
+#doc h3 {
+	margin: 0;
+	font-weight: 700;
+	font-size: 100%;
+	color: #458;
+	border-left: 2px solid #f3f3f3;/* #f9f9f9*/
+	padding-left: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	cursor: pointer;
+}
+#doc h3::before {
+	display: inline-block;
+	content: "+";
+	font: 12px monospace;
+	border: 1px solid #458;
+	line-height: 11px;
+	height: 11px;
+	width: 11px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 4px;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+}
+#doc li.open > h3::before {
+	content: "-";
+}
+#doc h4 {
+	border-left: none;
+	padding: 0;
+}
+#doc h3:hover, #doc h4:hover {
+	border-left-color: #f3f3f3;
+	background: #f3f3f3;
+}
+#doc div:not(.gminfo), #doc ul {
+	padding-left: 20px;
+	border-left: 2px solid #f3f3f3;
+}
+#doc .colors > span {
+	display: inline-block;
+	width: 16px;
+	text-indent: -9999px;
+	box-shadow: 0 0 1px rgba(0, 0, 0.25);
+}
+#doc pre, #doc tt {
+	font-family: Consolas, Dejavu Sans Mono, Segoe UI Mono, Ubuntu Mono, Lucida Console, monospace;
+}
+#doc pre {
+	font-size: 9pt;
+	line-height: 1.25;
+	background: white;
+	/*border: 1px solid #d0d0d0;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);*/
+	padding: 4px 2px 4px 10px;
+	margin: 0;
+	tab-size: 4;
+	overflow-x: auto;
+}
+/* delay display until load */
+#doc { display: none; }
+#doc li:not(.open) > div, #doc li:not(.open) > ul {
+	display: none;
+}
+</style>
+<style type="text/css">
+/* Code ahead */
+.gminfo .code.mono {
+	font-family: Consolas, monospace;
+	font-size: 12px;
+	line-height: 1.25;
+	margin: 0;
+}
+.gminfo .action > .code.mono {
+	margin-left: 28px;
+}
+/** */
+.gminfo .code .kw, .gminfo .code .sp {
+	color: #008;
+	font-weight: bold;
+}
+/** comments */
+.gminfo .code .co { color: #888; }
+/** numbers */
+.gminfo .code .nu { color: #00F; }
+.gminfo .code .nx { color: #00F; }
+/** strings */
+.gminfo .code .st { color: #00F; }
+/** resource indexes */
+.gminfo .code .ri { color: rgb(0, 120, 170); }
+/** standard/built-in variable */
+.gminfo .code .sv { color: #800; }
+/** standard/built-in function */
+.gminfo .code .sf { color: #800; }
+/** user-defined variable name */
+.gminfo .code .uv { color: #408; }
+/** user-defined script/function */
+.gminfo .code .uf { color: #808; }
+/** user-defined field (inst.field) */
+.gminfo .code .fd { color: #408; }
+</style>
+<noscript><style>
+#doc h3::before {
+	display: none;
+}
+#doc h3:hover {
+	border-left-color: inherit;
+	background: inherit;
+}
+#doc { display: inherit }
+#doc li > div, #doc li > ul {
+	display: inherit;
+}
+</style></noscript>
+</head><body>
+This is a "cheat sheet" for Non-Sandboxed FileSystem extension by YellowAfterlife.<br>
+The extension can be acquired from <a href="https://marketplace.yoyogames.com/assets/5172/non-sandboxed-filesystem">GM:Marketplace</a> or <a href="https://yellowafterlife.itch.io/gamemaker-nsfs">itch.io</a>.<br>
+For questions/support, use <a href="https://forum.yoyogames.com/index.php?threads/non-sandboxed-filesystem-access.21643/">forums</a>, or <a href="mailto://yellowafterlife@hotmail.com">send me an email</a>.<br>
+The extension is currently available for Windows (is a DLL).<br>
+<br>
+Click on sections to expand/collapse them.<br>
+Quick display controls: <a href="#" onclick="opt_none()">Categories</a>
+&middot; <a href="#" onclick="opt_list()">Functions</a>
+&middot; <a href="#" onclick="opt_all()">Everything</a>
+<ul id="doc">
+
+
+<li><h3>General functions</h3><ul>
+	
+	<li><h3>nsfs_is_available</h3><div>
+		This variable holds status (<tt>true</tt>\<tt>false</tt>) of whether the native extension for NSFS was successfully loaded. The extension may not be loaded in a few cases:
+		<ul><li>
+			Extension is not supported on the target platform.
+		</li><li>
+			Extension' file is amiss (e.g. the user did not unzip the game before running).
+		</li></ul>
+		As per GameMaker rules, all calls to unavailable extensions return <tt>0</tt> instead, so you may want to check this and notify the user prior to performing any operations.
+	</div></li>
+	
+	<li><h3 id="nsfs_status">nsfs_status</h3><div>
+		Some functions provide additional feedback aside of usual success/failure result.<br>
+		In those cases, when the result is <tt>false</tt>, this global variable holds the status/error code that can be used for troubleshooting the issue.<br>
+		On Windows, values are as per <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms681381(v=vs.85).aspx">System Error Codes</a> reference.
+	</div></li>
+	
+	<li><h3>nsfs_set_directory(new_working_directory)</h3><div>
+		By default, when a relative path is specified, NSFS will read/write files in game's program directory. If you want to use some other directory instead (e.g. <a href="http://docs.yoyogames.com/source/dadiospice/002_reference/file%20handling/file%20system%20limits.html">save directory</a>), you can use this function to change the extension's working directory.<br>
+		The function returns whether the working directory was successfully changed;
+		<a href="#nsfs_status">nsfs_status</a> contains the error code if it couldn't be.<br>
+		One of the few reasons to failure of this function is the target directory not being a valid path (use <a href="http://docs.yoyogames.com/source/dadiospice/002_reference/file%20handling/directory_exists.html">directory_exists</a>\<a href="#directory_exists_ns">directory_exists_ns</a> to check).
+	</div></li>
+	
+	<li><h3>nsfs_get_directory()</h3><div>
+		Returns the extension's working directory.<br>
+		If that somehow fails, returns an empty string and sets <a href="#nsfs_status">nsfs_status</a>.
+	</div></li>
+
+</ul></li>
+
+<li><h3>File manipulation functions</h3><ul>
+	
+	<li><h3>file_exists_ns(path)</h3><div>
+		Returns whether the file exists at the given path.<br>
+		Returns <tt>false</tt> if there's a directory of the same name at the path.
+	</div></li>
+	
+	<li><h3 id="file_copy_ns">file_copy_ns(oldpath, newpath)</h3><div>
+		Copies a file between locations, returns whether successful.<br>
+		In case of failure, <a href="#nsfs_status">nsfs_status</a> contains the error code.
+	</div></li>
+	
+	<li><h3>file_rename_ns(oldname, newname)</h3><div>
+		Renames a file, returns whether successful.<br>
+		Note that if the <tt>oldname</tt> contains a path, <tt>newname</tt> should as well.<br>
+		In case of failure, <a href="#nsfs_status">nsfs_status</a> contains the error code.
+	</div></li>
+	
+	<li><h3>file_move_ns(oldpath, newpath)</h3><div>
+		Moves a file to a different location, returns whether successful.<br>
+		In case of failure, <a href="#nsfs_status">nsfs_status</a> contains the error code.
+	</div></li>
+	
+	<li><h3>file_delete_ns(path)</h3><div>
+		Deletes a file, returns whether successful.<br>
+		In case of failure, <a href="#nsfs_status">nsfs_status</a> contains the error code.<br>
+		Note that you can't remove files currently in use by an application (incl. yours).
+	</div></li>
+	
+</ul></li>
+
+<li><h3>Directory manipulation functions</h3><ul>
+	
+	<li><h3>directory_exists_ns(path)</h3><div>
+		Returns whether the file exists at the given path.<br>
+		Returns <tt>false</tt> if there's a directory of the same name at the path.
+	</div></li>
+	
+	<li><h3 id="directory_copy_ns">directory_copy_ns(oldpath, newpath)</h3><div>
+		Copies a directory between locations, returns whether successful.<br>
+		In case of failure, <a href="#nsfs_status">nsfs_status</a> contains the error code.
+	</div></li>
+	
+	<li><h3>directory_rename_ns(oldname, newname)</h3><div>
+		Renames a directory, returns whether successful.<br>
+		Note that if the <tt>oldname</tt> contains a path, <tt>newname</tt> should as well.<br>
+		In case of failure, <a href="#nsfs_status">nsfs_status</a> contains the error code.<br>
+		Directories cannot be renamed if some of their files are currently in use by applications (incl. yours).
+	</div></li>
+	
+	<li><h3>directory_move_ns(oldpath, newpath)</h3><div>
+		Moves a directory to a different location, returns whether successful.<br>
+		In case of failure, <a href="#nsfs_status">nsfs_status</a> contains the error code.<br>
+		Directories cannot be moved if some of their files are currently in use by applications (incl. yours).
+	</div></li>
+	
+	<li><h3>directory_delete_ns(path)</h3><div>
+		Deletes a directory, returns whether successful.<br>
+		In case of failure, <a href="#nsfs_status">nsfs_status</a> contains the error code.<br>
+		Directories cannot be deleted if some of their files are currently in use by applications (incl. yours).
+	</div></li>
+	
+</ul></li>
+
+<li><h3>File/directory attribute functions</h3><ul>
+	
+	<li><h3 id="file_get_attributes_ns">file_get_attributes_ns(path)</h3><div>
+		Returns attributes of a file/directory at given path.<br>
+		Returned attributes (a set of bit flags) are as per <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/gg258117(v=vs.85).aspx">MSDN specification</a>.<br>
+		If attributes cannot be retrieved (e.g. no object exists at path), returned value is <tt>-1</tt>, and <a href="#nsfs_status">nsfs_status</a> contains the error code.
+	</div></li>
+	
+	<li><h3>file_set_attributes_ns(path, newattributes)</h3><div>
+		Changes the attributes of a file/directory at the given path, returns whether successful.
+		The attributes (a set of bit flags) are as per <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/gg258117(v=vs.85).aspx">MSDN specification</a>.<br>
+		If attributes cannot be changed, <a href="#nsfs_status">nsfs_status</a> contains the error code.
+	</div></li>
+	
+	<li><h3>file_get_size_ns(path)</h3><div>
+		Returns the size of the file at given path, in bytes.<br>
+		If the size cannot be measured, returns -1 and sets <a href="#nsfs_status">nsfs_status</a>.
+	</div></li>
+	
+</ul></li>
+
+<li><h3>File/directory search functions</h3><ul>
+	
+	<li><h3 id="file_find_first_ns">file_find_first_ns(mask)</h3><div>
+		Begins the search for files/directories matching the given mask and returns the first result.
+		Returns "" and sets <a href="#nsfs_status">nsfs_status</a> if nothing can be found.<br>
+		This is much akin to <a href="http://docs.yoyogames.com/source/dadiospice/002_reference/file%20handling/file%20system/file_find_first.html">file_find_first</a>, but with one remark: instead of taking attributes as a second parameter (which gives very limited freedom to filtering results), there is a <a href="#file_find_attributes_ns">file_find_attributes_ns</a> function that returns the attributes of the current file in search.<br>
+		For example, if you wanted to pick through just files (no directories) in <tt>maps</tt> subdirectory in game's directory, you would do that like so:
+		<div class="gminfo"><pre class="code mono">
+<span class="kw">for</span> (<span class="kw">var</span> <span class="uv">f</span> <span class="op">=</span> <span class="sf">file_find_first_ns</span>(<span class="st">"maps/*.*"</span>); <span class="uv">f</span> <span class="op">!=</span> <span class="st">""</span>; <span class="uv">f</span> <span class="op">=</span> <span class="sf">file_find_next_ns</span>()) {
+    <span class="kw">if</span> (<span class="sf">file_find_attributes_ns</span>() <span class="op">&amp;</span> <span class="sv">fa_directory</span>) <span class="kw">continue</span>;
+    <span class="co">// file is not a directory - do something here</span>
+    <span class="sf">show_debug_message</span>(<span class="uv">f</span> <span class="op">+</span> <span class="st">": "</span> <span class="op">+</span> <span class="sf">string</span>(<span class="sf">file_find_size_ns</span>() <span class="op">/</span> <span class="nu">1024</span>) <span class="op">+</span> <span class="st">"KB"</span>);
+}
+<span class="sf">file_find_close</span>();
+</pre></div>
+		which would display results like <tt>some.map</tt> (given <tt>maps/some.map</tt>).
+	</div></li>
+	
+	<li><h3>file_find_next_ns()</h3><div>
+		Returns the next result matching the mask (from <a href="#file_find_first_ns">file_find_first_ns</a>).<br>
+		Returns <tt>""</tt> if there are no more results left.
+	</div></li>
+	
+	<li><h3>file_find_close_ns()</h3><div>
+		Finalizes the current search and frees up the related resources.<br>
+		<a href="#file_find_first_ns">file_find_first_ns</a> will automatically do this prior to starting the next search if you forget, but it is recommended that you do this by yourself when a search is complete.
+	</div></li>
+	
+	<li><h3 id="file_find_attributes_ns">file_find_attributes_ns()</h3><div>
+		Returns the attributes (much like <a href="#file_get_attributes_ns">file_get_attributes_ns</a>) of the current (most recently returned) file in search. Due to how file search works, this is generally faster than retrieving the attributes by absolute path.
+	</div></li>
+	
+	<li><h3>file_find_size_ns()</h3><div>
+		Returns the size (in bytes) of the current (most recently returned) file in search. This is generally faster than retrieving the size by absolute path.<br>
+		This function considers directories to have size of 0 bytes.
+	</div></li>
+	
+</ul></li>
+
+<li><h3>Text file functions</h3><ul>
+	
+	<li><h3>file_text_open_read_ns(path, codepage)</h3><div>
+		Opens a text file at given path for reading and returns file ID.<br>
+		Codepage numbers can be found <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd317756(v=vs.85).aspx">on MSDN</a>.<br>
+		<tt>-1</tt> can be specified as a codepage to use UTF-8 (GMS default).<br>
+		If the file cannot be opened for reading, returns <tt>-1</tt> and sets <a href="#nsfs_status">nsfs_status</a>.<br>
+		IDs used by these functions are separate from those used by built-in ones.
+	</div></li>
+	
+	<li><h3>file_text_open_write_ns(path, codepage)</h3><div>
+		Opens a text file at given path for writing and returns file ID.<br>
+		If the file is already present, it is overwritten.<br>
+		Codepage numbers can be found <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd317756(v=vs.85).aspx">on MSDN</a>.<br>
+		<tt>-1</tt> can be specified as a codepage to use UTF-8 (GMS default).<br>
+		If the file cannot be opened for writing, returns <tt>-1</tt> and sets <a href="#nsfs_status">nsfs_status</a>.
+	</div></li>
+	
+	<li><h3>file_text_open_append_ns(path, codepage)</h3><div>
+		Opens a text file at given path for writing and returns file ID.<br>
+		If the file is already present, appends to the end of the file.<br>
+		Codepage numbers can be found <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd317756(v=vs.85).aspx">on MSDN</a>.<br>
+		<tt>-1</tt> can be specified as a codepage to use UTF-8 (GMS default).<br>
+		If the file cannot be opened for writing, returns <tt>-1</tt> and sets <a href="#nsfs_status">nsfs_status</a>.
+	</div></li>
+	
+	<li><h3>file_text_close_ns(file_id)</h3><div>
+		Closes the given text file, freeing it for operations or use by other applications.<br>
+		Returns whether the file was actually open (and thus could be closed).
+	</div></li>
+	
+	<li><h3>file_text_eof_ns(file_id)</h3><div>
+		Returns whether end of file was reached for the given file.<br>
+		Only makes sense for files opened for reading.<br>
+		Returns <tt>true</tt> for invalid file IDs.
+	</div></li>
+	
+	<li><h3>file_text_read_line_ns(file_id)</h3><div>
+		Reads and returns the next line from the given file.<br>
+		This is equivalent to <a href="http://docs.yoyogames.com/source/dadiospice/002_reference/file%20handling/files/file_text_read_string.html">file_text_read_string</a> + <a href="http://docs.yoyogames.com/source/dadiospice/002_reference/file%20handling/files/file_text_readln.html">file_text_readln</a>. That is, it reads and returns the text on the current line, and skips the line delimiter (CR\LF\CRLF\LFCR).<br>
+		Returns <tt>""</tt> if the file handle is invalid or end of file has been reached.
+	</div></li>
+	
+	<li><h3>file_text_write_line_ns(file_id, text)</h3><div>
+		Writes a string to the given file, returns whether successful.<br>
+		Adds a linebreak (CRLF) prior to writing automatically if it is not the first line.<br>
+	</div></li>
+	
+</ul></li>
+
+<li><h3>Buffer functions</h3><ul>
+	
+	<li><h3>buffer_load_ns(path)</h3><div>
+		Loads a GM buffer from the file and returns it's ID.<br>
+		Is a direct equivalent of the built-in <a href="http://docs.yoyogames.com/source/dadiospice/002_reference/buffers/buffer_load.html">buffer_load</a> function.<br>
+		If the file cannot be read, returns <tt>-1</tt> and sets <a href="#nsfs_status">nsfs_status</a>.
+	</div></li>
+	
+	<li><h3>buffer_save_ns(buffer, path)</h3><div>
+		Saves the contents of the given buffer to a file, returns whether successful.<br>
+		Is akin to the built-in <a href="http://docs.yoyogames.com/source/dadiospice/002_reference/buffers/buffer_save.html">buffer_save</a> function (but has a return value).<br>
+		If the file cannot be written, returns <tt>false</tt> and sets <a href="#nsfs_status">nsfs_status</a>.<br>
+	</div></li>
+	
+	<li><h3>buffer_save_ext_ns(buffer, path, offset, size)</h3><div>
+		Saves a subsection of the given buffer to a file, returns whether successful.<br>
+		Is akin to the built-in <a href="http://docs.yoyogames.com/source/dadiospice/002_reference/buffers/buffer_save_ext.html">buffer_save_ext</a> function (but has a return value).<br>
+		If the file cannot be written, returns <tt>false</tt> and sets <a href="#nsfs_status">nsfs_status</a>.
+	</div></li>
+	
+</ul></li>
+
+<li><h3>Misc functions</h3><ul>
+	<li><h3>string_codepage(string, oldcodepage, newcodepage)</h3><div>
+		Converts contents of a string between codepages.<br>
+		Codepage numbers can be found <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd317756(v=vs.85).aspx">on MSDN</a>.<br>
+		<tt>-1</tt> can be specified as a codepage to use UTF-8 (GMS default).<br>
+		This is particularly handy if you 
+	</div></li>
+</ul></li>
+
+<li><h3>Workarounds</h3><div>
+	Certain functions cannot be reasonably implemented in scope of this extension, e.g.
+	<ul><li>
+		GM:S does not allow extensions to load assets directly, meaning that they would have to be copied into an "allowed" directory by either yourself or an extension.
+	</li><li>
+		<tt>file_bin_</tt> functions are noticeably outperformed by a <tt>buffer_fast</tt> buffer, leaving little reason to reimplement them instead of using buffers.
+	</li></ul>
+	In majority of situations, the issues can be bypassed by using <a href="#file_copy_ns">file_copy_ns</a> or <a href="#directory_copy_ns">directory_copy_ns</a> accordingly.
+</div></li>
+
+<!--
+	<li><h3></h3><div>
+		
+	</div></li>
+	
+	
+-->
+
+</ul> <!-- #doc -->
+<script>(function() {
+var doc = document.getElementById("doc");
+var headers = doc.getElementsByTagName("h3");
+//
+var path = "cc.yal.nsfs.doc.state";
+var state = null;
+if (window.localStorage && JSON.parse) {
+	state = window.localStorage.getItem(path);
+	state = state ? JSON.parse(state) : { };
+	if (state == null) state = { };
+}
+//
+function h3bind(h3) {
+	var node = h3.parentNode;
+	var snip = node.children[1];
+	h3.snip = snip;
+	h3.doc_set = function(z) {
+		if (node.classList.contains("open") == z) return;
+		if (z) node.classList.add("open"); else node.classList.remove("open");
+		if (state) {
+			state[h3.textContent] = z;
+			window.localStorage.setItem(path, JSON.stringify(state));
+		}
+	}
+	h3.doc_hide = function() {
+		this.doc_set(false);
+	}
+	h3.doc_show = function() {
+		this.doc_set(true);
+	}
+	h3.onclick = function(_) {
+		var seen = !node.classList.contains("open");
+		h3.doc_set(seen);
+	};
+}
+//
+(function() {
+	for (var i = 0; i < headers.length; i++) h3bind(headers[i]);
+	var anchors = doc.getElementsByTagName("a");
+	function getHashFunc(id) {
+		return function(e) {
+			var node = document.getElementById(id);
+			while (node && node != doc) {
+				if (node.tagName == "LI") {
+					var h3 = node.children[0];
+					if (h3.doc_set) h3.doc_set(true);
+				}
+				node = node.parentElement;
+			}
+		};
+	}
+	for (var i = 0; i < anchors.length; i++) {
+		var anchor = anchors[i];
+		var href = anchor.getAttribute("href");
+		if (href[0] == "#") {
+			anchor.addEventListener("click", getHashFunc(href.substr(1)));
+		}
+	}
+})();
+//
+window.opt_none = function() {
+	for (var li = 0; li < headers.length; li++) headers[li].doc_hide();
+};
+window.opt_list = function() {
+	for (var li = 0; li < headers.length; li++) {
+		var h3 = headers[li];
+		if (h3.parentNode.parentNode != doc) {
+			h3.doc_hide();
+		} else h3.doc_show();
+	}
+};
+window.opt_all = function() {
+	for (var li = 0; li < headers.length; li++) headers[li].doc_show();
+};
+//
+(function() {
+	for (var li = 0; li < headers.length; li++) {
+		var h3 = headers[li];
+		var val = state ? state[h3.textContent] : null;
+		if (val == null) val = h3.parentNode.parentNode == doc;
+		if (val) h3.doc_show(); else h3.doc_hide();
+	}
+})();
+doc.style.display = "inherit";
+})();
+</script>
+<!--<script type="text/javascript" src="http://livejs.com/live.js"></script>-->
+</body></html>
