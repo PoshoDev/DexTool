@@ -39880,6 +39880,8 @@
     <script>scripts\draw_guidelines.gml</script>
     <script>scripts\draw_pokemon_hud.gml</script>
     <script>scripts\draw_type_hud.gml</script>
+    <script>scripts\sprite_wiggly_old.gml</script>
+    <script>scripts\sprite_wiggly.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_global</object>

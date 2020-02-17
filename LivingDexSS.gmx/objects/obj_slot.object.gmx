@@ -87,6 +87,8 @@ color = get_color3(own, true);
             <kind>1</kind>
             <string>/// CLICKEDY CLICK
 
+spr_plus = 1;
+
 if (++own &gt;= 3)
     own = 0;
     
@@ -106,6 +108,29 @@ if (file_exists("save.ini"))
 }
 else
     show_debug_message("ERROR: Save file somehow went missing.");
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>spr_plus = 0.75;
 </string>
           </argument>
         </arguments>
@@ -133,20 +158,23 @@ else
 //image_yscale = global.icon_scale;
 
 
-// Back color
+/// DRAW
+
+// Slot + Color
+
 draw_set_color(color);
 draw_rectangle(x+1, y+1, x+global.box_scale-1, y+global.box_scale-1, false);
 draw_set_color(c_white);
 
-//draw_self();
-//draw_sprite_stretched(sprite_index, 0, x, y, global.box_len, global.box_len);
 draw_self();
 
+
 // Sprite
+
+sprite_wiggly();
+
 if (spr != -1)
-    draw_sprite_ext(spr, 0, x+global.box_scale/2, y+global.box_scale/2, global.icon_scale, global.icon_scale, image_angle, image_blend, image_alpha);
-    
-    //draw_sprite(spr, 0, x+global.box_len/2, y+global.box_len/2);
+    draw_sprite_ext(spr, 0, x+global.box_scale/2+plus_x, y+global.box_scale/2+plus_y, global.icon_scale*spr_plus, global.icon_scale*spr_plus, image_angle, image_blend, image_alpha);
 </string>
           </argument>
         </arguments>

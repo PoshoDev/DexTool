@@ -87,6 +87,9 @@ global.selected[dex.own] = 0;
 global.dex_len = array_height_2d(global.dexdata);
 
 global.hud_pokemon_rate = 0.225;
+
+global.mouse_x_prev = mouse_x;
+global.mouse_y_prev = mouse_x;
 </string>
           </argument>
         </arguments>
@@ -188,6 +191,10 @@ for (global.box_count=1; global.current&lt;global.dex_len; global.box_count++)
                     slot_x =    j;
                     slot_y =    i;
                     
+                    plus_x = 0;
+                    plus_y = 0;
+                    spr_plus = 1;
+                    
                     show_debug_message("Spawned #"+dexno+" "+pokemon+" "+form+".");
                 }
             
@@ -236,6 +243,59 @@ for (global.box_count=1; global.current&lt;global.dex_len; global.box_count++)
           <argument>
             <kind>0</kind>
             <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// UPDATE PREVIOUS MOUSE POSITIONS
+
+global.mouse_x_prev = mouse_x;
+global.mouse_y_prev = mouse_y;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// MOUSE SPEED &amp; DIRECTION
+global.mouse_dir_x = mouse_x-global.mouse_x_prev;
+global.mouse_dir_y = mouse_y-global.mouse_y_prev;
+
+show_debug_message("("+string(global.mouse_dir_x)+","+string(global.mouse_dir_y)+")");
+</string>
           </argument>
         </arguments>
       </action>
