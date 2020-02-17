@@ -52453,11 +52453,14 @@
     <script>scripts\form_get_string.gml</script>
     <script>scripts\form_get_gender_major.gml</script>
     <script>scripts\form_get_alcremie.gml</script>
+    <script>scripts\check_skip.gml</script>
+    <script>scripts\check_jump.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_global</object>
     <object>objects\obj_slot</object>
     <object>objects\obj_header</object>
+    <object>objects\object3</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rom_dex</room>

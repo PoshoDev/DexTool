@@ -36,6 +36,7 @@ enum dex
     type1,
     type2,
     boxable,
+    bankable,
     sprite,
     own
 }
@@ -175,15 +176,26 @@ for (global.box_count=1; global.current&lt;global.dex_len; global.box_count++)
         image_speed = 0;
     }
     
+    var jump = false;
+    
     for (var i=0; i&lt;5; i++) // Box Y
         for (var j=0; j&lt;6; j++) // Box X
         {
-            if (global.current&lt;global.dex_len)
+            if (global.current&lt;global.dex_len &amp;&amp; !jump)
             {
-                make_slot(j, i, global.current);
+                while(!check_skip(global.current))
+                    global.current++;
                 
-                global.current++;
+                if (!check_jump(j, i, global.current))
+                {
+                    make_slot(j, i, global.current);
+                    global.current++;
+                }
+                else
+                    jump = true;
             }
+            
+            
         }
 }
 </string>
