@@ -127,8 +127,8 @@ else
           <argument>
             <kind>1</kind>
             <string>// Scaling
-image_xscale = global.icon_scale;
-image_yscale = global.icon_scale;
+//image_xscale = global.icon_scale;
+//image_yscale = global.icon_scale;
 
 
 // Back color

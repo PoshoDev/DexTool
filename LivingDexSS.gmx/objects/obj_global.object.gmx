@@ -74,7 +74,7 @@ global.window_height = window_get_height();
 global.box_len = global.window_width/2/7;
 global.icon_scale = 2;
 
-global.font = font_add_sprite_ext(spr_font,"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZéÉ#-'!?():@_.% /",true,1)
+global.font = font_add_sprite_ext(spr_font,"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZéÉ#-'!?():@_.% /♂♀",true,1)
 
 global.selected[dex.dexno] = "001";
 global.selected[dex.pokemon] = "BULBASAUR";
@@ -112,13 +112,14 @@ if (file_exists("save.ini"))
     ini_open("save.ini")
         for (var i=0; i&lt;=global.dex_len; i++)
             global.savedata[i] = ini_read_real("Pokemon", string(i), 0);
+        global.current_box = ini_read_real("Navigation", "Current Box", 1);
     ini_close();
     show_debug_message("LOADED SAVE FILE.");
 }
 else
 {
     ini_open("save.ini");
-        ini_write_real("Version", "Number", 0.1);
+        ini_write_real("Info", "Number", 0.1);
     ini_close();
     show_debug_message("CREATED SAVE FILE.");
 }
@@ -148,34 +149,45 @@ var pos_x = 0;
 var pos_y = 0;
 
 global.current = 1;
-//global.box_len = 40;
 
-for (var i=0; i&lt;100; i++)
-    for (var j=0; j&lt;6; j++)
-    {
-        with instance_create(j*global.box_len, i*global.box_len, obj_slot)
+for (global.box_count=1; global.current&lt;global.dex_len; global.box_count++)
+{
+    global.box_header[global.box_count] = instance_create(0, 0, obj_header);
+    global.box_header[global.box_count].number = global.box_count;
+    
+    for (var i=0; i&lt;5; i++) // Box Y
+        for (var j=0; j&lt;6; j++) // Box X
         {
-            idno =      global.dexdata[global.current, dex.idno];
-            dexno =     global.dexdata[global.current, dex.dexno];
-            pokemon =   global.dexdata[global.current, dex.pokemon];
-            form =      global.dexdata[global.current, dex.form];
-            type1 =     global.dexdata[global.current, dex.type1];
-            type2 =     global.dexdata[global.current, dex.type2];
+            if (global.current&lt;global.dex_len)
+            {
+                with instance_create(j, i, obj_slot)
+                {
+                    idno =      global.dexdata[global.current, dex.idno];
+                    dexno =     global.dexdata[global.current, dex.dexno];
+                    pokemon =   global.dexdata[global.current, dex.pokemon];
+                    form =      global.dexdata[global.current, dex.form];
+                    type1 =     global.dexdata[global.current, dex.type1];
+                    type2 =     global.dexdata[global.current, dex.type2];
+                    
+                    own = global.savedata[global.current];
+                    
+                    color = get_color3(own, false);
+                    
+                    image_speed = 0;
+                    hover = false;
+                    spr = sprite_add("Icons\Regular\"+string(pokemon)+".png",0,true,false,19,14);
+                    
+                    slot_box =  global.box_count;
+                    slot_x =    j;
+                    slot_y =    i;
+                    
+                    show_debug_message("Spawned #"+dexno+" "+pokemon+" "+form+".");
+                }
             
-            own = global.savedata[global.current];
-            
-            color = get_color3(own, false);
-            
-            image_speed = 0;
-            hover = false;
-            spr = sprite_add("Icons\Regular\"+string(pokemon)+".png",0,true,false,19,14);
-            
-            slot_x = j;
-            slot_y = i;
+                global.current++;
+            }
         }
-        
-        global.current++;
-    }
+}
 </string>
           </argument>
         </arguments>
@@ -224,41 +236,25 @@ for (var i=0; i&lt;100; i++)
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>601</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_execute_script</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>9</kind>
-            <script>scr_window_resize</script>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
+            <kind>1</kind>
+            <string>/// WINDOW RESIZE CHECK
+
+if (window_get_width()!=global.window_width || window_get_height()!=global.window_height)
+    scr_window_resize();
+</string>
           </argument>
         </arguments>
       </action>
@@ -299,7 +295,27 @@ for (var i=0; i&lt;100; i++)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// WINDOW RESIZE CHECK
+            <string>/// SCROLLING
+
+if (mouse_wheel_up())
+{
+    global.current_box--;
+    
+    if (global.current_box &lt; 1)
+        global.current_box = 1;
+    else  
+        scroll_do();
+}
+else if (mouse_wheel_down())
+{
+    global.current_box++;
+    
+    if (global.current_box &gt; global.box_count-1)
+        global.current_box = global.box_count-1;
+    else
+        scroll_do();
+}
+    
 
 </string>
           </argument>

@@ -39857,6 +39857,8 @@
     <sprite>sprites\spr_slot</sprite>
     <sprite>sprites\spr_font</sprite>
     <sprite>sprites\spr_type</sprite>
+    <sprite>sprites\spr_source</sprite>
+    <sprite>sprites\spr_tag</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -39871,10 +39873,13 @@
     <script>scripts\scr_typeget.gml</script>
     <script>scripts\get_color3.gml</script>
     <script>scripts\scr_zeros.gml</script>
+    <script>scripts\scroll_do.gml</script>
+    <script>scripts\scroll_warp.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_global</object>
     <object>objects\obj_slot</object>
+    <object>objects\obj_header</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
