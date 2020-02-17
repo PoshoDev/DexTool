@@ -183,7 +183,7 @@ for (global.box_count=1; global.current&lt;global.dex_len; global.box_count++)
         {
             if (global.current&lt;global.dex_len &amp;&amp; !jump)
             {
-                while(/*global.savedata[global.current] || */ !check_skip(global.current))
+                while(!check_skip(global.current) /*|| global.savedata[global.current]*/)
                     global.current++;
                 
                 if (!check_jump(j, i, global.current))
@@ -313,7 +313,7 @@ global.mouse_dir_y = mouse_y-global.mouse_y_prev;
             <kind>1</kind>
             <string>/// WINDOW RESIZE CHECK
 
-if (window_get_width()!=global.window_width || window_get_height()!=global.window_height)
+if ((window_get_width()!=global.window_width || window_get_height()!=global.window_height) &amp;&amp; window_get_width()&gt;2)
     scr_window_resize();
 </string>
           </argument>
@@ -416,7 +416,7 @@ draw_type_hud(global.selected[dex.type1], global.selected[dex.type2], 4.5);
 
 // Debug
 
-draw_guidelines(false);
+//draw_guidelines(false);
 </string>
           </argument>
         </arguments>

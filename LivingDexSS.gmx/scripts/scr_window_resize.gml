@@ -1,5 +1,7 @@
 // Views and that.
 
+window_set_min_width(470);
+
 global.window_width = window_get_width();
 global.window_height = window_get_height();
 
@@ -49,4 +51,4 @@ room_height = global.window_height;
 //
 
 
-show_debug_message("Window Resized.");
+show_debug_message("Window Resized to "+string(window_get_width())+"x"+string(window_get_height())+".");
