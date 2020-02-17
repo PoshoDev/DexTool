@@ -418,29 +418,10 @@ else if (mouse_wheel_down())
             <kind>1</kind>
             <string>/// DRAW
 
+/// Display Info
+
 var color = get_color3(global.selected[dex.own], false);
 draw_set_color(color);
-
-/// DRAW HOVER INFO
-/*var len = global.box_len/8;
-var hal = len/2;
-var mid = room_width*0.75;
-
-draw_set_font(global.font)
-draw_set_halign(fa_middle)
-draw_text_transformed(mid, room_height*0.1, scr_zeros(global.selected[dex.dexno]), len, len, 0);
-draw_text_transformed(mid, room_height*0.5, global.selected[dex.pokemon], len, len, 0);
-
-draw_set_color(c_white);
-
-if (global.selected[dex.type2] != "")
-{
-    draw_sprite_ext(spr_type, scr_typeget(global.selected[dex.type1]), mid-(30*hal)-hal, room_height*0.6, hal, hal, image_angle, image_blend, image_alpha);
-    draw_sprite_ext(spr_type, scr_typeget(global.selected[dex.type2]), mid+hal, room_height*0.6, hal, hal, image_angle, image_blend, image_alpha);
-}
-else
-{
-}*/
 
 draw_text_hud(global.selected[dex.dexno], 2, -2, color);
 draw_pokemon_hud(global.selected[dex.sprite]);
@@ -448,6 +429,8 @@ draw_text_hud(global.selected[dex.pokemon], 2, 1, color);
 draw_text_hud(global.selected[dex.form], 1.5, 3, color);
 draw_type_hud(global.selected[dex.type1], global.selected[dex.type2], 4.5);
 
+
+// Debug
 
 draw_guidelines(false);
 </string>

@@ -48,6 +48,11 @@ draw_set_font(global.font);
 draw_set_halign(fa_middle);
 draw_set_color(col);
 
-draw_text_transformed(mid_x, mid_y+start+len, str, sca, sca, 0);
+var final_y = mid_y + start + len;
+
+if (final_y < view_yview[0])
+    final_y = view_yview[0];
+
+draw_text_transformed(mid_x, final_y, str, sca, sca, 0);
 
 draw_set_color(c_white);

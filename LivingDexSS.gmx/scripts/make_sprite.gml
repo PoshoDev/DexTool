@@ -12,9 +12,9 @@ if (form != "")
     show_debug_message(str);   
 }
 
-sprtemp = sprite_add("Icons\Regular\"+string(str)+".png",0,true,false,19,14);
+sprtemp = sprite_add("Icons\Regular\"+string(str)+".png",0,false,false,19,14);
 
-if (sprite_get_width(sprtemp) > 40 || sprite_get_height(sprtemp) > 30)
+if (sprite_get_width(sprtemp) > 40 || sprite_get_height(sprtemp) > 30 || sprite_get_height(sprtemp) == 29)
     sprite_set_offset(sprtemp, sprite_get_width(sprtemp)/2, sprite_get_height(sprtemp)/2);
     
 return sprtemp;
