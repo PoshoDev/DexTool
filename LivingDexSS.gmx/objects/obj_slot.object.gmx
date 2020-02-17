@@ -113,7 +113,7 @@ color = get_color3(own, true);
             <kind>1</kind>
             <string>/// CLICKEDY CLICK
 
-if (++own &gt;= 3)
+if (++own &gt; 6)
     own = 0;
 
 global.various_to = own;
@@ -141,7 +141,7 @@ click_slot(own);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Slot + Color
+            <string>/// SLOT + COLOR
 
 draw_set_color(color);
 draw_rectangle(x+1, y+1, x+global.box_scale-1, y+global.box_scale-1, false);

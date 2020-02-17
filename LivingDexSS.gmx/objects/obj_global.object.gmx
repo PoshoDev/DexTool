@@ -180,34 +180,8 @@ for (global.box_count=1; global.current&lt;global.dex_len; global.box_count++)
         {
             if (global.current&lt;global.dex_len)
             {
-                with instance_create(j, i, obj_slot)
-                {
-                    idno =      global.dexdata[global.current, dex.idno];
-                    dexno =     global.dexdata[global.current, dex.dexno];
-                    pokemon =   global.dexdata[global.current, dex.pokemon];
-                    form =      global.dexdata[global.current, dex.form];
-                    type1 =     global.dexdata[global.current, dex.type1];
-                    type2 =     global.dexdata[global.current, dex.type2];
-                    
-                    own = global.savedata[global.current];
-                    
-                    color = get_color3(own, false);
-                    
-                    image_speed = 0;
-                    hover = false;
-                    spr = make_sprite(pokemon, form);
-                    
-                    slot_box =  global.box_count;
-                    slot_x =    j;
-                    slot_y =    i;
-                    
-                    plus_x = 0;
-                    plus_y = 0;
-                    spr_plus = 1;
-                    
-                    show_debug_message("Spawned #"+dexno+" "+pokemon+" "+form+".");
-                }
-            
+                make_slot(j, i, global.current);
+                
                 global.current++;
             }
         }
@@ -374,7 +348,7 @@ if (window_get_width()!=global.window_width || window_get_height()!=global.windo
             <kind>1</kind>
             <string>/// SCROLLING
 
-if (mouse_wheel_up())
+if (mouse_wheel_up() || keyboard_check_pressed(vk_up))
 {
     global.current_box--;
     
@@ -383,7 +357,7 @@ if (mouse_wheel_up())
     else  
         scroll_do();
 }
-else if (mouse_wheel_down())
+else if (mouse_wheel_down() || keyboard_check_pressed(vk_down))
 {
     global.current_box++;
     
