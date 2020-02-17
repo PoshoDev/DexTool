@@ -8,6 +8,29 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="6" enumb="57">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>spr_plus = 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="6" enumb="11">
       <action>
         <libid>1</libid>
@@ -52,6 +75,9 @@ color = get_color3(own, false);
             <kind>1</kind>
             <string>/// MOUSE ENTER
 
+if (mouse_check_button(mb_right))
+    click_slot(global.various_to);
+
 hover = true;
 
 global.selected[dex.dexno] = dexno;
@@ -63,51 +89,6 @@ global.selected[dex.sprite] = spr;
 global.selected[dex.own] = own;
 
 color = get_color3(own, true);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="6" enumb="8">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/// CLICKEDY CLICK
-
-spr_plus = 1;
-
-if (++own &gt;= 3)
-    own = 0;
-    
-color = get_color3(own, true);
-
-global.selected[dex.own] = own;
-global.savedata[idno] = own;
-
-// Auto-Saves
-if (file_exists("save.ini"))
-{
-    ini_open("save.ini");
-        ini_write_real("Pokemon", string(idno), own)
-        //ini_write_real("Progress","count",global.count)
-        show_debug_message("Saved "+pokemon+" as "+string(own)+".");
-    ini_close();
-}
-else
-    show_debug_message("ERROR: Save file somehow went missing.");
 </string>
           </argument>
         </arguments>
@@ -130,7 +111,43 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spr_plus = 0.75;
+            <string>/// CLICKEDY CLICK
+
+if (++own &gt;= 3)
+    own = 0;
+
+global.various_to = own;
+
+click_slot(own);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="72">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// Slot + Color
+
+draw_set_color(color);
+draw_rectangle(x+1, y+1, x+global.box_scale-1, y+global.box_scale-1, false);
+draw_set_color(c_white);
+
+draw_self();
 </string>
           </argument>
         </arguments>
@@ -159,7 +176,7 @@ else
 
 
 /// DRAW
-
+/*
 // Slot + Color
 
 draw_set_color(color);
@@ -167,7 +184,7 @@ draw_rectangle(x+1, y+1, x+global.box_scale-1, y+global.box_scale-1, false);
 draw_set_color(c_white);
 
 draw_self();
-
+*/
 
 // Sprite
 

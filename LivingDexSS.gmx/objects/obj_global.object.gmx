@@ -90,6 +90,9 @@ global.hud_pokemon_rate = 0.225;
 
 global.mouse_x_prev = mouse_x;
 global.mouse_y_prev = mouse_x;
+
+global.various = false;
+global.various_to = 0;
 </string>
           </argument>
         </arguments>
@@ -163,7 +166,14 @@ global.current = 1;
 for (global.box_count=1; global.current&lt;global.dex_len; global.box_count++)
 {
     global.box_header[global.box_count] = instance_create(0, 0, obj_header);
-    global.box_header[global.box_count].number = global.box_count;
+    
+    with (global.box_header[global.box_count])
+    {
+        number = global.box_count;
+        image_index = get_gen(global.dexdata[global.current, dex.dexno])-1;
+        show_debug_message("Spawned Box "+string(global.box_count)+" with PKMN #"+string(global.dexdata[global.current, dex.dexno])+" from Gen "+string(get_gen(global.dexdata[global.current, dex.dexno])))
+        image_speed = 0;
+    }
     
     for (var i=0; i&lt;5; i++) // Box Y
         for (var j=0; j&lt;6; j++) // Box X
@@ -185,7 +195,7 @@ for (global.box_count=1; global.current&lt;global.dex_len; global.box_count++)
                     
                     image_speed = 0;
                     hover = false;
-                    spr = sprite_add("Icons\Regular\"+string(pokemon)+".png",0,true,false,19,14);
+                    spr = make_sprite(pokemon, form);
                     
                     slot_box =  global.box_count;
                     slot_x =    j;
@@ -294,7 +304,7 @@ global.mouse_y_prev = mouse_y;
 global.mouse_dir_x = mouse_x-global.mouse_x_prev;
 global.mouse_dir_y = mouse_y-global.mouse_y_prev;
 
-show_debug_message("("+string(global.mouse_dir_x)+","+string(global.mouse_dir_y)+")");
+//show_debug_message("("+string(global.mouse_dir_x)+","+string(global.mouse_dir_y)+")");
 </string>
           </argument>
         </arguments>
