@@ -39859,6 +39859,7 @@
     <sprite>sprites\spr_type</sprite>
     <sprite>sprites\spr_source</sprite>
     <sprite>sprites\spr_tag</sprite>
+    <sprite>sprites\spr_piketch</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -39875,6 +39876,10 @@
     <script>scripts\scr_zeros.gml</script>
     <script>scripts\scroll_do.gml</script>
     <script>scripts\scroll_warp.gml</script>
+    <script>scripts\draw_text_hud.gml</script>
+    <script>scripts\draw_guidelines.gml</script>
+    <script>scripts\draw_pokemon_hud.gml</script>
+    <script>scripts\draw_type_hud.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_global</object>
@@ -39882,7 +39887,7 @@
     <object>objects\obj_header</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rom_dex</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
