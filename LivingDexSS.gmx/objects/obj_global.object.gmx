@@ -183,7 +183,7 @@ for (global.box_count=1; global.current&lt;global.dex_len; global.box_count++)
         {
             if (global.current&lt;global.dex_len &amp;&amp; !jump)
             {
-                while(!check_skip(global.current))
+                while(/*global.savedata[global.current] || */ !check_skip(global.current))
                     global.current++;
                 
                 if (!check_jump(j, i, global.current))
@@ -194,8 +194,6 @@ for (global.box_count=1; global.current&lt;global.dex_len; global.box_count++)
                 else
                     jump = true;
             }
-            
-            
         }
 }
 </string>
@@ -420,6 +418,28 @@ draw_type_hud(global.selected[dex.type1], global.selected[dex.type2], 4.5);
 
 draw_guidelines(false);
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="83">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>

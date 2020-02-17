@@ -52460,7 +52460,6 @@
     <object>objects\obj_global</object>
     <object>objects\obj_slot</object>
     <object>objects\obj_header</object>
-    <object>objects\object3</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rom_dex</room>

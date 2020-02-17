@@ -113,7 +113,7 @@ color = get_color3(own, true);
             <kind>1</kind>
             <string>/// CLICKEDY CLICK
 
-if (++own &gt; 6)
+if (++own &gt; 4)
     own = 0;
 
 global.various_to = own;
