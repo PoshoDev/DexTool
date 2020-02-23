@@ -17,7 +17,7 @@ It also lets you take screenshots of your current progress for you to flaunt at 
 | <p align=center>Scroll<br>up/down        	| Change Box.                                                        	|
 | <p align=center>Right click<br>(on slot) 	| Change Pokémon status.                                             	|
 | <p align=center>Hold right<br>click (on slot) | Multi-select. |
-| <p align=center>S                     	| Take a screenshot. Saved at:<br>_C:\Users\<USER>\Pictures\dex.png_ 	|
+| <p align=center>S                     	| Take a screenshot. Saved at:<br>_C:\Users\USER\Pictures\dex.png_ 	|
 | <p align=center>G                     	| Toggle Galar Dex view.                                             	|
 
 <br>
