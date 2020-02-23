@@ -20,7 +20,7 @@ It also lets you take screenshots of your current progress for you to flaunt at 
 | <p align=center>S                     	| Take a screenshot. Saved at:<br>_C:\Users\<USER>\Pictures\dex.png_ 	|
 | <p align=center>G                     	| Toggle Galar Dex view.                                             	|
 
-<br><br>
+<br>
 ### Tips & Additional Info:
 - When you right click a Pokémon slot it will change its color. You can decide the meaning of each color, but I _(thy tool creator)_ use them as follows:
   | Color      	| Meaning                    	|
@@ -36,7 +36,7 @@ It also lets you take screenshots of your current progress for you to flaunt at 
 * Your **IMAGE EXPORTS** are stored at:
 	* _C:\Users\USER\Pictures\dex.png_
 
-<br><br>
+<br>
 ### Credits:
  - Code by [Posho](https://github.com/PoshoDev). 
  - Ripped sprites by [msikma](https://github.com/msikma) from [PokéSprite](http://msikma.github.io/pokesprite/).
