@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// DEX LOAD &amp; ENUM
+            <string>/// DEX LOAD &amp; ENUM (+GALAR DEX)
+
+// National Dex data loading
 
 enum dex
 {
@@ -42,6 +44,20 @@ enum dex
 }
 
 global.dexdata = csv_load("pokedata");
+
+
+// Galar Dex data loading
+
+enum gdex
+{
+    galarno,
+    dexno,
+    pokemon,
+    type1,
+    type2
+}
+
+global.galardata = csv_load("galardex");
 </string>
           </argument>
         </arguments>
@@ -119,7 +135,8 @@ global.various_to = 0;
 if (file_exists("save.ini"))
 {
     ini_open("save.ini")
-        global.current_box = ini_read_real("Navigation", "Current Box", 1);
+        global.current_box =    ini_read_real("Navigation", "Current Box", 1);
+        global.show_galar =     ini_read_real("Display", "Galar Dex", false); 
     
         for (var i=0; i&lt;=global.dex_len; i++)
             global.savedata[i] = ini_read_real("Pokemon", string(i), 0);
@@ -188,7 +205,9 @@ for (global.box_count=1; global.current&lt;global.dex_len; global.box_count++)
                 
                 if (!check_jump(j, i, global.current))
                 {
-                    make_slot(j, i, global.current);
+                    if (check_galar(global.current, global.show_galar))
+                        make_slot(j, i, global.current);
+                        
                     global.current++;
                 }
                 else
@@ -460,6 +479,38 @@ draw_type_hud(global.selected[dex.type1], global.selected[dex.type2], 4.5);
           <argument>
             <kind>0</kind>
             <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="71">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.show_galar = !global.show_galar
+
+if (file_exists("save.ini"))
+{
+    ini_open("save.ini")
+        ini_write_real("Display", "Galar Dex", global.show_galar);
+    ini_close();
+}
+
+room_restart();
+</string>
           </argument>
         </arguments>
       </action>

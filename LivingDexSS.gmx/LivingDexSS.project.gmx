@@ -3,9 +3,9 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="8649" name="datafiles">
-    <datafiles number="8649" name="Icons">
-      <datafiles number="8649" name="Regular">
+  <datafiles number="8652" name="datafiles">
+    <datafiles number="8652" name="Icons">
+      <datafiles number="8652" name="Regular">
         <datafile>
           <name>ABOMASNOW-MEGA.png</name>
           <exists>-1</exists>
@@ -30742,7 +30742,7 @@
           </ConfigOptions>
           <filename>ZYGARDE-COMPLETE.png</filename>
         </datafile>
-        <datafiles number="8649" name="right">
+        <datafiles number="8652" name="right">
           <datafile>
             <name>ABSOL-MEGA.png</name>
             <exists>-1</exists>
@@ -32496,7 +32496,7 @@
           </datafile>
         </datafiles>
       </datafiles>
-      <datafiles number="8649" name="Shiny">
+      <datafiles number="8652" name="Shiny">
         <datafile>
           <name>abomasnow-mega.png</name>
           <exists>-1</exists>
@@ -50517,7 +50517,7 @@
           </ConfigOptions>
           <filename>zygarde.png</filename>
         </datafile>
-        <datafiles number="8649" name="female">
+        <datafiles number="8652" name="female">
           <datafile>
             <name>frillish.png</name>
             <exists>-1</exists>
@@ -50638,7 +50638,7 @@
             <filename>unfezant.png</filename>
           </datafile>
         </datafiles>
-        <datafiles number="8649" name="right">
+        <datafiles number="8652" name="right">
           <datafile>
             <name>absol-mega.png</name>
             <exists>-1</exists>
@@ -52410,6 +52410,40 @@
       </ConfigOptions>
       <filename>pokedata.csv</filename>
     </datafile>
+    <datafile>
+      <name>galardex.csv</name>
+      <exists>-1</exists>
+      <size>13385</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>galardex.csv</filename>
+    </datafile>
+    <datafile>
+      <name>README.txt</name>
+      <exists>-1</exists>
+      <size>900</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>README.txt</filename>
+    </datafile>
   </datafiles>
   <NewExtensions>
     <extension index="0">extensions\CSV Manager</extension>
@@ -52456,6 +52490,7 @@
     <script>scripts\check_skip.gml</script>
     <script>scripts\check_jump.gml</script>
     <script>scripts\make_screenshot.gml</script>
+    <script>scripts\check_galar.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_global</object>
