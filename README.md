@@ -1,12 +1,44 @@
-# DexTool
-Management tools for a Pokémon Living Dex.
 
+
+# DexTool
+DexTool is a Box-based management tool for mantaining and keeping track of a Pokémon Living Dex.
+
+![Ooh!](https://i.imgur.com/xn3k4Fy.gif)
+
+It also lets you take screenshots of your current progress for you to flaunt at your mom!
+<img src="https://i.imgur.com/Pe5kNH2.png" width="450" />
+<br><br>
+
+
+
+### How to Use:
+| Key                   	| Action                                                             	|
+|-----------------------	|--------------------------------------------------------------------	|
+| <p align=center>Scroll<br>up/down        	| Change Box.                                                        	|
+| <p align=center>Right click<br>(on slot) 	| Change Pokémon status.                                             	|
+| <p align=center>Hold right<br>click (on slot) | Multi-select. |
+| <p align=center>S                     	| Take a screenshot. Saved at:<br>_C:\Users\<USER>\Pictures\dex.png_ 	|
+| <p align=center>G                     	| Toggle Galar Dex view.                                             	|
+
+<br><br>
+### Tips & Additional Info:
+- When you right click a Pokémon slot it will change its color. You can decide the meaning of each color, but I _(thy tool creator)_ use them as follows:
+  | Color      	| Meaning                    	|
+  |------------	|----------------------------	|
+  | White      	| Not Obtained               	|
+  | Red        	| In HOME                    	|
+  | Blue       	| In HOME, but not organized 	|
+  | Yellow     	| In Let's Go Pikachu/Eevee  	|
+  | Light Blue 	| In Sword/Shield            	|
+* This program is very barebones so expect things to go south at some point, so try to make **BACKUPS** whenever you can.
+* Your **SAVE DATA** is stored at:
+	* _C:\Users\USER\AppData\Local\LivingDexSS\save.ini_
+* Your **IMAGE EXPORTS** are stored at:
+	* _C:\Users\USER\Pictures\dex.png_
+
+<br><br>
 ### Credits:
  - Code by [Posho](https://github.com/PoshoDev). 
  - Ripped sprites by [msikma](https://github.com/msikma) from [PokéSprite](http://msikma.github.io/pokesprite/).
  - [Non-sandboxed Filesystem](https://yellowafterlife.itch.io/gamemaker-nsfs) by [YAL](https://github.com/YellowAfterlife).
-<<<<<<< HEAD
  - [CSV Manager](https://marketplace.yoyogames.com/assets/522/csv-manager) by [derme](https://github.com/derme302).
-=======
- - [CSV Manager](https://marketplace.yoyogames.com/assets/522/csv-manager) by [derme](https://github.com/derme302).
->>>>>>> e8314b37d8fc404a882b7e392838aad2398387d5
