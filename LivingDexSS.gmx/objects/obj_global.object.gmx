@@ -58,6 +58,7 @@ enum gdex
 }
 
 global.galardata = csv_load("galardex");
+
 </string>
           </argument>
         </arguments>
@@ -147,10 +148,14 @@ if (file_exists("save.ini"))
 else
 {
     ini_open("save.ini");
-        ini_write_real("Info", "Number", 0.1);
+        ini_write_real("Info", "Number", 0.2);
     ini_close();
     
     global.current_box = 1;
+    global.show_galar = false;
+    
+    for (var i=0; i&lt;=global.dex_len; i++)
+        global.savedata[i] = 0;
     
     show_debug_message("CREATED SAVE FILE.");
 }
