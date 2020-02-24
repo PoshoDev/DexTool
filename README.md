@@ -41,7 +41,7 @@ It also lets you take screenshots of your current progress for you to flaunt at 
 
 ### Credits:
  - Code by [Posho](https://github.com/PoshoDev). 
- - Ripped sprites by [msikma](https://github.com/msikma) from [PokéSprite](http://msikma.github.io/pokesprite/).
+ - Ripped sprites from [PokéSprite](http://msikma.github.io/pokesprite/) by [msikma](https://github.com/msikma).
  - [Non-sandboxed Filesystem](https://yellowafterlife.itch.io/gamemaker-nsfs) by [YAL](https://github.com/YellowAfterlife).
  - [CSV Manager](https://marketplace.yoyogames.com/assets/522/csv-manager) by [derme](https://github.com/derme302).
  
