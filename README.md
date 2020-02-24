@@ -44,3 +44,10 @@ It also lets you take screenshots of your current progress for you to flaunt at 
  - Ripped sprites by [msikma](https://github.com/msikma) from [PokéSprite](http://msikma.github.io/pokesprite/).
  - [Non-sandboxed Filesystem](https://yellowafterlife.itch.io/gamemaker-nsfs) by [YAL](https://github.com/YellowAfterlife).
  - [CSV Manager](https://marketplace.yoyogames.com/assets/522/csv-manager) by [derme](https://github.com/derme302).
+ 
+ <br>
+ 
+ ### Additional Links:
+ - [DexTool Project](https://github.com/users/PoshoDev/projects/2): Keep track of the ongoing GitHub project.
+ - [DexTool-HOME](https://github.com/PoshoDev/DexTool-HOME): BlueStacks Macros for Pokémon HOME.
+ - [DexTool-Legacy](https://github.com/PoshoDev/DexTool-Legacy): Old DexTool project for managing Pokémon Living Dexes.
