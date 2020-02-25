@@ -3,6 +3,12 @@
 # DexTool
 DexTool is a Box-based management tool for mantaining and keeping track of a Pokémon Living Dex.
 
+## Downloads
+- [Latest Release (v0.2.1-alpha)](https://github.com/PoshoDev/DexTool/releases/tag/v0.2.1-alpha)
+- [All Releases](https://github.com/PoshoDev/DexTool/releases)
+
+<br>
+
 ![Ooh!](https://i.imgur.com/xn3k4Fy.gif)
 
 It also lets you take screenshots of your current progress for you to flaunt at your mom!
