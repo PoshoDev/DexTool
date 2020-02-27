@@ -1,7 +1,7 @@
 
 
 # DexTool
-DexTool is a Box-based management tool for mantaining and keeping track of a Pokémon Living Dex. 🔲
+DexTool is a Box-based management tool for mantaining and keeping track of a Pokémon Living Dex.
 
 ## Downloads
 - [Latest Release (v0.2.1-alpha)](https://github.com/PoshoDev/DexTool/releases/tag/v0.2.1-alpha)
