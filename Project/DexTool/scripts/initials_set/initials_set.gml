@@ -24,5 +24,6 @@ global.various = false;
 global.various_to = 0;
 
 global.selecting = noone;
+global.counter = 9999;
 
 enum region { boxes, top, mid_left, mid_right, bottom }

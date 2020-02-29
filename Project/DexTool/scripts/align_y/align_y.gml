@@ -1,4 +1,4 @@
-///align_y(region, unit%)
+///button_align_y(region, unit%)
 
 var zone = argument0;
 var percent = argument1;
@@ -12,4 +12,4 @@ switch(zone)
 
 var deplacement = global.unit * percent;
 
-return y_start + deplacement - (sprite_get_height(sprite_index)  * scale)/2;
+return y_start + deplacement + __view_get(e__VW.YView, 0);

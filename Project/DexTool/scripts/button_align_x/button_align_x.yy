@@ -1,8 +1,8 @@
 {
-    "id": "46940c02-accc-0a61-a238-03c213c44822",
+    "id": "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "align_x",
+    "name": "button_align_x",
     "IsCompatibility": false,
     "IsDnD": false
 }

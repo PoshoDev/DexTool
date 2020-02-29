@@ -12,4 +12,4 @@ switch(zone)
 
 var deplacement = global.unit * percent;
 
-return x_start + deplacement - (sprite_get_width(sprite_index)  * scale * length)/2;
+return x_start + deplacement;

@@ -1,8 +1,8 @@
 {
-    "id": "46940c02-accc-0a61-a238-03c213c44822",
+    "id": "18704ffc-a564-c635-1f87-c3fbc7a7c1c0",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "align_x",
+    "name": "savedata_write",
     "IsCompatibility": false,
     "IsDnD": false
 }

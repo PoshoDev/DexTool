@@ -1,5 +1,4 @@
 
-//draw_sprite_stretched(sprite_index, image_index, x, y, width, -height);
 if (!pressed)
 {
     var plus = 0;

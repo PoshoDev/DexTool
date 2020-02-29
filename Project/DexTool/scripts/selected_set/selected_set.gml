@@ -1,3 +1,5 @@
+/// @param hold
+/// @param ...
 ///selected_set(_id)
 
 if (argument_count < 1)
@@ -12,3 +14,5 @@ global.selected[dex.type1] =    hold.type1;
 global.selected[dex.type2] =    hold.type2;
 global.selected[dex.sprite] =   hold.spr;
 global.selected[dex.own] =      hold.own;
+
+global.counter = savedata_read_real(savedata_section_get(global.show_shiny)+" Count", hold.idno, 0);

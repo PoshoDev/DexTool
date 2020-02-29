@@ -16,9 +16,7 @@ else
 if (mouse_check_button_released(mb_left))
 {
     if (hover)
-    {
-        
-    }
+        button_do(type);
     
     pressed = false;
 }
