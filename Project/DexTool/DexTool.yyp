@@ -3767,6 +3767,14 @@
             }
         },
         {
+            "Key": "27426a5b-252b-ce49-0d97-9a0b620973f4",
+            "Value": {
+                "id": "be6f062c-caa2-23b5-f666-fb0db0d6f8fc",
+                "resourcePath": "scripts\\dex_data_load\\dex_data_load.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2775e092-4de2-4d82-bef1-cfaeaf0cc0bc",
             "Value": {
                 "id": "5082514d-5da1-43ad-98f6-2c39b3241c2c",
@@ -15927,6 +15935,14 @@
             }
         },
         {
+            "Key": "9d9efccc-e28a-2782-ecbe-3ea08da108d6",
+            "Value": {
+                "id": "26cda2e4-3d42-ce74-8059-85fa7f7e6244",
+                "resourcePath": "scripts\\savedata_load\\savedata_load.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9de47deb-2be2-4d49-8ea5-5e4b9910102f",
             "Value": {
                 "id": "bac0946d-767e-4da7-966f-46d24c98032b",
@@ -18700,6 +18716,14 @@
                 "id": "e6be52f6-cf38-4481-9d18-9e613870c87e",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\poke_icon_0273_00s_n.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "baf1e68b-6877-c2da-aed5-31f319313796",
+            "Value": {
+                "id": "39eedcc9-eecd-93c6-9014-6e1abfdd2de9",
+                "resourcePath": "scripts\\dex_galar_load\\dex_galar_load.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -25430,7 +25454,10 @@
         "cbd4e6c3-a230-4859-b701-f265d466f46e",
         "3247001c-7534-4dfa-8b6f-ceb476a8fffa",
         "ac8c8340-c548-499d-8832-1749194e8f3d",
-        "961739d9-bcef-9d3d-a9a7-6d0487191e8e"
+        "961739d9-bcef-9d3d-a9a7-6d0487191e8e",
+        "9d9efccc-e28a-2782-ecbe-3ea08da108d6",
+        "baf1e68b-6877-c2da-aed5-31f319313796",
+        "27426a5b-252b-ce49-0d97-9a0b620973f4"
     ],
     "tutorial": ""
 }
