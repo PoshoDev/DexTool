@@ -13,5 +13,4 @@ draw_type_hud(global.selected[dex.type1], global.selected[dex.type2], 4.5);
 
 
 // Debug
-
 draw_guidelines(true);
