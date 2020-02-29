@@ -20,7 +20,7 @@ if (!file_exists(filename))
         file_text_writeln(log);
     file_text_close(log);
     
-    show_debug_message("Missing Icon: "+str+" ("+folder+")");
+    //show_debug_message("Missing Icon: "+str+" ("+folder+")");
     
     if (shiny)
         return icon_path_get(str, false);

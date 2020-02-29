@@ -43,6 +43,8 @@ with (obj_slot)
     scroll_warp();
 }
 
+unit_update();
+button_update_all();
 
 
 room_width = global.window_width;

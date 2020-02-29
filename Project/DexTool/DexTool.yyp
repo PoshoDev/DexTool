@@ -1759,6 +1759,14 @@
             }
         },
         {
+            "Key": "1087bf1b-acd2-8101-2f92-1c8433c77a66",
+            "Value": {
+                "id": "b791b1ee-8d80-0938-476d-cc368f3bf6cc",
+                "resourcePath": "scripts\\unit_update\\unit_update.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "10899d75-79d4-40c0-86b6-a6e064cacc16",
             "Value": {
                 "id": "7fb3d559-fe3a-496a-ac87-dc853f2f6d54",
@@ -3948,6 +3956,14 @@
                 "id": "a46a24ee-4997-4f6d-8250-6e86977b952b",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\poke_icon_0853_00s_n.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "29776285-9293-eecd-60ce-080d874ed4ca",
+            "Value": {
+                "id": "1eac23f5-f025-308f-bfa2-118e76aa2e95",
+                "resourcePath": "scripts\\show_shiny_toggle\\show_shiny_toggle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -8119,6 +8135,14 @@
             }
         },
         {
+            "Key": "51d00fa8-eb85-4086-a732-a161d9d217d8",
+            "Value": {
+                "id": "85207e30-7cc0-3776-b034-06e06a4b170a",
+                "resourcePath": "scripts/button_set/button_set.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "520457af-80ec-44dd-85e5-8f307953d51e",
             "Value": {
                 "id": "28dbbdd9-d7c2-4230-b8dc-b76ded0779ea",
@@ -9151,6 +9175,14 @@
             }
         },
         {
+            "Key": "5c7fb6ce-864a-a30e-f665-d51d74835878",
+            "Value": {
+                "id": "b026913e-dd7e-6660-4b7f-680e88b86d48",
+                "resourcePath": "scripts\\button_update_all\\button_update_all.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5c9d469f-abdb-496f-a3f2-51035194d228",
             "Value": {
                 "id": "75d4f222-9ffd-4a30-92d5-db981c378520",
@@ -9388,6 +9420,14 @@
                 "id": "2b9b28da-1f37-4111-959d-f81fb357a30e",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\espeon.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5ebf8e8d-9772-aef2-28cb-e8743d4d575d",
+            "Value": {
+                "id": "5fbb9f86-4fbb-99cd-ea2a-820b65d5cad0",
+                "resourcePath": "scripts\\show_galar_toggle\\show_galar_toggle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -11036,6 +11076,14 @@
                 "id": "a9c5cd93-7bb6-4a81-b8b9-cd09de82d016",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\hoppip.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
+            "Value": {
+                "id": "c2bb0f39-a2d2-3f48-0435-8f8ddcd09621",
+                "resourcePath": "scripts/align_x/align_x.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -14559,6 +14607,14 @@
             }
         },
         {
+            "Key": "9081971b-e1be-521f-34be-38fcfa32f684",
+            "Value": {
+                "id": "5556752a-d72e-8013-c6ef-9fc461634e8e",
+                "resourcePath": "scripts/align_y/align_y.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "908c902a-4677-4f56-8b5e-792179958c4d",
             "Value": {
                 "id": "24f5fa2f-0019-408a-800a-39b6425e95be",
@@ -15090,7 +15146,7 @@
             "Key": "961739d9-bcef-9d3d-a9a7-6d0487191e8e",
             "Value": {
                 "id": "cf68e563-92be-d148-9a63-2bb86baa8cc2",
-                "resourcePath": "scripts\/icon_path_get\/icon_path_get.yy",
+                "resourcePath": "scripts/icon_path_get/icon_path_get.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -18575,6 +18631,14 @@
             }
         },
         {
+            "Key": "b97fbe91-98d6-26ce-4811-7421bc2b6bb3",
+            "Value": {
+                "id": "ac2426ac-7ba1-8bcd-9775-514bd60d22c4",
+                "resourcePath": "objects\\obj_button\\obj_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b98d5ae0-74d0-47ca-973c-707d560affd5",
             "Value": {
                 "id": "44e7bee1-cfdf-4296-a53f-eb6f4f3e9b79",
@@ -19276,6 +19340,14 @@
                 "id": "da248422-52f0-409c-ad51-9060c7ed33cb",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\MEDICHAM-MEGA.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "c07397b8-105a-cf00-f119-47f5091762ab",
+            "Value": {
+                "id": "2118ddc8-b565-6867-0098-ac738fe2864d",
+                "resourcePath": "scripts\\button_create\\button_create.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -25493,7 +25565,15 @@
         "01109f28-4eca-fc23-b0d9-649acb9c158c",
         "0c8bde50-6fda-efe6-8809-de6b265ccbcc",
         "cf1f53d0-1b66-da1a-c70e-53a1d7177805",
-        "d586db78-0f49-acc1-1594-f50f2a038c70"
+        "d586db78-0f49-acc1-1594-f50f2a038c70",
+        "29776285-9293-eecd-60ce-080d874ed4ca",
+        "5ebf8e8d-9772-aef2-28cb-e8743d4d575d",
+        "c07397b8-105a-cf00-f119-47f5091762ab",
+        "51d00fa8-eb85-4086-a732-a161d9d217d8",
+        "5c7fb6ce-864a-a30e-f665-d51d74835878",
+        "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
+        "9081971b-e1be-521f-34be-38fcfa32f684",
+        "1087bf1b-acd2-8101-2f92-1c8433c77a66"
     ],
     "tutorial": ""
 }

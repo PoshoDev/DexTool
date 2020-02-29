@@ -13,4 +13,6 @@ else
 
 scroll_warp();
 
+button_update_all();
+
 show_debug_message("Scrolled to Box "+string(global.current_box));

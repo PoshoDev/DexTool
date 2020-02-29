@@ -1,4 +1,4 @@
-///dex_galar_load(bool)
+///dex_galar_load()
 
 // Galar Dex data loading
 
@@ -11,5 +11,5 @@ enum gdex
     type2
 }
 
-if (argument0)
+if (global.show_galar)
     global.galardata = csv_load("galardex");

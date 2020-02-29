@@ -11,7 +11,7 @@ global.window_height = window_get_height();
 global.box_len = global.window_width/2/7;
 global.icon_scale = 2;
 
-global.font = font_add_sprite_ext(spr_font,"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZéÉ#-'!?():@_.% /♂♀",true,1)
+global.font = font_add_sprite_ext(spr_font,"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZéÉ#-'!?():@_.% /♂♀+", true, 1);
 
 global.selected[dex.dexno] = "001";
 global.selected[dex.pokemon] = "BULBASAUR";
@@ -30,3 +30,5 @@ global.mouse_y_prev = mouse_x;
 
 global.various = false;
 global.various_to = 0;
+
+enum region { boxes, top, mid_left, mid_right, bottom }
