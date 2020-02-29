@@ -2719,6 +2719,14 @@
             }
         },
         {
+            "Key": "1c861d7a-eed5-61b7-02f5-201672b6f730",
+            "Value": {
+                "id": "482209aa-4441-0244-c512-227919df4685",
+                "resourcePath": "scripts\\lock_create\\lock_create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1ca3a684-f0db-4045-b6ac-4f2b65d44b34",
             "Value": {
                 "id": "04fa8d89-4bc1-4620-8c3b-9056d7882148",
@@ -8138,7 +8146,7 @@
             "Key": "51d00fa8-eb85-4086-a732-a161d9d217d8",
             "Value": {
                 "id": "85207e30-7cc0-3776-b034-06e06a4b170a",
-                "resourcePath": "scripts/button_set/button_set.yy",
+                "resourcePath": "scripts\/button_set\/button_set.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -9348,6 +9356,14 @@
                 "id": "9e8e30c9-1062-4f6d-835b-bb3a845597c9",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\KOMMO-O.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5e879a22-94f8-a47e-fee7-5e134971dd7f",
+            "Value": {
+                "id": "5e4d42d1-e9c1-445d-aab0-21b4518f43cc",
+                "resourcePath": "scripts\\lock_destroy\\lock_destroy.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -11082,7 +11098,7 @@
             "Key": "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
             "Value": {
                 "id": "c2bb0f39-a2d2-3f48-0435-8f8ddcd09621",
-                "resourcePath": "scripts/align_x/align_x.yy",
+                "resourcePath": "scripts\/align_x\/align_x.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -11644,6 +11660,14 @@
                 "id": "24d4281f-1572-40c7-bb59-f23df650b64a",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\NINCADA.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "73ea69de-6c0e-9d8b-6da5-41f465a27cce",
+            "Value": {
+                "id": "f7e6195c-1399-9428-7f4f-16230c06747b",
+                "resourcePath": "scripts\\selected_set\\selected_set.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -14610,7 +14634,7 @@
             "Key": "9081971b-e1be-521f-34be-38fcfa32f684",
             "Value": {
                 "id": "5556752a-d72e-8013-c6ef-9fc461634e8e",
-                "resourcePath": "scripts/align_y/align_y.yy",
+                "resourcePath": "scripts\/align_y\/align_y.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -15146,7 +15170,7 @@
             "Key": "961739d9-bcef-9d3d-a9a7-6d0487191e8e",
             "Value": {
                 "id": "cf68e563-92be-d148-9a63-2bb86baa8cc2",
-                "resourcePath": "scripts/icon_path_get/icon_path_get.yy",
+                "resourcePath": "scripts\/icon_path_get\/icon_path_get.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -17116,6 +17140,14 @@
                 "id": "13feefb1-3f05-4af1-a55d-73d3fad526d3",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\GOTHITELLE.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "a96934df-1c09-4a34-875b-89440eed891c",
+            "Value": {
+                "id": "f0109d99-4f62-47d7-9b8c-c5ee1f693394",
+                "resourcePath": "sprites\\spr_lock\\spr_lock.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -25487,6 +25519,14 @@
             }
         },
         {
+            "Key": "ff62894e-7035-4e31-b764-10e24aa65d4b",
+            "Value": {
+                "id": "a90d748d-477c-6b87-0177-9404f21634a8",
+                "resourcePath": "objects\\obj_lock\\obj_lock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ff6b5cf3-7897-41ab-af06-4ff966619ed4",
             "Value": {
                 "id": "2ceda055-9c63-4b0a-9f70-752f8ff36f9c",
@@ -25573,7 +25613,10 @@
         "5c7fb6ce-864a-a30e-f665-d51d74835878",
         "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
         "9081971b-e1be-521f-34be-38fcfa32f684",
-        "1087bf1b-acd2-8101-2f92-1c8433c77a66"
+        "1087bf1b-acd2-8101-2f92-1c8433c77a66",
+        "73ea69de-6c0e-9d8b-6da5-41f465a27cce",
+        "1c861d7a-eed5-61b7-02f5-201672b6f730",
+        "5e879a22-94f8-a47e-fee7-5e134971dd7f"
     ],
     "tutorial": ""
 }

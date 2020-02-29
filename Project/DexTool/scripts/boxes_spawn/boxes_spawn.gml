@@ -1,5 +1,8 @@
 ///boxes_spawn()
 
+if (file_exists(working_directory+"/_Logs/MissingSprites.log"))
+    file_delete(working_directory+"/_Logs/MissingSprites.log");
+
 /// SPAWN SLOTS
 
 var pos_x = 0;
