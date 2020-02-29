@@ -1,7 +1,4 @@
-/// @description make_slot(x_index, y_index, Pokémon index)
-/// @param x_index
-/// @param  y_index
-/// @param  Pokémon index
+///make_slot(x_index, y_index, Pokémon index)
 
 var px = argument0;
 var py = argument1;
