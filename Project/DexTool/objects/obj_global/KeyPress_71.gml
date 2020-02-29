@@ -8,4 +8,3 @@ if (file_exists("save.ini"))
 }
 
 room_restart();
-
