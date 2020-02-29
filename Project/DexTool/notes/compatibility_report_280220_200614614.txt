@@ -1,0 +1,175 @@
+Converting GML script: ${project_dir}\scripts\trace\trace.gml
+Converted description /// @description trace(string)/// @param string
+
+Converting GML script: ${project_dir}\scripts\csv_load\csv_load.gml
+Converted description /// @description csv_load(filename, _sep)/// @param filename
+/// @param  _sep
+
+Converting GML script: ${project_dir}\scripts\csv_load_escape\csv_load_escape.gml
+Converted description /// @description csv_load_escape(filename, _sep)/// @param filename
+/// @param  _sep
+
+Converting GML script: ${project_dir}\scripts\csv_save\csv_save.gml
+Converted description /// @description csv_save(filename, array, _sep)/// @param filename
+/// @param  array
+/// @param  _sep
+
+Converting GML script: ${project_dir}\scripts\csv_save_escape\csv_save_escape.gml
+Converted description /// @description csv_save_escape(filename, array, _sep)/// @param filename
+/// @param  array
+/// @param  _sep
+
+Converting GML script: ${project_dir}\scripts\array_draw_debug\array_draw_debug.gml
+Converted description /// @description array_draw_debug(array,x,y,x_space,y_space)/// @param array
+/// @param x
+/// @param y
+/// @param x_space
+/// @param y_space
+
+Converting GML script: ${project_dir}\scripts\scr_window_resize\scr_window_resize.gml
+Converted builtin - line 11: view_wview[0] = global.window_width -> __view_set( e__VW.WView, 0, global.window_width )
+Converted builtin - line 12: view_hview[0] = global.window_height -> __view_set( e__VW.HView, 0, global.window_height )
+Converted builtin - line 14: view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 8: view_wport[0] = global.window_width -> __view_set( e__VW.WPort, 0, global.window_width )
+Converted builtin - line 14: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 9: view_hport[0] = global.window_height -> __view_set( e__VW.HPort, 0, global.window_height )
+
+Converting GML script: ${project_dir}\scripts\get_color3\get_color3.gml
+Converted description /// @description get_color(value, hover?)/// @param value
+/// @param  hover?
+
+Converting GML script: ${project_dir}\scripts\scr_zeros\scr_zeros.gml
+Converted string - line 1: ' ' -> " "
+Converted string - line 1: '0' -> "0"
+Converted string - line 1: ' ' -> " "
+Converted string - line 1: '0' -> "0"
+
+Converting GML script: ${project_dir}\scripts\scroll_warp\scroll_warp.gml
+Converted builtin - line 3: view_yview[0] = global.box_header[global.current_box].y + py -> __view_set( e__VW.YView, 0, global.box_header[global.current_box].y + py )
+
+Converting GML script: ${project_dir}\scripts\draw_text_hud\draw_text_hud.gml
+Converted builtin - line 45: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 53: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 54: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw_text_hud(string, size, position, color)/// @param string
+/// @param  size
+/// @param  position
+/// @param  color
+
+Converting GML script: ${project_dir}\scripts\draw_guidelines\draw_guidelines.gml
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw_guidelines(debug only?)/// @param debug only?
+
+Converting GML script: ${project_dir}\scripts\draw_pokemon_hud\draw_pokemon_hud.gml
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw_pokemon_hud(sprite_index)/// @param sprite_index
+
+Converting GML script: ${project_dir}\scripts\draw_type_hud\draw_type_hud.gml
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw_type_hud(type1, type2, position)/// @param type1
+/// @param  type2
+/// @param  position
+
+Converting GML script: ${project_dir}\scripts\sprite_wiggly_old\sprite_wiggly_old.gml
+Converted description /// @description sprite_wiggly() >> returns extra
+
+Converting GML script: ${project_dir}\scripts\sprite_wiggly\sprite_wiggly.gml
+Converted description /// @description sprite_wiggly() >> returns extra
+
+Converting GML script: ${project_dir}\scripts\draw_text_square\draw_text_square.gml
+Converted description /// @description draw_text_square(x, y, string, scale, halign, color)/// @param x
+/// @param  y
+/// @param  string
+/// @param  scale
+/// @param  halign
+/// @param  color
+
+Converting GML script: ${project_dir}\scripts\click_slot\click_slot.gml
+Converted description /// @description click_slot(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\make_sprite\make_sprite.gml
+Converted description /// @description make_sprite(pokemon, form)/// @param pokemon
+/// @param  form
+Converted string - line 17: "Icons\Regular\" -> "Icons\\Regular\\"
+
+Converting GML script: ${project_dir}\scripts\make_slot\make_slot.gml
+Converted description /// @description make_slot(x_index, y_index, Pokémon index)/// @param x_index
+/// @param  y_index
+/// @param  Pokémon index
+
+Converting GML script: ${project_dir}\scripts\form_get_string\form_get_string.gml
+Converted description /// @description form_get_string(Pokémon, form)/// @param Pokémon
+/// @param  form
+
+Converting GML script: ${project_dir}\scripts\form_get_gender_major\form_get_gender_major.gml
+Converted description /// @description form_get_gender_major(Pokémon)/// @param Pokémon
+
+Converting GML script: ${project_dir}\scripts\make_screenshot\make_screenshot.gml
+Converted string - line 81: "C:\Users\" -> "C:\\Users\\"
+Converted string - line 81: "\Pictures" -> "\\Pictures"
+Converted string - line 82: "\" -> "\\"
+Converted string - line 83: "C:\Users\" -> "C:\\Users\\"
+Converted string - line 83: "\AppData\Local\LivingDexSS\" -> "\\AppData\\Local\\LivingDexSS\\"
+
+Converting GML script: ${project_dir}\scripts\check_galar\check_galar.gml
+Converted description /// @description check_galar(id, show?)/// @param id
+/// @param  show?
+
+Converting GML script: ${project_dir}\objects\obj_global\Create_0.gml
+Converted description /// @description  DEX LOAD & ENUM (+GALAR DEX)/// @param +GALAR DEX
+
+Converting GML script: ${project_dir}\objects\obj_global\Step_1.gml
+Converted description /// @description  MOUSE SPEED & DIRECTION
+
+Converting GML script: ${project_dir}\objects\obj_global\Step_0.gml
+Converted description /// @description  WINDOW RESIZE CHECK
+
+Converting GML script: ${project_dir}\objects\obj_global\Draw_0.gml
+Converted description /// @description  DRAW
+
+Converting GML script: ${project_dir}\objects\obj_slot\Mouse_10.gml
+Converted description /// @description  MOUSE ENTER
+
+Converting GML script: ${project_dir}\objects\obj_slot\Mouse_5.gml
+Converted description /// @description  CLICKEDY CLICK
+
+Converting GML script: ${project_dir}\objects\obj_slot\Draw_72.gml
+Converted description /// @description  SLOT + COLOR
+
+Converting GML script: ${project_dir}\objects\obj_header\Draw_0.gml
+Converted description /// @description  DRAW
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: nsfs.gml
+Converted description /// @description  ()
+
+Converting GML script: nsfs.gml
+Converted description /// @description  (path):/// @param path
+
+Converting GML script: nsfs.gml
+Converted description /// @description  (buffer, path):/// @param buffer
+/// @param  path
+
+Converting GML script: nsfs.gml
+Converted description /// @description  (buffer, path, offset, size):/// @param buffer
+/// @param  path
+/// @param  offset
+/// @param  size
+
+Game speed set to 30
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
