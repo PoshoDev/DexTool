@@ -6,9 +6,11 @@ if (file_exists("save.ini"))
         global.current_box =    ini_read_real("Navigation", "Current Box", 1);
         global.show_galar =     ini_read_real("Display", "Galar Dex", false);
         global.show_shiny =     ini_read_real("Display", "Shiny Mode", false);
-    
+        
+        var section = savedata_section_get(global.show_shiny);
+        
         for (var i=0; i<=global.dex_len; i++)
-            global.savedata[i] = ini_read_real("Pokemon", string(i), 0);
+            global.savedata[i] = ini_read_real(section, string(i), 0);
         
     ini_close();
     show_debug_message("LOADED SAVE FILE.");
