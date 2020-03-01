@@ -6,4 +6,5 @@ if ((window_get_width()!=global.window_width || window_get_height()!=global.wind
 global.box_scale = sprite_get_width(spr_slot)*global.icon_scale;
 
 scroll_check();
+shortcut_check();
     

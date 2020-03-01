@@ -7487,6 +7487,14 @@
             }
         },
         {
+            "Key": "4a34078c-7fa4-d9ca-eb35-df0a0ce93667",
+            "Value": {
+                "id": "a4aed7b8-3569-686e-86ea-ff5c94787515",
+                "resourcePath": "scripts/box_gen_jump/box_gen_jump.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4a6bfcf8-72aa-4d5f-9d71-1a45a9b62a72",
             "Value": {
                 "id": "6b707de1-1121-491d-a5cd-8e76e6c0d43c",
@@ -9260,6 +9268,14 @@
                 "id": "73a8fe46-efe5-49fb-bd66-880bc33816b4",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\MARSHTOMP.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5d6dc131-402b-45b8-c0ee-331d3e8a9908",
+            "Value": {
+                "id": "6b834d22-e7b0-b9cc-bf6c-4c7ad7c08780",
+                "resourcePath": "scripts\\check_genfirst\\check_genfirst.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -19959,6 +19975,14 @@
             }
         },
         {
+            "Key": "c6341f0c-570d-0e72-8439-2672f5cbb32e",
+            "Value": {
+                "id": "4e0a5676-e02b-66c7-98fd-2e912a51d9e7",
+                "resourcePath": "scripts\\shortcut_check\\shortcut_check.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c6432995-3395-42dd-8154-ae5227abce5d",
             "Value": {
                 "id": "a34f7ef2-75e7-483b-93f1-aa3136ee4e46",
@@ -25661,7 +25685,10 @@
         "5e879a22-94f8-a47e-fee7-5e134971dd7f",
         "2370f9cd-bc43-8204-019c-9bc13fa8d58f",
         "18704ffc-a564-c635-1f87-c3fbc7a7c1c0",
-        "e10f4338-d865-41ce-6c7c-ffe8b9302bc2"
+        "e10f4338-d865-41ce-6c7c-ffe8b9302bc2",
+        "5d6dc131-402b-45b8-c0ee-331d3e8a9908",
+        "c6341f0c-570d-0e72-8439-2672f5cbb32e",
+        "4a34078c-7fa4-d9ca-eb35-df0a0ce93667"
     ],
     "tutorial": ""
 }
