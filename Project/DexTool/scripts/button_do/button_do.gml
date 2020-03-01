@@ -6,6 +6,7 @@ switch(argument0)
         global.counter++;
         
         savedata_write(savedata_section_get(global.show_shiny)+" Count", global.selecting.idno, global.counter);
+        change_add();
     break;
     
     case but.minus:
@@ -13,5 +14,6 @@ switch(argument0)
             global.counter--;
         
         savedata_write(savedata_section_get(global.show_shiny)+" Count", global.selecting.idno, global.counter);
+        change_add();
     break;
 }

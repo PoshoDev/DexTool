@@ -15,3 +15,5 @@ if (savedata_write(savedata_section_get(global.show_shiny), string(idno), own))
     show_debug_message("Saved "+pokemon+" as "+string(own)+".");
 else
     show_debug_message("ERROR: Save file somehow went missing.");
+
+change_add();
