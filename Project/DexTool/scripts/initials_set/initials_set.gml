@@ -26,4 +26,7 @@ global.various_to = 0;
 global.selecting = noone;
 global.counter = 9999;
 
+global.changes = false;
+global.changes_last = current_time;
+
 enum region { boxes, top, mid_left, mid_right, bottom }

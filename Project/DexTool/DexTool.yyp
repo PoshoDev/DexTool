@@ -7490,7 +7490,7 @@
             "Key": "4a34078c-7fa4-d9ca-eb35-df0a0ce93667",
             "Value": {
                 "id": "a4aed7b8-3569-686e-86ea-ff5c94787515",
-                "resourcePath": "scripts\/box_gen_jump\/box_gen_jump.yy",
+                "resourcePath": "scripts/box_gen_jump/box_gen_jump.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -8178,7 +8178,7 @@
             "Key": "51d00fa8-eb85-4086-a732-a161d9d217d8",
             "Value": {
                 "id": "85207e30-7cc0-3776-b034-06e06a4b170a",
-                "resourcePath": "scripts\/button_set\/button_set.yy",
+                "resourcePath": "scripts/button_set/button_set.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -11138,7 +11138,7 @@
             "Key": "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
             "Value": {
                 "id": "c2bb0f39-a2d2-3f48-0435-8f8ddcd09621",
-                "resourcePath": "scripts\/button_align_x\/button_align_x.yy",
+                "resourcePath": "scripts/button_align_x/button_align_x.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -14674,7 +14674,7 @@
             "Key": "9081971b-e1be-521f-34be-38fcfa32f684",
             "Value": {
                 "id": "5556752a-d72e-8013-c6ef-9fc461634e8e",
-                "resourcePath": "scripts\/button_align_y\/button_align_y.yy",
+                "resourcePath": "scripts/button_align_y/button_align_y.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -15210,7 +15210,7 @@
             "Key": "961739d9-bcef-9d3d-a9a7-6d0487191e8e",
             "Value": {
                 "id": "cf68e563-92be-d148-9a63-2bb86baa8cc2",
-                "resourcePath": "scripts\/icon_path_get\/icon_path_get.yy",
+                "resourcePath": "scripts/icon_path_get/icon_path_get.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -22722,7 +22722,7 @@
             "Key": "e10f4338-d865-41ce-6c7c-ffe8b9302bc2",
             "Value": {
                 "id": "bc9ef1b6-6c89-650e-c291-a4ffb4d4cd96",
-                "resourcePath": "scripts\/savedata_read_real\/savedata_read_real.yy",
+                "resourcePath": "scripts/savedata_read_real/savedata_read_real.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -25628,6 +25628,22 @@
                 "id": "3e3bcca0-b399-48e9-9847-bfbb56d446cf",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\gastrodon-east.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "a6e48265-2887-9dce-6824-b73d2ed253e1",
+            "Value": {
+                "id": "1bd2e400-7e70-bdab-e406-aa43ad85ed3e",
+                "resourcePath": "scripts\\hud_draw_selected\\hud_draw_selected.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fe4fdbbd-947b-8e06-4930-f2b97cf5a423",
+            "Value": {
+                "id": "2ff1ef3c-dcb0-0a26-8adc-1ae4fe941eab",
+                "resourcePath": "scripts\\hud_draw_counter\\hud_draw_counter.yy",
+                "resourceType": "GMScript"
             }
         }
     ],
