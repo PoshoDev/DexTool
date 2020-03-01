@@ -18015,6 +18015,14 @@
             }
         },
         {
+            "Key": "b08ce952-50a4-ff53-bc1b-0c28d2369b92",
+            "Value": {
+                "id": "898f740e-79e7-89e0-7a9e-c639201a4ae2",
+                "resourcePath": "scripts\/selected_output\/selected_output.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b0a1886d-571c-9ed1-098f-65abb5bf18f6",
             "Value": {
                 "id": "243c92c8-0408-f017-20a5-e72b33590e32",
@@ -18412,6 +18420,14 @@
                 "id": "31daebb2-d745-4502-a681-e524670267c4",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\poke_icon_0734_01f_n.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "b4ff0585-7cbf-020b-86b6-71a74247d56a",
+            "Value": {
+                "id": "a93163db-dfde-de3f-e776-b1a108ba1645",
+                "resourcePath": "scripts\\selected_output_make\\selected_output_make.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -25787,7 +25803,9 @@
         "a95b1f81-6bd5-5928-0dad-3e233aa7e8b7",
         "0519f1e6-1b15-b8a7-bd8c-8489d767cf9a",
         "d7e04ba6-0e68-8245-0d3a-37da8d2292e4",
-        "a4583316-ee45-806d-bf28-e6c94f924583"
+        "a4583316-ee45-806d-bf28-e6c94f924583",
+        "b08ce952-50a4-ff53-bc1b-0c28d2369b92",
+        "b4ff0585-7cbf-020b-86b6-71a74247d56a"
     ],
     "tutorial": ""
 }

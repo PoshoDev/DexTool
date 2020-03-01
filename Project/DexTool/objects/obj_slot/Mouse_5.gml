@@ -6,4 +6,3 @@ if (++own > 4)
 global.various_to = own;
 
 click_slot(own);
-

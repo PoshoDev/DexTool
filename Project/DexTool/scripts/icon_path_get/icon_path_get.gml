@@ -12,10 +12,10 @@ var filename = "Icons\\"+folder+"\\"+string(str)+".png";
 
 if (!file_exists(filename))
 {
-    if (!directory_exists("_Logs"))
-        directory_create("_Logs")
+    if (!directory_exists("Logs"))
+        directory_create("Logs")
         
-    var log = file_text_open_append(working_directory+"/_Logs/MissingSprites.log")
+    var log = file_text_open_append(working_directory+"/Logs/MissingSprites.log")
         file_text_write_string(log, str+" ("+folder+")");
         file_text_writeln(log);
     file_text_close(log);

@@ -12,3 +12,5 @@ if (!instance_exists(obj_lock))
     }
 
 button_update_all();
+
+selected_output();
