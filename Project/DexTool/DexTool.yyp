@@ -7490,7 +7490,7 @@
             "Key": "4a34078c-7fa4-d9ca-eb35-df0a0ce93667",
             "Value": {
                 "id": "a4aed7b8-3569-686e-86ea-ff5c94787515",
-                "resourcePath": "scripts/box_gen_jump/box_gen_jump.yy",
+                "resourcePath": "scripts\/box_gen_jump\/box_gen_jump.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -8178,7 +8178,7 @@
             "Key": "51d00fa8-eb85-4086-a732-a161d9d217d8",
             "Value": {
                 "id": "85207e30-7cc0-3776-b034-06e06a4b170a",
-                "resourcePath": "scripts/button_set/button_set.yy",
+                "resourcePath": "scripts\/button_set\/button_set.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -11138,7 +11138,7 @@
             "Key": "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
             "Value": {
                 "id": "c2bb0f39-a2d2-3f48-0435-8f8ddcd09621",
-                "resourcePath": "scripts/button_align_x/button_align_x.yy",
+                "resourcePath": "scripts\/button_align_x\/button_align_x.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -14674,7 +14674,7 @@
             "Key": "9081971b-e1be-521f-34be-38fcfa32f684",
             "Value": {
                 "id": "5556752a-d72e-8013-c6ef-9fc461634e8e",
-                "resourcePath": "scripts/button_align_y/button_align_y.yy",
+                "resourcePath": "scripts\/button_align_y\/button_align_y.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -15210,7 +15210,7 @@
             "Key": "961739d9-bcef-9d3d-a9a7-6d0487191e8e",
             "Value": {
                 "id": "cf68e563-92be-d148-9a63-2bb86baa8cc2",
-                "resourcePath": "scripts/icon_path_get/icon_path_get.yy",
+                "resourcePath": "scripts\/icon_path_get\/icon_path_get.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -17948,6 +17948,14 @@
                 "id": "6e194f51-81d1-405b-a505-4670810f30b8",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\hitmontop.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "b0a1886d-571c-9ed1-098f-65abb5bf18f6",
+            "Value": {
+                "id": "243c92c8-0408-f017-20a5-e72b33590e32",
+                "resourcePath": "scripts\\button_plusminus_shortcut\\button_plusminus_shortcut.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -22714,7 +22722,7 @@
             "Key": "e10f4338-d865-41ce-6c7c-ffe8b9302bc2",
             "Value": {
                 "id": "bc9ef1b6-6c89-650e-c291-a4ffb4d4cd96",
-                "resourcePath": "scripts/savedata_read_real/savedata_read_real.yy",
+                "resourcePath": "scripts\/savedata_read_real\/savedata_read_real.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -25688,7 +25696,8 @@
         "e10f4338-d865-41ce-6c7c-ffe8b9302bc2",
         "5d6dc131-402b-45b8-c0ee-331d3e8a9908",
         "c6341f0c-570d-0e72-8439-2672f5cbb32e",
-        "4a34078c-7fa4-d9ca-eb35-df0a0ce93667"
+        "4a34078c-7fa4-d9ca-eb35-df0a0ce93667",
+        "b0a1886d-571c-9ed1-098f-65abb5bf18f6"
     ],
     "tutorial": ""
 }
