@@ -14719,6 +14719,14 @@
             }
         },
         {
+            "Key": "a7ef39a4-ac5a-45bb-7ded-c0562f4f4d23",
+            "Value": {
+                "id": "3c301798-872c-5b62-c8a4-e15894720ff2",
+                "resourcePath": "scripts\\draw_set_default\\draw_set_default.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a807a5d6-f42b-4cfb-94cb-7a53b6282083",
             "Value": {
                 "id": "a2c32119-8e3f-4555-a560-366e834d5bfc",
@@ -17519,6 +17527,14 @@
             }
         },
         {
+            "Key": "c854fb34-52ee-fd8e-b01b-086f33590212",
+            "Value": {
+                "id": "0ce73cbf-3dea-570c-f0a2-5573ed9bc787",
+                "resourcePath": "scripts\\make_screenshot_regular\\make_screenshot_regular.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c8dafb39-1806-4c1e-85e8-e7b684760302",
             "Value": {
                 "id": "e894d078-6e7d-4275-84e1-f1c3bc7f5e09",
@@ -18340,6 +18356,14 @@
                 "id": "6eaf4282-e996-4ff3-bb2e-463d32bd2f09",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\TYRANITAR-MEGA.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d258aee7-2bed-eaae-edfb-2228979346df",
+            "Value": {
+                "id": "eac9f92c-7160-17fe-3005-5af467bad86c",
+                "resourcePath": "scripts\\make_screenshot_shiny\\make_screenshot_shiny.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -22314,7 +22338,10 @@
         "aa47343b-06e8-c5c7-5f42-7551e6b2c23f",
         "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
         "9081971b-e1be-521f-34be-38fcfa32f684",
-        "b0a1886d-571c-9ed1-098f-65abb5bf18f6"
+        "b0a1886d-571c-9ed1-098f-65abb5bf18f6",
+        "c854fb34-52ee-fd8e-b01b-086f33590212",
+        "d258aee7-2bed-eaae-edfb-2228979346df",
+        "a7ef39a4-ac5a-45bb-7ded-c0562f4f4d23"
     ],
     "tutorial": ""
 }
