@@ -1,5 +1,5 @@
 {
-    "id": "56d7c999-33bb-4f33-992c-1eb40b483a36",
+    "id": "e40289b9-8172-4aa6-b454-5d411503b333",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "HAKAMO-O.png",

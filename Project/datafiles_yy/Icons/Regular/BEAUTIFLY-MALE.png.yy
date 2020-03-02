@@ -1,5 +1,5 @@
 {
-    "id": "dc5028de-5a95-47dc-9366-6d8f0c7c6fde",
+    "id": "715610fe-4fca-4663-bf33-2d4a43d36e22",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "BEAUTIFLY-MALE.png",

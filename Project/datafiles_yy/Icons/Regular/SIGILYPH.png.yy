@@ -1,5 +1,5 @@
 {
-    "id": "437430e8-b368-4b73-9bac-b03320834bf0",
+    "id": "576cff1a-4772-4166-ae87-e5e04a510928",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "SIGILYPH.png",

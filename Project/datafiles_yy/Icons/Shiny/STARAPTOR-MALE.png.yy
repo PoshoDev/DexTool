@@ -1,5 +1,5 @@
 {
-    "id": "e708aaf1-964c-4b83-8589-e774996978d1",
+    "id": "c4cc8a0d-5be8-48da-a712-4eb2dd8cdfa6",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "STARAPTOR-MALE.png",

@@ -1,5 +1,5 @@
 {
-    "id": "8e9deb6c-a20b-4840-b0ce-c585ad73cba6",
+    "id": "505861ef-44c9-449e-adad-51e8e87da99d",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "SHINX-MALE.png",

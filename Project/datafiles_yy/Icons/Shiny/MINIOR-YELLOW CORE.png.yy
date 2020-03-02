@@ -1,5 +1,5 @@
 {
-    "id": "cc1e155d-e395-4986-bdd6-78e2251577ef",
+    "id": "dcc55bdd-e293-4ec1-9b16-c3dc09c6a103",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "MINIOR-YELLOW CORE.png",

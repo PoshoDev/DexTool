@@ -1,5 +1,5 @@
 {
-    "id": "aaf66b66-1f0f-4a64-b69d-3eeb8fcec7d3",
+    "id": "de496d10-d659-467b-b4fa-a7e7f5ee7ea5",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "STARLY-FEMALE.png",

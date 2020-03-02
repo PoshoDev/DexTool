@@ -1,5 +1,5 @@
 {
-    "id": "f6f7392e-899b-41a1-aa8f-708eb07af9d9",
+    "id": "e736c852-a845-4102-9913-b2e1fcd3c98d",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "SCRAFTY.png",

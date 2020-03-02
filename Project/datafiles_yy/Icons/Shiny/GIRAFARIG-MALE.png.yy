@@ -1,5 +1,5 @@
 {
-    "id": "1e70f99f-7a58-4500-9a1c-7cc5b75a36d0",
+    "id": "808824b4-71b5-4107-985b-5bbd337ca2db",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "GIRAFARIG-MALE.png",

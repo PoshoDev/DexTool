@@ -4,8 +4,8 @@
     "mvc": "1.1",
     "name": "7bcacbef-4426-4c1d-9cd7-a525e542b8d5",
     "children": [
-        "070aa407-2c29-49b1-86c3-4798ceaa398c",
-        "5b02bde3-e73c-473d-aef5-979f1b6ac40c"
+        "df726f61-1fee-4f7a-95da-50dc006de2ee",
+        "5fad4cfd-9798-423c-8bbf-9b4bba9b9172"
     ],
     "filterType": "GMIncludedFile",
     "folderName": "Icons",

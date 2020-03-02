@@ -1,5 +1,5 @@
 {
-    "id": "26f91d1d-fdc1-4779-99f0-93dd2b22b16a",
+    "id": "7279cfbc-4960-4847-907d-4e6987e0baa2",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "KABUTO.png",

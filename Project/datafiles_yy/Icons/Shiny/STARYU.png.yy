@@ -1,5 +1,5 @@
 {
-    "id": "4e7cde61-364e-4284-8793-60d941d89f2e",
+    "id": "3f0e6f7c-963c-4361-aeaa-d3458c98a0cd",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "STARYU.png",

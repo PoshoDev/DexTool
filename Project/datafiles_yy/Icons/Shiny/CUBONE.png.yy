@@ -1,5 +1,5 @@
 {
-    "id": "81fd35ba-de2a-4061-bbd1-47ed339d9ec7",
+    "id": "4bfc4054-0c8f-4dc8-9efa-2bbf7abb983f",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "CUBONE.png",

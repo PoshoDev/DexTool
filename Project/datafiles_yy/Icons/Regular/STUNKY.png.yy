@@ -1,5 +1,5 @@
 {
-    "id": "443bd8d4-293a-46ce-bc18-11e05caef4e7",
+    "id": "f988c1f3-6c52-4d2a-83eb-9c218cfd799f",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "STUNKY.png",

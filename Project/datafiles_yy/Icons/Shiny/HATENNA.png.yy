@@ -1,5 +1,5 @@
 {
-    "id": "2f605d5b-521a-489a-aaea-75d079c2571f",
+    "id": "4f243906-f658-41e4-aa96-c799b19fc68b",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "HATENNA.png",

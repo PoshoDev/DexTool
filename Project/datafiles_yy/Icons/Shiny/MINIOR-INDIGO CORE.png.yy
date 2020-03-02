@@ -1,5 +1,5 @@
 {
-    "id": "cabdeb72-ff6c-4fe6-a11b-683eebf91c1a",
+    "id": "9c562c8c-c4f5-4e04-b498-7b9f102305d7",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "MINIOR-INDIGO CORE.png",

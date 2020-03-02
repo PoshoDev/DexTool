@@ -1,5 +1,5 @@
 {
-    "id": "febecf50-d0a4-4828-ba70-e22389dc48a2",
+    "id": "f7c2b1ba-71ed-4335-ace9-290445da4c2b",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "MINIOR-RED CORE.png",

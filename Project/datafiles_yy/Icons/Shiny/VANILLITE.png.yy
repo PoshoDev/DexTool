@@ -1,5 +1,5 @@
 {
-    "id": "bcbcb363-9490-493d-b6ac-6a6efbf730a3",
+    "id": "ae4d6535-b78d-44e6-8867-0b46b2969c5f",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "VANILLITE.png",

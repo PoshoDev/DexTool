@@ -1,5 +1,5 @@
 {
-    "id": "c8cdcd1b-5c82-4560-b52d-f4d0c0e02bb2",
+    "id": "d8b9701b-a3d0-4958-aeca-3d72e95909b6",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "PANGORO.png",

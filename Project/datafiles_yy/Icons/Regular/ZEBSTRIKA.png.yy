@@ -1,5 +1,5 @@
 {
-    "id": "8a3844fb-e64c-4d4e-bab0-d299d95410ea",
+    "id": "ab16a491-2dba-4d73-95e2-1da0250d524a",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "ZEBSTRIKA.png",

@@ -1,5 +1,5 @@
 {
-    "id": "2dc8f88f-cba1-4a14-aa89-2a0827ca4a80",
+    "id": "dd86e121-04e3-49d5-938e-a0a52a19864c",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "NINJASK.png",

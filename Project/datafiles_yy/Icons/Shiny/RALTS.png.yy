@@ -1,5 +1,5 @@
 {
-    "id": "a82b028c-3b71-450b-9520-06fc7a8e3882",
+    "id": "7b472547-1b76-4372-bb5a-103c2ae6d96d",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "RALTS.png",

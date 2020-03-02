@@ -1,5 +1,5 @@
 {
-    "id": "9f8c35fe-5192-4aea-b29f-cfb6239535b3",
+    "id": "b2ddf18b-c807-4666-9c41-99b5adf5a3ed",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "MAKUHITA.png",

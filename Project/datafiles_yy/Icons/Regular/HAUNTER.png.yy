@@ -1,5 +1,5 @@
 {
-    "id": "c79c12ca-8a14-4e12-9c51-1b9227998106",
+    "id": "246bfa95-a139-4e3a-bf18-052ab2e61a9a",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "HAUNTER.png",

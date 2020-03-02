@@ -1,5 +1,5 @@
 {
-    "id": "e015772a-62ce-43f1-95d9-85935dcd3cc4",
+    "id": "330f9161-2795-4fef-8380-59471b011671",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "KARTANA.png",

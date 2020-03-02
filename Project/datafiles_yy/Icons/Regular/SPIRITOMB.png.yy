@@ -1,5 +1,5 @@
 {
-    "id": "9198a839-e2b5-41bb-8bdd-456442780d05",
+    "id": "77f055bd-09e2-4edc-be7c-74946ed4bfb9",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "SPIRITOMB.png",

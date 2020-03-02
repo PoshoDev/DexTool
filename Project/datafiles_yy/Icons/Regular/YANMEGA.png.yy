@@ -1,5 +1,5 @@
 {
-    "id": "784c2a40-192b-47b5-98d6-d72afdf2496e",
+    "id": "1682843b-e979-407e-a229-eedb0b78cc34",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "YANMEGA.png",

@@ -1,5 +1,5 @@
 {
-    "id": "137c6ff6-4ecf-4628-b8f2-2ccc3feffac1",
+    "id": "ce330681-3b08-45a5-a686-0be86a9f521a",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "VIKAVOLT.png",

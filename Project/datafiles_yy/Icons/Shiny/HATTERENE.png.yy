@@ -1,5 +1,5 @@
 {
-    "id": "36c7b05a-beb0-4c8e-b898-c7b3e0ee19c7",
+    "id": "3809903c-1159-44f6-b179-3631ffceee5f",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "HATTERENE.png",

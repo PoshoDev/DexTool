@@ -1,5 +1,5 @@
 {
-    "id": "b19b3e31-cc3a-4b43-9966-90bca0d7843c",
+    "id": "df45dbae-fc1d-415c-86a5-3751f33a7040",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "MINIOR-BLUE CORE.png",

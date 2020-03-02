@@ -1,5 +1,5 @@
 {
-    "id": "a761ded3-b443-42be-84a4-ba166163de14",
+    "id": "393c48a3-f87c-4c19-afd7-20867fa23dad",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "SHIFTRY-MALE.png",

@@ -1,5 +1,5 @@
 {
-    "id": "c95a1f03-7c51-423e-b481-0be46005597f",
+    "id": "ad15743f-f97d-4f11-8ad4-0b47ad54b620",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "HATTERENE-GIGANTAMAX.png",

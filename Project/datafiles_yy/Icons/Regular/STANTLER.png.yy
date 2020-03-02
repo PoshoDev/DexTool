@@ -1,5 +1,5 @@
 {
-    "id": "f644c2ba-6c9b-4fec-85a9-6afec8dcab77",
+    "id": "52a6de16-d574-4894-9851-f66e3bf1ae5a",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "STANTLER.png",

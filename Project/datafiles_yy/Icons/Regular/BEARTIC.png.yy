@@ -1,5 +1,5 @@
 {
-    "id": "84d769de-1cb2-4779-8b4a-544528a7585c",
+    "id": "ed7cf829-f831-4c9f-9c70-f4966e6f17d4",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "BEARTIC.png",

@@ -1,5 +1,5 @@
 {
-    "id": "9290505b-4c99-4c79-8cb5-ec34b2be22b0",
+    "id": "ef3c6b67-6faa-455a-b595-3b48719c5c02",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "MANTYKE.png",

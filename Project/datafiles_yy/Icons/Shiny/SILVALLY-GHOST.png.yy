@@ -1,5 +1,5 @@
 {
-    "id": "6caa4de5-59cf-4e43-89f7-4148f849a15c",
+    "id": "2d7afaa8-39a3-4dd9-98ea-4560c58e8138",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "SILVALLY-GHOST.png",

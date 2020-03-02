@@ -1,5 +1,5 @@
 {
-    "id": "f1eb7b32-2652-48bc-9567-a6060b5c665c",
+    "id": "dbd216f1-ab6d-445b-b4b9-54e939d5487f",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "LAMPENT.png",

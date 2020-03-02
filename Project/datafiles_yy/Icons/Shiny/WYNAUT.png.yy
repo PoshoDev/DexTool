@@ -1,5 +1,5 @@
 {
-    "id": "6ad20144-00b8-4bbf-866c-06ae16c92d5c",
+    "id": "0fb9eb90-5260-485b-a803-350828c1d473",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "WYNAUT.png",

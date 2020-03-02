@@ -1,5 +1,5 @@
 {
-    "id": "c5b13819-da9a-4e6f-8945-c65d1684d814",
+    "id": "dd4751e4-e330-49fa-aea2-7dfb14143ec0",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "HITMONCHAN.png",

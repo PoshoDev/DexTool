@@ -1,5 +1,5 @@
 {
-    "id": "6346837e-0113-4585-aa8a-54a02e4b4c30",
+    "id": "f6cdb22d-0078-4920-bbd0-062a4cff2c2b",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "SOLOSIS.png",

@@ -1,5 +1,5 @@
 {
-    "id": "8b7fdc59-688c-441b-973a-a64e9ea7a22a",
+    "id": "6f9ad708-db88-45c0-af5e-fd00924cea1a",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "FRILLISH-MALE.png",

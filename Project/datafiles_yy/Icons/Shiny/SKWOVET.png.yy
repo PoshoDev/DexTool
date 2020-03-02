@@ -1,5 +1,5 @@
 {
-    "id": "70792cfc-2557-4295-bfaf-025f44c094f3",
+    "id": "81dc1a3a-88ca-4e42-bbf8-a6e2b636575e",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "SKWOVET.png",

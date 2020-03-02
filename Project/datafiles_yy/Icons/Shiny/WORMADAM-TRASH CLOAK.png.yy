@@ -1,5 +1,5 @@
 {
-    "id": "cb7c08da-49e8-4801-96e8-d06024aecee3",
+    "id": "6a327ffa-6f88-40cc-8f25-2aff40325bf0",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "WORMADAM-TRASH CLOAK.png",

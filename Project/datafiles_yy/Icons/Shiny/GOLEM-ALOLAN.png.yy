@@ -1,5 +1,5 @@
 {
-    "id": "acabe3b4-a991-4868-bc36-44d2b5e52c7c",
+    "id": "8522927a-0927-4517-a689-fcf106001648",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "GOLEM-ALOLAN.png",

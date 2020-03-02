@@ -1,5 +1,5 @@
 {
-    "id": "8f46faa8-8633-49db-ae12-e5e13d332e38",
+    "id": "a2c531e9-01d3-4b81-9abf-0db3d4c3ba2f",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "MAMOSWINE-MALE.png",

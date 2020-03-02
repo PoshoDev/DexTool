@@ -1,5 +1,5 @@
 {
-    "id": "bf99bd46-33ef-4545-a84e-83c1f92b6816",
+    "id": "afaea63b-3251-4434-99de-f21a8e8fdce5",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "SCYTHER-MALE.png",

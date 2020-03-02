@@ -1,5 +1,5 @@
 {
-    "id": "1359ab5c-4cdf-4069-bd70-6a4d1bd644dc",
+    "id": "726c3df4-30fa-47a1-b7ab-6a26a22905b5",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "BASTIODON.png",

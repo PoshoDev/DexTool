@@ -1,5 +1,5 @@
 {
-    "id": "4eaf03a1-95bd-4639-86de-8ead7a6831bd",
+    "id": "ba090b59-ff2c-4fe4-bcac-900dac783699",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "MELTAN.png",

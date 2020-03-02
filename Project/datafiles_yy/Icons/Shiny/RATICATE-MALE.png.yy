@@ -1,5 +1,5 @@
 {
-    "id": "8d66502b-0140-4d6f-a3e6-107b7f544985",
+    "id": "74ba6473-2394-4e41-9085-b7dda7d37f6e",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "RATICATE-MALE.png",

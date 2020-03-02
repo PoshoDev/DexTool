@@ -1,5 +1,5 @@
 {
-    "id": "a5737614-ee46-4182-a948-88fcf4e1972b",
+    "id": "c2a005ce-41bb-4627-a683-3d8a7f448617",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "YAMASK.png",

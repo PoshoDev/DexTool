@@ -1,5 +1,5 @@
 {
-    "id": "9e215f2b-910c-480e-a593-8415592c9b74",
+    "id": "58a7b3be-8d14-42a4-8ef0-530dbc51e9da",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "STARMIE.png",

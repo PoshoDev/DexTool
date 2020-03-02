@@ -1,5 +1,5 @@
 {
-    "id": "7d34203c-9350-4e31-9593-48387bad9dcd",
+    "id": "7b7b6d12-8a0a-4692-b1e3-0558e36e84d0",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "SHUPPET.png",

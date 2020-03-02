@@ -1,5 +1,5 @@
 {
-    "id": "9e3da44f-5349-4946-8ea3-39762d787b98",
+    "id": "922e05c4-b04d-4238-8d4f-14b5b934e3a4",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "LUXRAY-MALE.png",

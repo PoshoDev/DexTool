@@ -1,5 +1,5 @@
 {
-    "id": "c74d4a29-1fde-418b-a9c1-322ced022639",
+    "id": "36ff0ec8-63fc-4a14-bf93-f0d045ebe967",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "REGISTEEL.png",

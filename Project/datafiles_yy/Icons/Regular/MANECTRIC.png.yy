@@ -1,5 +1,5 @@
 {
-    "id": "83d4e0f2-0b6c-4f29-b878-39882a48d682",
+    "id": "3b6753d3-b31b-4395-b099-dc3139176d79",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "MANECTRIC.png",

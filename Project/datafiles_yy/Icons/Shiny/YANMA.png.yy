@@ -1,5 +1,5 @@
 {
-    "id": "0016eb5e-ebc5-451e-badb-ab342e1470df",
+    "id": "8eb406ff-4aa0-49c5-8192-9fa46f433a08",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "YANMA.png",

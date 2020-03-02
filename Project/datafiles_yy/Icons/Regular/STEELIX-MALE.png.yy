@@ -1,5 +1,5 @@
 {
-    "id": "a93840ae-63cd-42fd-a3e6-8567743919d5",
+    "id": "040fc354-4f4b-4c34-a2ef-1cb42b7aacde",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "STEELIX-MALE.png",

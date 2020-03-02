@@ -1,5 +1,5 @@
 {
-    "id": "d45c1f2e-e1bc-44a9-9f23-e526bf24a25f",
+    "id": "fd77a33c-d962-4010-a272-e818dee821ca",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "CHERUBI.png",

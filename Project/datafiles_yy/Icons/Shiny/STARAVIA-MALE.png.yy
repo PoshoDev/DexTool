@@ -1,5 +1,5 @@
 {
-    "id": "aa9a1fdc-c2b6-4db5-9674-23ec1b81517c",
+    "id": "6dad2def-4797-4570-a727-b1d23567ddfe",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "STARAVIA-MALE.png",

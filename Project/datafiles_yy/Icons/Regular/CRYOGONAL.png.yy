@@ -1,5 +1,5 @@
 {
-    "id": "56cff33e-ec4d-4e77-bca7-6cbbde08d8d7",
+    "id": "3248cb34-c8a8-4d29-a61a-5979cda9b36a",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "CRYOGONAL.png",

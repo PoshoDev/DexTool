@@ -1,5 +1,5 @@
 {
-    "id": "b9cbb78a-bdbe-41a8-b95e-4e1612840b92",
+    "id": "6797d18f-b897-4485-aa4c-614c7af2cb88",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "WOOPER-MALE.png",

@@ -1,5 +1,5 @@
 {
-    "id": "0a48b07c-cdc5-490d-9425-14528feeb97f",
+    "id": "bedf3b48-a115-40c6-852f-097d9d4b00c2",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "SCEPTILE-MEGA.png",

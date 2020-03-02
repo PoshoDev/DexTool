@@ -1,5 +1,5 @@
 {
-    "id": "9e84afd5-8ca9-4c7e-812e-0385dd4b3e5f",
+    "id": "6cef994d-e4a3-49c1-8265-e44ab007297a",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "CINDERACE.png",

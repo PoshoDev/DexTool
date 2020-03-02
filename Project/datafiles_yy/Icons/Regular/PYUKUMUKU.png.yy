@@ -1,5 +1,5 @@
 {
-    "id": "79ca1051-e9d1-4742-93d0-718d445bd0ed",
+    "id": "ccc373f9-5baf-4699-ae52-1b668b761abc",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "PYUKUMUKU.png",

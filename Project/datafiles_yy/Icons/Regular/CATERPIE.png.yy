@@ -1,5 +1,5 @@
 {
-    "id": "dd87ada4-cd47-4b1d-a61b-9d7ad3ff0488",
+    "id": "c07e16c0-1bcc-478f-a5fc-8d141dd16e11",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "CATERPIE.png",

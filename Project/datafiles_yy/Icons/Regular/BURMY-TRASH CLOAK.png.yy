@@ -1,5 +1,5 @@
 {
-    "id": "b123638b-8857-46eb-a903-080877560aa2",
+    "id": "b5368efc-2f89-47ce-8e65-87df72261547",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "BURMY-TRASH CLOAK.png",

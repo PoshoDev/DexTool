@@ -1,5 +1,5 @@
 {
-    "id": "9078c76e-7895-4fed-a765-c0f3b5b054fc",
+    "id": "55f739a7-b5ae-4c1d-8aa0-a980a98686f6",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "STARLY-MALE.png",

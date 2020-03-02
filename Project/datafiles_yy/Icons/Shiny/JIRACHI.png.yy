@@ -1,5 +1,5 @@
 {
-    "id": "bba65722-3a69-44a3-84b6-ea53290dac34",
+    "id": "6dc00a9c-0e2b-4924-a2fb-19e76af039ae",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "JIRACHI.png",

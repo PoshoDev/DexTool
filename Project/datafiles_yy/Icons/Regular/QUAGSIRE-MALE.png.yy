@@ -1,5 +1,5 @@
 {
-    "id": "fc5bce7d-3294-4a79-b949-d570ed832764",
+    "id": "c056aeaa-2bf6-4c62-b00e-b6349e2efabf",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "QUAGSIRE-MALE.png",

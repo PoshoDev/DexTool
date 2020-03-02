@@ -1,5 +1,5 @@
 {
-    "id": "75088436-b002-4fc7-a15e-d368a8da446f",
+    "id": "ea879d1b-3cdb-4152-bab8-d1d270f86eef",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "MANKEY.png",

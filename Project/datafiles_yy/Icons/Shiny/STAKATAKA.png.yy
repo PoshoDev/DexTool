@@ -1,5 +1,5 @@
 {
-    "id": "7b671434-ebe7-491d-b1bd-b9d27e2445c9",
+    "id": "5837542f-3bcd-4e90-8cac-9e252a7beecc",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "STAKATAKA.png",

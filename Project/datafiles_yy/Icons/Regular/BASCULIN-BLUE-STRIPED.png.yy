@@ -1,5 +1,5 @@
 {
-    "id": "dddba6e3-96a7-4044-b7a4-9d3b0d4056af",
+    "id": "0bf17301-931b-41ac-bb07-66ea3f7f071a",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "BASCULIN-BLUE-STRIPED.png",

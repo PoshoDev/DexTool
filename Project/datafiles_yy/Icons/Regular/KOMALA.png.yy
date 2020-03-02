@@ -1,5 +1,5 @@
 {
-    "id": "a73c370e-98b6-4da8-ab5c-93202267e249",
+    "id": "98acd1a4-38b9-4d01-90fe-11c44e5a99f5",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "KOMALA.png",
