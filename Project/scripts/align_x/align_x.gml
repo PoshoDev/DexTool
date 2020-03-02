@@ -10,6 +10,7 @@ switch(zone)
     break;
     
     case region.mid_right:
+    case region.bot_right:
         var x_start = global.window_width*0.75 + global.window_width*0.25/2;
     break;
 }

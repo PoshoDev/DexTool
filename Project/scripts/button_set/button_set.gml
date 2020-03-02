@@ -46,6 +46,14 @@ switch(type)
         x_ = button_align_x(region.mid_right, -1.5);
         y_ = button_align_y(region.mid_right, 0);
     break;
+    
+    case but.image:
+        text = "IMAGE ö";
+        length = 1;
+        scale = global.icon_scale * 1.25;
+        x_ = button_align_x(region.bot_right, 0);
+        y_ = button_align_y(region.bot_right, 0);
+    break;
 };
 
 x = x_;

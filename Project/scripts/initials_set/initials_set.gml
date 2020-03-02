@@ -11,7 +11,7 @@ global.window_height = window_get_height();
 global.box_len = global.window_width/2/7;
 global.icon_scale = 2;
 
-global.font = font_add_sprite_ext(spr_font,"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZéÉ#-'!?():@_.% /♂♀+", true, 1);
+global.font = font_add_sprite_ext(spr_font,"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZéÉ#-'!?():@_.% /♂♀+äöü", true, 1);
 
 global.dex_len = array_height_2d(global.dexdata);
 
@@ -28,4 +28,4 @@ global.counter = 9999;
 
 global.change = false;
 
-enum region { boxes, top, mid_left, mid_right, bottom }
+enum region { boxes, top, mid_left, mid_right, bot_left, bot_right }
