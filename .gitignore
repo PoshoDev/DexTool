@@ -1,1 +1,14 @@
 **/_Ignore
+
+**/Extensions
+**/extensions
+
+*GMEdit_Run.au3
+
+
+**/csv_load
+**/trace
+**/csv_load_escape
+**/csv_save
+**/csv_save_escape
+**/array_draw_debug
