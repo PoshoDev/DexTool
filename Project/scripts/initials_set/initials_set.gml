@@ -28,4 +28,5 @@ global.counter = 9999;
 
 global.change = false;
 
-enum region { boxes, top, mid_left, mid_right, bot_left, bot_right }
+enum region { boxes, top, mid_left, mid_right, bot_left, bot_right,
+              _0, _25, _50, _75, _100 };

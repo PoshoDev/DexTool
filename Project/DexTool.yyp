@@ -16359,6 +16359,14 @@
             }
         },
         {
+            "Key": "ba2125b7-8439-ee4b-a25c-45062dccc0e6",
+            "Value": {
+                "id": "be3ed569-6819-328d-2f49-81989229ea3c",
+                "resourcePath": "scripts\\hud_draw_progress\\hud_draw_progress.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ba57a7eb-2620-4c04-9d05-ca8099fd063c",
             "Value": {
                 "id": "1f01c6a6-feb7-489f-8d70-8a819698b77d",
@@ -22265,6 +22273,7 @@
         "b4ff0585-7cbf-020b-86b6-71a74247d56a",
         "247a6c1c-04b6-7db1-67ff-297c3ee1feca",
         "aa0cd879-2cce-411a-dd1a-10c3fd63f802",
+        "ba2125b7-8439-ee4b-a25c-45062dccc0e6",
         "51d00fa8-eb85-4086-a732-a161d9d217d8",
         "2370f9cd-bc43-8204-019c-9bc13fa8d58f",
         "5c7fb6ce-864a-a30e-f665-d51d74835878",

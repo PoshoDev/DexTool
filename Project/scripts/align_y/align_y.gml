@@ -1,7 +1,14 @@
-///button_align_y(region, unit%)
+///button_align_y(region, _unit%)
 
-var zone = argument0;
-var percent = argument1;
+var zone = argument[0];
+
+if (argument_count > 1)
+{
+    var percent = argument[1];
+    var deplacement = global.unit * percent;
+}
+else
+    var deplacement = 0;
 
 switch(zone)
 {
@@ -10,11 +17,10 @@ switch(zone)
         var y_start = global.window_height * 0.7;
     break;
     
+    case region.bot_left:
     case region.bot_right:
         var y_start = global.window_height * 0.9;
     break;
 }
-
-var deplacement = global.unit * percent;
 
 return y_start + deplacement + __view_get(e__VW.YView, 0);
