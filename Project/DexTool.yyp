@@ -426,7 +426,7 @@
             "Key": "0519f1e6-1b15-b8a7-bd8c-8489d767cf9a",
             "Value": {
                 "id": "2234b66c-298f-f8fe-90d2-68bade16c73a",
-                "resourcePath": "scripts\/mouse_direction_update\/mouse_direction_update.yy",
+                "resourcePath": "scripts/mouse_direction_update/mouse_direction_update.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -6530,7 +6530,7 @@
             "Key": "4a34078c-7fa4-d9ca-eb35-df0a0ce93667",
             "Value": {
                 "id": "a4aed7b8-3569-686e-86ea-ff5c94787515",
-                "resourcePath": "scripts\/box_gen_jump\/box_gen_jump.yy",
+                "resourcePath": "scripts/box_gen_jump/box_gen_jump.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -7218,7 +7218,7 @@
             "Key": "51d00fa8-eb85-4086-a732-a161d9d217d8",
             "Value": {
                 "id": "85207e30-7cc0-3776-b034-06e06a4b170a",
-                "resourcePath": "scripts\/button_set\/button_set.yy",
+                "resourcePath": "scripts/button_set/button_set.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -9618,7 +9618,7 @@
             "Key": "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
             "Value": {
                 "id": "c2bb0f39-a2d2-3f48-0435-8f8ddcd09621",
-                "resourcePath": "scripts\/button_align_x\/button_align_x.yy",
+                "resourcePath": "scripts/button_align_x/button_align_x.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -12538,7 +12538,7 @@
             "Key": "9081971b-e1be-521f-34be-38fcfa32f684",
             "Value": {
                 "id": "5556752a-d72e-8013-c6ef-9fc461634e8e",
-                "resourcePath": "scripts\/button_align_y\/button_align_y.yy",
+                "resourcePath": "scripts/button_align_y/button_align_y.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -12970,7 +12970,7 @@
             "Key": "961739d9-bcef-9d3d-a9a7-6d0487191e8e",
             "Value": {
                 "id": "cf68e563-92be-d148-9a63-2bb86baa8cc2",
-                "resourcePath": "scripts\/icon_path_get\/icon_path_get.yy",
+                "resourcePath": "scripts/icon_path_get/icon_path_get.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -15658,7 +15658,7 @@
             "Key": "b08ce952-50a4-ff53-bc1b-0c28d2369b92",
             "Value": {
                 "id": "898f740e-79e7-89e0-7a9e-c639201a4ae2",
-                "resourcePath": "scripts\/selected_output\/selected_output.yy",
+                "resourcePath": "scripts/selected_output/selected_output.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -18826,7 +18826,7 @@
             "Key": "d7e04ba6-0e68-8245-0d3a-37da8d2292e4",
             "Value": {
                 "id": "a4569deb-877c-b988-b976-8f8b03d6544e",
-                "resourcePath": "scripts\/mouse_previous_update\/mouse_previous_update.yy",
+                "resourcePath": "scripts/mouse_previous_update/mouse_previous_update.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -19666,7 +19666,7 @@
             "Key": "e10f4338-d865-41ce-6c7c-ffe8b9302bc2",
             "Value": {
                 "id": "bc9ef1b6-6c89-650e-c291-a4ffb4d4cd96",
-                "resourcePath": "scripts\/savedata_read_real\/savedata_read_real.yy",
+                "resourcePath": "scripts/savedata_read_real/savedata_read_real.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -22196,6 +22196,14 @@
                 "id": "28351dbd-dcb0-45d1-9c26-4a391012bd34",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\BUNEARY.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "15f6da05-1158-20ed-dd4b-2fbf23fb3faf",
+            "Value": {
+                "id": "55734db8-a1f9-0ae4-5631-f594ee278154",
+                "resourcePath": "scripts\\progress_update\\progress_update.yy",
+                "resourceType": "GMScript"
             }
         }
     ],

@@ -20,13 +20,16 @@ global.hud_pokemon_rate = 0.225;
 global.mouse_x_prev = mouse_x;
 global.mouse_y_prev = mouse_x;
 
-global.various = false;
+global.various =    false;
 global.various_to = 0;
 
 global.selecting = noone;
-global.counter = 9999;
+global.counter =   9999;
 
 global.change = false;
+
+global.progress =     0;
+global.progress_max = 0;
 
 enum region { boxes, top, mid_left, mid_right, bot_left, bot_right,
               _0, _25, _50, _75, _100 };

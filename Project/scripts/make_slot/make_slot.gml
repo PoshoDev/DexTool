@@ -29,5 +29,10 @@ with instance_create(px, py, obj_slot)
     plus_y = 0;
     spr_plus = 1;
     
+    if (own)
+        global.progress++;
+    global.progress_max++;
+    
+    
     //show_debug_message("Spawned #"+dexno+" "+pokemon+" "+form+".");
 }
