@@ -13,7 +13,7 @@ with instance_create(px, py, obj_slot)
     type1 =     global.dexdata[sel, dex.type1];
     type2 =     global.dexdata[sel, dex.type2];
     
-    own = global.savedata[sel];
+    own = global.savedata[idno/*sel*/];
     
     color = get_color3(own, false);
     
