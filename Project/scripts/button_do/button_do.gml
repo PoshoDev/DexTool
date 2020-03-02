@@ -2,6 +2,14 @@
 
 switch(argument0)
 {
+    case but.info:
+        url_get(false);
+    break;
+    
+    case but.area:
+        url_get(true);
+    break;
+    
     case but.plus:
         global.counter++;
         

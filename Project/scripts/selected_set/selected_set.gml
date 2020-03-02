@@ -6,7 +6,8 @@ if (argument_count < 1)
     var hold = instance_find(obj_slot, 0);
 else
     var hold = argument[0];
-    
+
+global.selected[dex.idno] =     hold.idno;
 global.selected[dex.dexno] =    hold.dexno;
 global.selected[dex.pokemon] =  hold.pokemon;
 global.selected[dex.form] =     hold.form;

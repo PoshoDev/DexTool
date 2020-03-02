@@ -4,29 +4,45 @@ x_ = argument0;
 y_ = argument1;
 type = argument2;
 
+image_index = src.black;
 image_speed = 0;
 
 length = 0.25;
 scale = global.icon_scale;
+textsize = 1.5;
 color = c_white;
 halign = fa_center;
 valign = fa_middle;
 
 switch(type)
 {
+    case but.info:
+        text = "INFO";
+        length = 1;
+        scale = global.icon_scale * 1.25;
+        x_ = button_align_x(region.mid_left, 0);
+        y_ = button_align_y(region.mid_left, -0.7);
+    break;
+    
+    case but.area:
+        text = "AREA";
+        length = 1;
+        scale = global.icon_scale * 1.25;
+        x_ = button_align_x(region.mid_left, 0);
+        y_ = button_align_y(region.mid_left, 0.7);
+    break;
+    
     case but.plus:
         text = "+";
-        image_index = 4;
         scale = global.icon_scale * 1.5;
-        
+        textsize = 2;
         x_ = button_align_x(region.mid_right, 1.5);
         y_ = button_align_y(region.mid_right, 0);
     break;
     
     case but.minus:
         text = "-";
-        image_index = 4;
-        
+        textsize = 2;
         x_ = button_align_x(region.mid_right, -1.5);
         y_ = button_align_y(region.mid_right, 0);
     break;

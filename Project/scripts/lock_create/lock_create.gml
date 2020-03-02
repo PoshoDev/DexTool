@@ -9,6 +9,9 @@ if (!instance_exists(obj_lock))
     {
         plus = button_create(0, 0, but.plus);
         minus = button_create(0, 0, but.minus);
+        
+        info = button_create(0, 0, but.info);
+        area = button_create(0, 0, but.area);
     }
 
 button_update_all();

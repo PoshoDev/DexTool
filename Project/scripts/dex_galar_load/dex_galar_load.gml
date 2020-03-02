@@ -11,5 +11,5 @@ enum gdex
     type2
 }
 
-if (global.show_galar)
+//if (global.show_galar)
     global.galardata = csv_load("galardex");

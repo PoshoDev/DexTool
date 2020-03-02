@@ -5,6 +5,7 @@ var percent = argument1;
 
 switch(zone)
 {
+    case region.mid_left:
     case region.mid_right:
         var y_start = global.window_height * 0.7;
     break;

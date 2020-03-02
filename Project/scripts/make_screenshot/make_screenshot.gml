@@ -81,6 +81,6 @@ var user = string(environment_get_variable("USERNAME"));
 var dir = "C:\\Users\\"+string(user)+"\\Pictures";
 var savestring = dir+"\\"+filename+".png";
 var fromstring = "C:\\Users\\"+user+"\\AppData\\Local\\LivingDexSS\\"+filename+ext;
-file_move_ns(fromstring, savestring);
+//file_move_ns(fromstring, savestring);
 
 show_debug_message("Image exported as '"+savestring+"'.");

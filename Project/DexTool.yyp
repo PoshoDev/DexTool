@@ -9423,6 +9423,14 @@
             }
         },
         {
+            "Key": "6ce290dc-805f-91e8-ca66-1b31a6b638b4",
+            "Value": {
+                "id": "6b6b0fa9-bf2f-31b5-8dd0-35a94c34404f",
+                "resourcePath": "views\\6ce290dc-805f-91e8-ca66-1b31a6b638b4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6ce86192-5fa5-4e51-a010-2fd9c1ceed55",
             "Value": {
                 "id": "384e82b4-5e04-4f5a-9788-102128ee93fb",
@@ -14932,6 +14940,14 @@
                 "id": "1a436e19-843d-49fb-a3ba-878cb3cd79fa",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\INKAY.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "aa0cd879-2cce-411a-dd1a-10c3fd63f802",
+            "Value": {
+                "id": "00e3183d-b628-53c1-a6da-4760e8f85a1a",
+                "resourcePath": "scripts\\url_get\\url_get.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -22224,24 +22240,17 @@
         "d586db78-0f49-acc1-1594-f50f2a038c70",
         "29776285-9293-eecd-60ce-080d874ed4ca",
         "5ebf8e8d-9772-aef2-28cb-e8743d4d575d",
-        "c07397b8-105a-cf00-f119-47f5091762ab",
-        "51d00fa8-eb85-4086-a732-a161d9d217d8",
-        "5c7fb6ce-864a-a30e-f665-d51d74835878",
         "46940c02-accc-0a61-a238-03c213c44822",
         "e5c6bbdd-36db-453b-9a43-7cd0c52b31ba",
-        "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
-        "9081971b-e1be-521f-34be-38fcfa32f684",
         "1087bf1b-acd2-8101-2f92-1c8433c77a66",
         "73ea69de-6c0e-9d8b-6da5-41f465a27cce",
         "1c861d7a-eed5-61b7-02f5-201672b6f730",
         "5e879a22-94f8-a47e-fee7-5e134971dd7f",
-        "2370f9cd-bc43-8204-019c-9bc13fa8d58f",
         "18704ffc-a564-c635-1f87-c3fbc7a7c1c0",
         "e10f4338-d865-41ce-6c7c-ffe8b9302bc2",
         "5d6dc131-402b-45b8-c0ee-331d3e8a9908",
         "c6341f0c-570d-0e72-8439-2672f5cbb32e",
         "4a34078c-7fa4-d9ca-eb35-df0a0ce93667",
-        "b0a1886d-571c-9ed1-098f-65abb5bf18f6",
         "a6e48265-2887-9dce-6824-b73d2ed253e1",
         "fe4fdbbd-947b-8e06-4930-f2b97cf5a423",
         "8b60df32-c201-4d7d-5dc4-f2a2376232c3",
@@ -22254,7 +22263,15 @@
         "a4583316-ee45-806d-bf28-e6c94f924583",
         "b08ce952-50a4-ff53-bc1b-0c28d2369b92",
         "b4ff0585-7cbf-020b-86b6-71a74247d56a",
-        "247a6c1c-04b6-7db1-67ff-297c3ee1feca"
+        "247a6c1c-04b6-7db1-67ff-297c3ee1feca",
+        "aa0cd879-2cce-411a-dd1a-10c3fd63f802",
+        "51d00fa8-eb85-4086-a732-a161d9d217d8",
+        "2370f9cd-bc43-8204-019c-9bc13fa8d58f",
+        "5c7fb6ce-864a-a30e-f665-d51d74835878",
+        "c07397b8-105a-cf00-f119-47f5091762ab",
+        "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
+        "9081971b-e1be-521f-34be-38fcfa32f684",
+        "b0a1886d-571c-9ed1-098f-65abb5bf18f6"
     ],
     "tutorial": ""
 }
