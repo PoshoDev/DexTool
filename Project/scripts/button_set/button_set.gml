@@ -61,7 +61,7 @@ switch(type)
             text = "GALAR";
         scale = global.icon_scale * 0.75;
         x_ = button_align_x(region.bot_left, -1.25);
-        y_ = button_align_y(region._100, -0.5);
+        y_ = button_align_y(region._100, -0.5 - 0.5);
     break;
     
     case but.shiny:
@@ -71,7 +71,7 @@ switch(type)
             text = "SHINY";
         scale = global.icon_scale * 0.75;
         x_ = button_align_x(region.bot_left, 1.25);
-        y_ = button_align_y(region._100, -0.5);
+        y_ = button_align_y(region._100, -0.5 - 0.5);
     break;
 };
 
