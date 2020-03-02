@@ -5,7 +5,7 @@ hud_draw_counter();
 hud_draw_progress();
 
 // Debug
-draw_guidelines(true);
+draw_guidelines(false);
 
 draw_reset();
 
