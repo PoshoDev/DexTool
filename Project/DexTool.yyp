@@ -5783,6 +5783,14 @@
             }
         },
         {
+            "Key": "40d0dc52-c5d4-4d38-aac7-1af90bf58397",
+            "Value": {
+                "id": "76d8a45a-33f7-48e3-b721-980f7d89a4ff",
+                "resourcePath": "datafiles_yy\\pokedata.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "40ded2f0-7b95-4a7d-905e-d3b4dd034fbe",
             "Value": {
                 "id": "7c6ec573-5fff-4054-9586-bd0e4fbafc4d",
@@ -20315,14 +20323,6 @@
             "Value": {
                 "id": "08ed7a20-7397-4816-ae6b-e44972d55c87",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\CHANSEY.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "e9a5c773-67ba-4682-b95d-eef64bc09439",
-            "Value": {
-                "id": "0bfc4b91-c4f3-4d04-b9d6-7d87d9124b14",
-                "resourcePath": "datafiles_yy\\pokedata.csv.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
