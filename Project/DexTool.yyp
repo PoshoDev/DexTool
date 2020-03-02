@@ -426,7 +426,7 @@
             "Key": "0519f1e6-1b15-b8a7-bd8c-8489d767cf9a",
             "Value": {
                 "id": "2234b66c-298f-f8fe-90d2-68bade16c73a",
-                "resourcePath": "scripts/mouse_direction_update/mouse_direction_update.yy",
+                "resourcePath": "scripts\/mouse_direction_update\/mouse_direction_update.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1844,6 +1844,14 @@
                 "id": "b7ca2791-94f7-418c-9ee4-c8da7aaa3210",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\NINCADA.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "15f6da05-1158-20ed-dd4b-2fbf23fb3faf",
+            "Value": {
+                "id": "55734db8-a1f9-0ae4-5631-f594ee278154",
+                "resourcePath": "scripts\\progress_update\\progress_update.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -6530,7 +6538,7 @@
             "Key": "4a34078c-7fa4-d9ca-eb35-df0a0ce93667",
             "Value": {
                 "id": "a4aed7b8-3569-686e-86ea-ff5c94787515",
-                "resourcePath": "scripts/box_gen_jump/box_gen_jump.yy",
+                "resourcePath": "scripts\/box_gen_jump\/box_gen_jump.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -7218,7 +7226,7 @@
             "Key": "51d00fa8-eb85-4086-a732-a161d9d217d8",
             "Value": {
                 "id": "85207e30-7cc0-3776-b034-06e06a4b170a",
-                "resourcePath": "scripts/button_set/button_set.yy",
+                "resourcePath": "scripts\/button_set\/button_set.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -9618,7 +9626,7 @@
             "Key": "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
             "Value": {
                 "id": "c2bb0f39-a2d2-3f48-0435-8f8ddcd09621",
-                "resourcePath": "scripts/button_align_x/button_align_x.yy",
+                "resourcePath": "scripts\/button_align_x\/button_align_x.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -12538,7 +12546,7 @@
             "Key": "9081971b-e1be-521f-34be-38fcfa32f684",
             "Value": {
                 "id": "5556752a-d72e-8013-c6ef-9fc461634e8e",
-                "resourcePath": "scripts/button_align_y/button_align_y.yy",
+                "resourcePath": "scripts\/button_align_y\/button_align_y.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -12970,7 +12978,7 @@
             "Key": "961739d9-bcef-9d3d-a9a7-6d0487191e8e",
             "Value": {
                 "id": "cf68e563-92be-d148-9a63-2bb86baa8cc2",
-                "resourcePath": "scripts/icon_path_get/icon_path_get.yy",
+                "resourcePath": "scripts\/icon_path_get\/icon_path_get.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -14975,6 +14983,14 @@
             }
         },
         {
+            "Key": "aa47343b-06e8-c5c7-5f42-7551e6b2c23f",
+            "Value": {
+                "id": "50bddaa0-c5b8-49a2-a51f-4f88e2d1df18",
+                "resourcePath": "scripts\\button_create_persistents\\button_create_persistents.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "aa545370-16ad-4d1c-ba4c-15e4102116e8",
             "Value": {
                 "id": "77920b37-403f-43fe-8e8d-873fff56e722",
@@ -15658,7 +15674,7 @@
             "Key": "b08ce952-50a4-ff53-bc1b-0c28d2369b92",
             "Value": {
                 "id": "898f740e-79e7-89e0-7a9e-c639201a4ae2",
-                "resourcePath": "scripts/selected_output/selected_output.yy",
+                "resourcePath": "scripts\/selected_output\/selected_output.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -18826,7 +18842,7 @@
             "Key": "d7e04ba6-0e68-8245-0d3a-37da8d2292e4",
             "Value": {
                 "id": "a4569deb-877c-b988-b976-8f8b03d6544e",
-                "resourcePath": "scripts/mouse_previous_update/mouse_previous_update.yy",
+                "resourcePath": "scripts\/mouse_previous_update\/mouse_previous_update.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -19666,7 +19682,7 @@
             "Key": "e10f4338-d865-41ce-6c7c-ffe8b9302bc2",
             "Value": {
                 "id": "bc9ef1b6-6c89-650e-c291-a4ffb4d4cd96",
-                "resourcePath": "scripts/savedata_read_real/savedata_read_real.yy",
+                "resourcePath": "scripts\/savedata_read_real\/savedata_read_real.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -22197,14 +22213,6 @@
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\BUNEARY.png.yy",
                 "resourceType": "GMIncludedFile"
             }
-        },
-        {
-            "Key": "15f6da05-1158-20ed-dd4b-2fbf23fb3faf",
-            "Value": {
-                "id": "55734db8-a1f9-0ae4-5631-f594ee278154",
-                "resourcePath": "scripts\\progress_update\\progress_update.yy",
-                "resourceType": "GMScript"
-            }
         }
     ],
     "script_order": [
@@ -22282,10 +22290,12 @@
         "247a6c1c-04b6-7db1-67ff-297c3ee1feca",
         "aa0cd879-2cce-411a-dd1a-10c3fd63f802",
         "ba2125b7-8439-ee4b-a25c-45062dccc0e6",
+        "15f6da05-1158-20ed-dd4b-2fbf23fb3faf",
         "51d00fa8-eb85-4086-a732-a161d9d217d8",
         "2370f9cd-bc43-8204-019c-9bc13fa8d58f",
         "5c7fb6ce-864a-a30e-f665-d51d74835878",
         "c07397b8-105a-cf00-f119-47f5091762ab",
+        "aa47343b-06e8-c5c7-5f42-7551e6b2c23f",
         "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
         "9081971b-e1be-521f-34be-38fcfa32f684",
         "b0a1886d-571c-9ed1-098f-65abb5bf18f6"

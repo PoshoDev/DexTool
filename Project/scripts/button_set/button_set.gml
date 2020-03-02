@@ -7,7 +7,7 @@ type = argument2;
 image_index = src.black;
 image_speed = 0;
 
-length = 0.25;
+length = 1;
 scale = global.icon_scale;
 textsize = 1.5;
 color = c_white;
@@ -18,7 +18,6 @@ switch(type)
 {
     case but.info:
         text = "INFO";
-        length = 1;
         scale = global.icon_scale * 1.25;
         x_ = button_align_x(region.mid_left, 0);
         y_ = button_align_y(region.mid_left, -0.7);
@@ -26,7 +25,6 @@ switch(type)
     
     case but.area:
         text = "AREA";
-        length = 1;
         scale = global.icon_scale * 1.25;
         x_ = button_align_x(region.mid_left, 0);
         y_ = button_align_y(region.mid_left, 0.7);
@@ -35,6 +33,7 @@ switch(type)
     case but.plus:
         text = "+";
         scale = global.icon_scale * 1.5;
+        length = 0.25;
         textsize = 2;
         x_ = button_align_x(region.mid_right, 1.5);
         y_ = button_align_y(region.mid_right, 0);
@@ -42,6 +41,7 @@ switch(type)
     
     case but.minus:
         text = "-";
+        length = 0.25;
         textsize = 2;
         x_ = button_align_x(region.mid_right, -1.5);
         y_ = button_align_y(region.mid_right, 0);
@@ -49,10 +49,29 @@ switch(type)
     
     case but.image:
         text = "IMAGE ö";
-        length = 1;
         scale = global.icon_scale * 1.25;
         x_ = button_align_x(region.bot_right, 0);
         y_ = button_align_y(region.bot_right, 0);
+    break;
+    
+    case but.national:
+        if (!global.show_galar)
+            text = "NATIONAL";
+        else
+            text = "GALAR";
+        scale = global.icon_scale * 0.75;
+        x_ = button_align_x(region.bot_left, -1.25);
+        y_ = button_align_y(region._100, -0.5);
+    break;
+    
+    case but.shiny:
+        if (!global.show_shiny)
+            text = "REGULAR";
+        else
+            text = "SHINY";
+        scale = global.icon_scale * 0.75;
+        x_ = button_align_x(region.bot_left, 1.25);
+        y_ = button_align_y(region._100, -0.5);
     break;
 };
 

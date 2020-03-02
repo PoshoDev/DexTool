@@ -28,4 +28,12 @@ switch(argument0)
     case but.image:
         make_screenshot();
     break;
+    
+    case but.national:
+        show_galar_toggle();
+    break;
+    
+    case but.shiny:
+        show_shiny_toggle();
+    break;
 }

@@ -21,6 +21,10 @@ switch(zone)
     case region.bot_right:
         var y_start = global.window_height * 0.9;
     break;
+    
+    case region._100:
+        var y_start = global.window_height;
+    break;
 }
 
 return y_start + deplacement + __view_get(e__VW.YView, 0);
