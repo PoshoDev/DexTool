@@ -2,7 +2,7 @@
 
 own_prev = own;
 
-if (++own > 4)
+if (++own > 2/*4*/)
     own = 0;
     
 progress_update();

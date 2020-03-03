@@ -6847,6 +6847,14 @@
             }
         },
         {
+            "Key": "4bee5f27-7512-964a-379d-a45443f42683",
+            "Value": {
+                "id": "131b922b-b1a2-65ec-47cc-b707d827003f",
+                "resourcePath": "scripts\\debug_export_buttons\\debug_export_buttons.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4bfa7718-2b39-4bec-be8b-19bfe13dc23a",
             "Value": {
                 "id": "949f2952-c415-4060-ac2d-4e8fc22c6ad4",
@@ -22341,7 +22349,8 @@
         "b0a1886d-571c-9ed1-098f-65abb5bf18f6",
         "c854fb34-52ee-fd8e-b01b-086f33590212",
         "d258aee7-2bed-eaae-edfb-2228979346df",
-        "a7ef39a4-ac5a-45bb-7ded-c0562f4f4d23"
+        "a7ef39a4-ac5a-45bb-7ded-c0562f4f4d23",
+        "4bee5f27-7512-964a-379d-a45443f42683"
     ],
     "tutorial": ""
 }
