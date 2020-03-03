@@ -7,13 +7,19 @@ draw_set_font(global.font)
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
-for (var i=1; i<string_length(global.font_str); i++)
+var len = string_length(global.font_str);
+
+for (var i=1; i<=len; i++)
 {
     var surf = surface_create(w, h);
     surface_set_target(surf);
     
     draw_sprite_stretched(spr_source, src.black, 0, 0, w, h);
-    draw_text_transformed((w/2)+2, (h/2)-2, string_char_at(global.font_str, i), 3, 3, image_angle);
+    
+    if (i != len)
+        draw_text_transformed((w/2)+2, (h/2)-2, string_char_at(global.font_str, i), 3, 3, image_angle);
+    else
+        draw_text_transformed((w/2)+2, (h/2)-2, "ESC", 2, 2, image_angle);
 
     surface_reset_target();
     var spr = sprite_create_from_surface(surf, 0, 0, w, h, false, true, 0, 0);
@@ -48,5 +54,7 @@ for (var i=0; i<=4; i++)
 
 
 draw_set_default();
+
+game_end();
 
 

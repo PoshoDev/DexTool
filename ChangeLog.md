@@ -48,9 +48,9 @@
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_-.png?raw=true) | Count down (for selected MON).                               |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_1.png?raw=true) to ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_8.png?raw=true) | Jump to box containing first MON of a generation.            |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_0.png?raw=true) and ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_9.png?raw=true) | Jump to last box.                                            |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_S.png?raw=true) | Switch between Shiny and Regular dex.                        |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_G.png?raw=true) | Switch between National and Galar dex.                       |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_I.png?raw=true) | Export progress image.<br>Saved as *C:\Users\USER\AppData\Local\DexTool\dex.png* |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_I.png?raw=true) | Export progress image.<br/>Saved as *C:\Users\USER\AppData\Local\DexTool\dex.png* |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_S.png?raw=true) | Switch between Shiny and Regular dex.                        |
 
   - Added log outputs in case of missing sprites.
 
