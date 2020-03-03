@@ -12,7 +12,7 @@ draw_sprite_stretched(spr_source, src.flip,
                       x_s, align_y(region.bot_left, 0 - 0.5),
                       w, h);
                       
-draw_sprite_stretched(spr_source, src.green,
+draw_sprite_stretched(spr_source, src.progress,
                       x_s, align_y(region.bot_left, 0 - 0.5),
                       w*percent/100, h);
 

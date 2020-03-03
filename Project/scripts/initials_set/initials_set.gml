@@ -11,7 +11,8 @@ global.window_height = window_get_height();
 global.box_len = global.window_width/2/7;
 global.icon_scale = 2;
 
-global.font = font_add_sprite_ext(spr_font,"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZéÉ#-'!?():@_.% /♂♀+äöü", true, 1);
+global.font_str = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZéÉ#-'!?():@_.% /♂♀+äöü↑↓←→";
+global.font = font_add_sprite_ext(spr_font, global.font_str, true, 1);
 
 global.dex_len = array_height_2d(global.dexdata);
 
