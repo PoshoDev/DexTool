@@ -1,3 +1,8 @@
+///debug_export_buttons(do?)
+
+if (!argument0)
+    return;
+
 // Buttons
 
 var w = sprite_get_width(spr_source)  * 2 * 0.25;

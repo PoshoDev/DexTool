@@ -7,31 +7,41 @@
   - Shiny dex mode.
     - With shiny icons from PKSPRITE.
     - Separate save data from the Regular dex.
+    
   - Encounter counters.
     
     - Perfect for shiny hunting!
+    
   - Shiny screenshots.
     - Completely different from the Regular dex screenshots.
     - Only show obtained MON or ones with a count above 0.
     - Saved as Saved as *C:\Users\USER\AppData\Local\DexTool\dex.png*.
+    
   - Info and Area buttons.
     - Both open an URL showing either the general info or location for a selected MON.
     - Current source is [Serebii.net](https://serebii.net/).
+    
   - Data output for selected MON.
     - Perfect for streaming (Twitch, Hitbox or whatever) or external tools!
     - Saved at Saved as *C:\Users\USER\AppData\Local\DexTool\Output*.
+    
   - You can now select a specific MON with a left click.
     
     - Displays Info, Area and Counter buttons.
+    
   - Added a progress bar to help you keep track of your progress.
+
   - Added buttons to toggle between National/Galar dex and Regular/Shiny mode.
+
   - Added MON.
     - Galarian Slowpoke
     - Hoopa Unbound
       - Heads-up by USER.
+    
   - Updated ALL sprites from Gen 7 to Gen 8.
     - Retrieved from PKSPRITE.
     - Edited using [DexTool-UltraTrim](https://github.com/PoshoDev/DexTool-UltraTrim).
+    
   - Automatic backups.
     - Made every 5 minutes after the first change since the last backup.
     - Made when the application is closed.
@@ -43,7 +53,7 @@
     | :----------------------------------------------------------: | ------------------------------------------------------------ |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_%E2%86%91.png?raw=true)<br>or Mouse<br>Wheel Up | Jump to previous box.                                        |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_%E2%86%93.png?raw=true)<br>or Mouse<br>Wheel Down | Jump to next box.                                            |
-    |                             ESC                              | Deselect MON.                                                |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_ESC.png?raw=true) | Deselect MON.                                                |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_+.png?raw=true) | Count up (for selected MON).                                 |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_-.png?raw=true) | Count down (for selected MON).                               |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_1.png?raw=true) to ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_8.png?raw=true) | Jump to box containing first MON of a generation.            |
@@ -55,6 +65,11 @@
   - Added log outputs in case of missing sprites.
 
     - Saved as *C:\Users\USER\AppData\Local\DexTool\Logs\MissingSprites.log*
+    
+  - Labeling went back to just 3 colors (until I add labeling options). 
+
+    - ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_0.png?raw=true) ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_1.png?raw=true) ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_2.png?raw=true)
+      - *Hon hon.*
 
 - **Minor Changes**
 
@@ -68,6 +83,7 @@
 
 <details>
 <summary>v0.2.0-alpha +</summary>
+
 #### [v0.2.1-alpha](https://github.com/PoshoDev/DexTool/releases/tag/v0.2.1-alpha)
 
 - **Minor changes**

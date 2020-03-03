@@ -7,4 +7,4 @@ boxes_spawn();
 selected_set();
 scr_window_resize();
 button_create_persistents();
-debug_export_buttons();
+debug_export_buttons(false);
