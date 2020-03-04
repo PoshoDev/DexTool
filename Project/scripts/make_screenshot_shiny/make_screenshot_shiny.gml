@@ -12,15 +12,15 @@ show_debug_message("Loading count data...");
 
 var count_total = 0;
 
-ini_open("save.ini")
+//ini_open("save.ini")
 	for (var i=1; i<global.dex_len; i++)
 	{
-		global.countdata[i] = ini_read_real(look, string(i), 0);
+	//	global.countdata[i] = ini_read_real(look, string(i), 0);
 		
-		if (global.savedata[global.dexdata[i, dex.idno]] || global.countdata[i])
+		if (global.savedata[global.dexdata[i, dex.idno]] || global.countdata[global.dexdata[i, dex.idno]])
 			count_total++;
 	}
-ini_close();
+//ini_close();
 
 
 // Sanity Check
@@ -89,7 +89,7 @@ for (var i=0; i<slots_per_col; i++)
 	for (var j=0; j<slots_per_row; j++)
 		if (current<global.dex_len)
         {
-			while(!check_skip(current) || (current<global.dex_len-1 && !(global.savedata[global.dexdata[current, dex.idno]] || global.countdata[current])))
+			while(!check_skip(current) || (current<global.dex_len-1 && !(global.savedata[global.dexdata[current, dex.idno]] || global.countdata[global.dexdata[current, dex.idno]])))
                     current++;
             
             if (global.dexdata[current, dex.pokemon] != "ETERNATUS") // This is a line of code from a man who has given up.
@@ -124,8 +124,8 @@ for (var i=0; i<slots_per_col; i++)
 				draw_set_valign(fa_middle);
 				draw_set_halign(fa_center);
 				
-				if (global.countdata[current] != 0)
-					var txt = string(global.countdata[current]);
+				if (global.countdata[global.dexdata[current, dex.idno]] != 0)
+					var txt = string(global.countdata[global.dexdata[current, dex.idno]]);
 				else
 					var txt = "-";
 				

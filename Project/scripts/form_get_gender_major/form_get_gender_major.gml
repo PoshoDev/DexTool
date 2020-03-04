@@ -3,6 +3,7 @@
 
 switch(argument0)
 {
+    case "NIDORAN": //temp
     case "HIPPOPOTAS":
     case "HIPPOWDON":
     case "UNFEZANT":

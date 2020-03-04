@@ -21,7 +21,7 @@ for (global.box_count=1; global.current<global.dex_len; global.box_count++)
         global.box_header[global.box_count] = self;
         number = global.box_count;
         image_index = get_gen(global.dexdata[global.current, dex.dexno])-1;
-        show_debug_message("Spawned Box "+string(global.box_count)+" with PKMN #"+string(global.dexdata[global.current, dex.dexno])+" from Gen "+string(get_gen(global.dexdata[global.current, dex.dexno])))
+        //show_debug_message("Spawned Box "+string(global.box_count)+" with PKMN #"+string(global.dexdata[global.current, dex.dexno])+" from Gen "+string(get_gen(global.dexdata[global.current, dex.dexno])))
         image_speed = 0;
         
         if (check_genfirst(global.dexdata[global.current, dex.pokemon], false))

@@ -1323,7 +1323,9 @@
         "a66f140c-862a-4615-9817-9bc374f61549",
         "428b9afc-125c-457b-b60f-0408c228d805",
         "85d705c4-b1e8-4293-8c80-3c88da004559",
-        "081c9ac3-b409-4650-a28b-b412d625cd3a"
+        "081c9ac3-b409-4650-a28b-b412d625cd3a",
+        "f3940cf8-cc3c-47b9-9d6a-e886f7ffc56c",
+        "1db19231-d201-4aa9-b81a-1958175751c5"
     ],
     "filterType": "GMIncludedFile",
     "folderName": "Regular",

@@ -2591,6 +2591,14 @@
             }
         },
         {
+            "Key": "1db19231-d201-4aa9-b81a-1958175751c5",
+            "Value": {
+                "id": "832f9b0d-4ded-4db5-be2f-cf7b297245f0",
+                "resourcePath": "datafiles_yy\\Icons\\Regular\\NIDORAN-MALE.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "1db7cb7b-5535-49f5-a576-173afb32364d",
             "Value": {
                 "id": "b0f55eaa-c397-4f0e-82d9-a3754c5ab426",
@@ -2943,6 +2951,14 @@
             }
         },
         {
+            "Key": "22c23791-3f9c-47e0-88bf-90dfd8f7a595",
+            "Value": {
+                "id": "cee6a97d-e22b-441a-a115-4b77b4ec55ed",
+                "resourcePath": "datafiles_yy\\Icons\\Shiny\\NIDORAN-MALE.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "22d61b9b-e89c-44b0-bde8-95d939863505",
             "Value": {
                 "id": "ff65bf27-998b-4e7a-a800-20b864632ba8",
@@ -3211,6 +3227,14 @@
             "Value": {
                 "id": "00274b99-6510-4c93-ab28-8c904535ece9",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\SWINUB.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "251c6936-354b-4f36-9fce-656a1474808d",
+            "Value": {
+                "id": "ca268c8a-981a-4523-8aad-56422b86bda1",
+                "resourcePath": "datafiles_yy\\NIDORAN-FEMALE.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -21095,6 +21119,14 @@
             }
         },
         {
+            "Key": "f3940cf8-cc3c-47b9-9d6a-e886f7ffc56c",
+            "Value": {
+                "id": "14497b55-9082-4dbf-a966-bb785eaa6a18",
+                "resourcePath": "datafiles_yy\\Icons\\Regular\\NIDORAN-FEMALE.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "f3d4b520-7e04-42d8-ab41-d60a07944610",
             "Value": {
                 "id": "038c6e25-8e19-4a75-be53-cdf012d68de4",
@@ -21839,6 +21871,14 @@
             }
         },
         {
+            "Key": "fbcf4f33-71a9-488c-886e-0ca981e0f30c",
+            "Value": {
+                "id": "4b805fef-5cfc-4839-9c1a-98b9988d4199",
+                "resourcePath": "datafiles_yy\\pokedata.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "fbd023d7-16a7-408a-aee9-661225d960b8",
             "Value": {
                 "id": "5542d53b-0540-46e9-91d4-f377222f7ad7",
@@ -22035,14 +22075,6 @@
             "Value": {
                 "id": "bd0f77be-32a3-4d28-bd23-45e524c506a9",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\OCTILLERY-MALE.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "fe090029-e154-41dc-9a67-3e5b0d802aea",
-            "Value": {
-                "id": "f51826bf-f7ff-49ab-8d95-7342f0820a0c",
-                "resourcePath": "datafiles_yy\\pokedata.csv.yy",
                 "resourceType": "GMIncludedFile"
             }
         },

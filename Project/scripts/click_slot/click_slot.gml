@@ -7,8 +7,11 @@ spr_plus = 0.75;
     
 color = get_color3(own, true);
 
-global.selected[dex.own] = own;
+if (global.selected[dex.idno] == idno)
+    global.selected[dex.own] = own;
+    
 global.savedata[idno] = own;
+//global.countdata[idno] = own;
 
 // Auto-Saves
 if (savedata_write(savedata_section_get(global.show_shiny), string(idno), own))
