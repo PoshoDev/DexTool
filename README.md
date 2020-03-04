@@ -7,7 +7,7 @@ DexTool is a Box-based management tool for maintaining and keeping track of a Po
 
 ## Downloads
 
-- #### [Download v0.3.0-alpha](https://github.com/PoshoDev/DexTool/releases/tag/v0.3.0-alpha)
+- ### [Download v0.3.0-alpha](https://github.com/PoshoDev/DexTool/releases/tag/v0.3.0-alpha)
 
 - [All Releases](https://github.com/PoshoDev/DexTool/releases)
 - [Change Log](https://github.com/PoshoDev/DexTool/blob/master/ChangeLog.md)
