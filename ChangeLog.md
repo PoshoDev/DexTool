@@ -40,8 +40,9 @@
     
   - Updated ALL sprites from Gen 7 to Gen 8.
     - Retrieved from [PokéSprite](http://msikma.github.io/pokesprite/).
+      - ![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen7x/regular/venusaur.png) **→**![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/venusaur.png) 
     - Edited using [DexTool-UltraTrim](https://github.com/PoshoDev/DexTool-UltraTrim).
-    
+
   - Automatic backups.
     - Made every 5 minutes after the first change since the last backup.
     - Made when the application is closed.
@@ -51,16 +52,16 @@
 
     |                             Key                              | Action                                                       |
     | :----------------------------------------------------------: | ------------------------------------------------------------ |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_%E2%86%91.png?raw=true)<br>or Mouse<br>Wheel Up | Jump to previous box.                                        |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_%E2%86%93.png?raw=true)<br>or Mouse<br>Wheel Down | Jump to next box.                                            |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_ESC.png?raw=true) | Deselect Pokémon.                                            |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_+.png?raw=true) | Count up (for selected Pokémon).                             |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_-.png?raw=true) | Count down (for selected Pokémon).                           |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_1.png?raw=true) to ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_8.png?raw=true) | Jump to box containing first Pokémon of a generation.        |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_0.png?raw=true) and ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_9.png?raw=true) | Jump to last box.                                            |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_G.png?raw=true) | Switch between National and Galar dex.                       |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_I.png?raw=true) | Export progress image.<br/>Saved as *C:\Users\USER\AppData\Local\DexTool\dex.png* |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_S.png?raw=true) | Switch between Shiny and Regular dex.                        |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_%E2%86%91.png?raw=true)<br>or Mouse<br>Wheel Up | Jump to previous box.                                        |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_%E2%86%93.png?raw=true)<br>or Mouse<br>Wheel Down | Jump to next box.                                            |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_ESC.png?raw=true) | Deselect Pokémon.                                            |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_+.png?raw=true) | Count up (for selected Pokémon).                             |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_-.png?raw=true) | Count down (for selected Pokémon).                           |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_1.png?raw=true) to ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_8.png?raw=true) | Jump to box containing first Pokémon of a generation.        |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_0.png?raw=true) and ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_9.png?raw=true) | Jump to last box.                                            |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_G.png?raw=true) | Switch between National and Galar dex.                       |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_I.png?raw=true) | Export progress image.<br/>Saved as *C:\Users\USER\AppData\Local\DexTool\dex.png* |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_S.png?raw=true) | Switch between Shiny and Regular dex.                        |
 
   - Added log outputs in case of missing sprites.
 
@@ -68,7 +69,7 @@
     
   - Labeling went back to just 3 colors (until I add labeling options). 
 
-    - ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_0.png?raw=true) ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_1.png?raw=true) ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_2.png?raw=true)
+    - ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_slot_0.png?raw=true) ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_slot_1.png?raw=true) ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_slot_2.png?raw=true)
       - *Hon hon.*
 
 - **Minor Changes**
