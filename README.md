@@ -32,9 +32,9 @@ It also lets you take screenshots of your current progress for you to flaunt at 
 
 |                             Key                              | Action                                                       |
 | :----------------------------------------------------------: | ------------------------------------------------------------ |
-| Right click on<br>![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_0.png?raw=true)**→**![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_1.png?raw=true) | Change Pokémon status.                                       |
-| *Hold* right click on<br/>![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_0.png?raw=true)**→**![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_1.png?raw=true) | Multi-select.                                                |
-| Left click on<br/>![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_0.png?raw=true) | Select Pokémon, displaying Info, Area and Counting buttons.  |
+| Right click on<br>![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_slot_0.png?raw=true)**→**![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_slot_1.png?raw=true) | Change Pokémon status.                                       |
+| *Hold* right click on<br/>![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_slot_0.png?raw=true)**→**![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_slot_1.png?raw=true) | Multi-select.                                                |
+| Left click on<br/>![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_slot_0.png?raw=true) | Select Pokémon, displaying Info, Area and Counting buttons.  |
 | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_%E2%86%91.png?raw=true)<br>or Mouse<br>Wheel Up | Jump to previous box.                                        |
 | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_%E2%86%93.png?raw=true)<br>or Mouse<br>Wheel Down | Jump to next box.                                            |
 | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_ESC.png?raw=true) | Deselect Pokémon.                                            |
@@ -55,9 +55,9 @@ It also lets you take screenshots of your current progress for you to flaunt at 
   
   |                            Color                             | Meaning                   |
   | :----------------------------------------------------------: | ------------------------- |
-  | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_0.png?raw=true) | Not obtained.             |
-  | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_1.png?raw=true) | Obtained and in HOME.     |
-  | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_slot_2.png?raw=true) | Obtained but not in HOME. |
+  | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_slot_0.png?raw=true) | Not obtained.             |
+  | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_slot_1.png?raw=true) | Obtained and in HOME.     |
+  | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_slot_2.png?raw=true) | Obtained but not in HOME. |
 * Your **SAVE DATA** is stored as:
   * _C:\Users\USER\AppData\Local\DexTool\save.ini_
 * Your **IMAGE EXPORTS** are stored as:
