@@ -5,7 +5,7 @@
 - **Major Changes**
 
   - Shiny dex mode.
-    - With shiny icons from PKSPRITE.
+    - With shiny icons from [PokéSprite](http://msikma.github.io/pokesprite/).
     - Separate save data from the Regular dex.
     
   - Encounter counters.
@@ -14,18 +14,18 @@
     
   - Shiny screenshots.
     - Completely different from the Regular dex screenshots.
-    - Only show obtained MON or ones with a count above 0.
+    - Only show obtained Pokémon or ones with a count above 0.
     - Saved as Saved as *C:\Users\USER\AppData\Local\DexTool\dex.png*.
     
   - Info and Area buttons.
-    - Both open an URL showing either the general info or location for a selected MON.
+    - Both open an URL showing either the general info or location for a selected Pokémon.
     - Current source is [Serebii.net](https://serebii.net/).
     
-  - Data output for selected MON.
+  - Data output for selected Pokémon.
     - Perfect for streaming (Twitch, Hitbox or whatever) or external tools!
     - Saved at Saved as *C:\Users\USER\AppData\Local\DexTool\Output*.
     
-  - You can now select a specific MON with a left click.
+  - You can now select a specific Pokémon with a left click.
     
     - Displays Info, Area and Counter buttons.
     
@@ -33,13 +33,13 @@
 
   - Added buttons to toggle between National/Galar dex and Regular/Shiny mode.
 
-  - Added MON.
+  - Added Pokémon.
     - Galarian Slowpoke
     - Hoopa Unbound
-      - Heads-up by USER.
+      - Heads-up by [COOKIEMONK](https://www.reddit.com/user/COOKIEMONK).
     
   - Updated ALL sprites from Gen 7 to Gen 8.
-    - Retrieved from PKSPRITE.
+    - Retrieved from [PokéSprite](http://msikma.github.io/pokesprite/).
     - Edited using [DexTool-UltraTrim](https://github.com/PoshoDev/DexTool-UltraTrim).
     
   - Automatic backups.
@@ -53,10 +53,10 @@
     | :----------------------------------------------------------: | ------------------------------------------------------------ |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_%E2%86%91.png?raw=true)<br>or Mouse<br>Wheel Up | Jump to previous box.                                        |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_%E2%86%93.png?raw=true)<br>or Mouse<br>Wheel Down | Jump to next box.                                            |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_ESC.png?raw=true) | Deselect MON.                                                |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_+.png?raw=true) | Count up (for selected MON).                                 |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_-.png?raw=true) | Count down (for selected MON).                               |
-    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_1.png?raw=true) to ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_8.png?raw=true) | Jump to box containing first MON of a generation.            |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_ESC.png?raw=true) | Deselect Pokémon.                                            |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_+.png?raw=true) | Count up (for selected Pokémon).                             |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_-.png?raw=true) | Count down (for selected Pokémon).                           |
+    | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_1.png?raw=true) to ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_8.png?raw=true) | Jump to box containing first Pokémon of a generation.        |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_0.png?raw=true) and ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_9.png?raw=true) | Jump to last box.                                            |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_G.png?raw=true) | Switch between National and Galar dex.                       |
     | ![](https://github.com/PoshoDev/DexTool/blob/master/Icons/Buttons/icon_button_I.png?raw=true) | Export progress image.<br/>Saved as *C:\Users\USER\AppData\Local\DexTool\dex.png* |
@@ -73,7 +73,7 @@
 
 - **Minor Changes**
 
-  - Fixed misspellings for some MON.
+  - Fixed misspellings for some Pokémon.
   - Improved load times.
   - Slight graphical improvement.
   - Changed from GM:S1 to GM:S2 to work more efficiently.
