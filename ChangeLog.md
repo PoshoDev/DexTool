@@ -8,6 +8,9 @@
   - You can now toggle your dex view to Armor mode.
   - You can now set a selected Pokémon's count to whatever you want by pressing 'C'.
     - That way you don't have to mash like an animal.
+- **Minor Changes**.
+
+  - The cursor now changes when it's loading something.
 
 
 
