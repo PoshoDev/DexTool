@@ -12,7 +12,7 @@
 
 
 <details>
-<summary>v0.3.0-alpha</summary>
+<summary>v0.3.0-alpha +</summary>
 
 ### [v0.3.0-alpha](https://github.com/PoshoDev/DexTool/releases/tag/v0.3.0-alpha)
 
