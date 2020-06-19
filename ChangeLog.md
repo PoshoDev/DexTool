@@ -2,7 +2,7 @@
 
 ### [v0.3.0-alpha](https://github.com/PoshoDev/DexTool/releases/tag/v0.3.0-alpha)
 
-- **Major Changes**
+- **Major Changes**.
 
   - Shiny dex mode.
     - With shiny icons from [PokéSprite](http://msikma.github.io/pokesprite/).
