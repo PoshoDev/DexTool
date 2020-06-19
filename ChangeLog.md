@@ -1,5 +1,19 @@
 # Change Log
 
+### [v0.4.0-alpha](https://github.com/PoshoDev/DexTool/releases/tag/v0.4.0-alpha)
+
+- **Major Changes**.
+
+  - Added the new Pokémon and Gigantamax forms from the Isle of Armor.
+  - You can now toggle your dex view to Armor mode.
+  - You can now set a selected Pokémon's count to whatever you want by pressing 'C'.
+    - That way you don't have to mash like an animal.
+
+
+
+<details>
+<summary>v0.3.0-alpha</summary>
+
 ### [v0.3.0-alpha](https://github.com/PoshoDev/DexTool/releases/tag/v0.3.0-alpha)
 
 - **Major Changes**.
@@ -78,6 +92,8 @@
   - Improved load times.
   - Slight graphical improvement.
   - Changed from GM:S1 to GM:S2 to work more efficiently.
+
+</details>
 
 
 
