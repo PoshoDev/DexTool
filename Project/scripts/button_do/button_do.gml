@@ -32,7 +32,7 @@ switch(argument0)
     break;
     
     case but.national:
-        show_galar_toggle();
+        show_dex_toggle();
     break;
     
     case but.shiny:

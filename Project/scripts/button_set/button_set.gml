@@ -55,10 +55,13 @@ switch(type)
     break;
     
     case but.national:
-        if (!global.show_galar)
-            text = "NATIONAL";
-        else
-            text = "GALAR";
+        switch(global.show_dex)
+        {
+            case shw.national: text="NATIONAL"; break;
+            case shw.galar:    text="GALAR";    break;
+            case shw.armor:    text="ARMOR";    break;
+        }
+        
         scale = global.icon_scale * 0.75;
         x_ = button_align_x(region.bot_left, -1.25);
         y_ = button_align_y(region._100, -0.5 - 0.5);

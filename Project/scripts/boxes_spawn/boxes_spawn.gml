@@ -1,5 +1,7 @@
 ///boxes_spawn()
 
+window_set_cursor(cr_hourglass);
+
 if (file_exists(working_directory+"/Logs/MissingSprites.log"))
     file_delete(working_directory+"/Logs/MissingSprites.log");
 
@@ -41,7 +43,7 @@ for (global.box_count=1; global.current<global.dex_len; global.box_count++)
                 
                 if (!check_jump(j, i, global.current))
                 {
-                    if (check_galar(global.current, global.show_galar))
+                    if (show_check(global.current, global.show_dex))
                         make_slot(j, i, global.current);
                         
                     global.current++;
@@ -53,3 +55,5 @@ for (global.box_count=1; global.current<global.dex_len; global.box_count++)
 }
 
 global.gen_header[gen_current] = global.box_count-1; // Last header.
+
+window_set_cursor(cr_default);

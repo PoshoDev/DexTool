@@ -1,6 +1,7 @@
 
 dex_data_load();
 dex_galar_load();
+dex_armor_load();
 initials_set();
 savedata_load();
 boxes_spawn();

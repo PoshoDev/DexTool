@@ -1,8 +1,8 @@
 {
-    "id": "5ebf8e8d-9772-aef2-28cb-e8743d4d575d",
+    "id": "86a11d15-9ba9-ef00-cd20-52b16a03bd31",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "show_galar_toggle",
+    "name": "version_get",
     "IsCompatibility": false,
     "IsDnD": false
 }

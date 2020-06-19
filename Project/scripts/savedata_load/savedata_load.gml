@@ -3,9 +3,9 @@
 if (file_exists("save.ini"))
 {
     ini_open("save.ini")
-        global.current_box =    ini_read_real("Navigation", "Current Box", 1);
-        global.show_galar =     ini_read_real("Display", "Galar Dex", false);
-        global.show_shiny =     ini_read_real("Display", "Shiny Mode", false);
+        global.current_box = ini_read_real("Navigation", "Current Box", 1);
+        global.show_dex =	 ini_read_real("Display", "Galar Dex", shw.national);
+        global.show_shiny =  ini_read_real("Display", "Shiny Mode", false);
         
         var section = savedata_section_get(global.show_shiny);
         global.countdata[0] =0
@@ -29,11 +29,11 @@ if (file_exists("save.ini"))
 else
 {
     ini_open("save.ini");
-        ini_write_real("Info", "Number", 0.2);
+        ini_write_real("Info", "Number", version_get());
     ini_close();
     
     global.current_box = 1;
-    global.show_galar = false;
+    global.show_dex = 0;
     global.show_shiny = false;
     
     for (var i=0; i<=global.dex_len; i++)

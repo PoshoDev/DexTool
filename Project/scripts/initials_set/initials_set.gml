@@ -1,5 +1,10 @@
 ///initials_set()
 
+enum region { boxes, top, mid_left, mid_right, bot_left, bot_right,
+              _0, _25, _50, _75, _100 };
+              
+enum shw { national, galar, armor, LENGTH};
+
 global.window_width = window_get_width();
 global.window_height = window_get_height();
 
@@ -31,6 +36,3 @@ global.change = false;
 
 global.progress =     0;
 global.progress_max = 0;
-
-enum region { boxes, top, mid_left, mid_right, bot_left, bot_right,
-              _0, _25, _50, _75, _100 };

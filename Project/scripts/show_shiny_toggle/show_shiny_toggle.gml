@@ -1,4 +1,5 @@
 ///show_shiny_toggle()
+window_set_cursor(cr_hourglass);
 
 global.show_shiny = !global.show_shiny
 

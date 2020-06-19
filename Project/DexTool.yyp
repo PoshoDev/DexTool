@@ -8586,7 +8586,7 @@
             "Key": "5ebf8e8d-9772-aef2-28cb-e8743d4d575d",
             "Value": {
                 "id": "5fbb9f86-4fbb-99cd-ea2a-820b65d5cad0",
-                "resourcePath": "scripts\\show_galar_toggle\\show_galar_toggle.yy",
+                "resourcePath": "scripts\/show_dex_toggle\/show_dex_toggle.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -9580,6 +9580,14 @@
                 "id": "88f3eefd-56c3-4d3c-a02b-f2d8105e7e58",
                 "resourcePath": "views\\6aa89cbf-871c-41dc-8c8b-3da28a1826e2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ade07ea-0dc5-f3e3-549d-5765f94bcb31",
+            "Value": {
+                "id": "4e2d8d4b-12ce-da5d-7e30-77d3b96dbd2b",
+                "resourcePath": "scripts\\dex_armor_load\\dex_armor_load.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -11991,6 +11999,14 @@
             }
         },
         {
+            "Key": "86a11d15-9ba9-ef00-cd20-52b16a03bd31",
+            "Value": {
+                "id": "cb4de92c-11a0-476d-dbf2-80191b6fffe2",
+                "resourcePath": "scripts\\version_get\\version_get.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "86a487a6-4f0d-478d-8c21-233fceb1485d",
             "Value": {
                 "id": "ad73a050-2c78-46ce-8d03-af3391084b32",
@@ -13860,6 +13876,14 @@
                 "id": "175517d7-22e8-4f8e-8bcc-b377dcb7c40e",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\CRAWDAUNT.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9cd5f278-7287-1058-6ab4-3030cbba04a4",
+            "Value": {
+                "id": "b316acdf-52ca-8ef5-b84b-955222e336a9",
+                "resourcePath": "scripts\\show_check\\show_check.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -22417,6 +22441,7 @@
         "961739d9-bcef-9d3d-a9a7-6d0487191e8e",
         "9d9efccc-e28a-2782-ecbe-3ea08da108d6",
         "baf1e68b-6877-c2da-aed5-31f319313796",
+        "6ade07ea-0dc5-f3e3-549d-5765f94bcb31",
         "27426a5b-252b-ce49-0d97-9a0b620973f4",
         "01109f28-4eca-fc23-b0d9-649acb9c158c",
         "0c8bde50-6fda-efe6-8809-de6b265ccbcc",
@@ -22462,7 +22487,9 @@
         "c854fb34-52ee-fd8e-b01b-086f33590212",
         "d258aee7-2bed-eaae-edfb-2228979346df",
         "a7ef39a4-ac5a-45bb-7ded-c0562f4f4d23",
-        "4bee5f27-7512-964a-379d-a45443f42683"
+        "4bee5f27-7512-964a-379d-a45443f42683",
+        "9cd5f278-7287-1058-6ab4-3030cbba04a4",
+        "86a11d15-9ba9-ef00-cd20-52b16a03bd31"
     ],
     "tutorial": ""
 }
