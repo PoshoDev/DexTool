@@ -4,6 +4,7 @@
      if (keyboard_check_pressed(ord("G")))  show_dex_toggle();
 else if (keyboard_check_pressed(ord("I")))  make_screenshot();
 else if (keyboard_check_pressed(ord("S")))  show_shiny_toggle();
+else if (keyboard_check_pressed(ord("C")))  counter_set();
 
 // Plus and Minus
 var key_plus =  107;

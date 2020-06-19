@@ -20495,6 +20495,14 @@
             }
         },
         {
+            "Key": "eb71b0d2-5a4d-719e-167d-6e8e811f2d65",
+            "Value": {
+                "id": "b7bfe89c-c2e0-2f06-b9e0-17fbd86a21da",
+                "resourcePath": "scripts\\counter_update\\counter_update.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "eb822fe6-ffde-4966-90c4-dee3b6e99c8a",
             "Value": {
                 "id": "92e3cfcf-7acd-4c74-a104-13d1b55ce61e",
@@ -21052,6 +21060,14 @@
                 "id": "a694bcb8-2cec-487c-8fbe-c6ea43c975a5",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\CLAWITZER.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f1e445e1-be26-e33a-7ab0-ce20a37f3677",
+            "Value": {
+                "id": "76b1e4a7-6df5-3875-453e-6b1f4a41bd3a",
+                "resourcePath": "scripts\\counter_set\\counter_set.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -22489,7 +22505,9 @@
         "a7ef39a4-ac5a-45bb-7ded-c0562f4f4d23",
         "4bee5f27-7512-964a-379d-a45443f42683",
         "9cd5f278-7287-1058-6ab4-3030cbba04a4",
-        "86a11d15-9ba9-ef00-cd20-52b16a03bd31"
+        "86a11d15-9ba9-ef00-cd20-52b16a03bd31",
+        "eb71b0d2-5a4d-719e-167d-6e8e811f2d65",
+        "f1e445e1-be26-e33a-7ab0-ce20a37f3677"
     ],
     "tutorial": ""
 }

@@ -12,19 +12,13 @@ switch(argument0)
     
     case but.plus:
         global.counter++;
-        
-        global.countdata[global.selecting.idno] = global.counter;
-        savedata_write(savedata_section_get(global.show_shiny)+" Count", global.selecting.idno, global.counter);
-        change_add();
+        counter_update();
     break;
     
     case but.minus:
         if (global.counter > 0)
             global.counter--;
-        
-        global.countdata[global.selecting.idno] = global.counter;
-        savedata_write(savedata_section_get(global.show_shiny)+" Count", global.selecting.idno, global.counter);
-        change_add();
+        counter_update();
     break;
     
     case but.image:
