@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "01bb1e47-a018-4ac3-8211-c870481e15bb",
+            "Value": {
+                "id": "2307cfe9-8440-4016-a5f1-53ca6731ec0a",
+                "resourcePath": "datafiles_yy\\Icons\\Regular\\RILLABOOM-GIGANTAMAX.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "01d90099-2536-4993-9091-f8765d34a562",
             "Value": {
                 "id": "942d943b-f52e-4b00-9e29-8d727dfb6052",
@@ -5543,6 +5551,14 @@
             }
         },
         {
+            "Key": "3c9691ec-86e9-4eff-b71a-70d9a924443a",
+            "Value": {
+                "id": "ca8074e5-0d51-40e6-ac76-c37a29048801",
+                "resourcePath": "datafiles_yy\\Icons\\Regular\\KUBFU.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "3ca7a7e7-d024-4a0e-809c-1f1a182ea723",
             "Value": {
                 "id": "f89ece6b-5390-45b1-afde-cf58ce88e984",
@@ -6183,6 +6199,14 @@
             }
         },
         {
+            "Key": "448f26ca-01bc-49bf-9818-621763a3d608",
+            "Value": {
+                "id": "1320af21-8834-4803-8f94-2284c317c22a",
+                "resourcePath": "datafiles_yy\\armordex.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "44bc900b-6fdb-452c-94d2-dfdd35d66e6a",
             "Value": {
                 "id": "eb6ccdbb-f268-4c9f-8470-7e9bc8b33457",
@@ -6467,6 +6491,14 @@
             "Value": {
                 "id": "8f30664f-053f-42c7-92cb-93f3092acb03",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\AMAURA.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "47c8a09b-b8c5-433e-b968-78302181f503",
+            "Value": {
+                "id": "17240351-611b-429e-bb79-8c0bb70d1d80",
+                "resourcePath": "datafiles_yy\\Icons\\Regular\\URSHIFU-RAPID STRIKE STYLE.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -9447,6 +9479,14 @@
             }
         },
         {
+            "Key": "69dce1af-32f2-4795-a733-ff36507c5985",
+            "Value": {
+                "id": "5f7c48e4-8a55-4ee7-94c6-4e5f1fa0e178",
+                "resourcePath": "datafiles_yy\\Icons\\Regular\\INTELEON-GIGANTAMAX.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "69e705a0-7cd5-467d-ba06-e5c9601b2094",
             "Value": {
                 "id": "4cb0f4ee-e096-4e14-90da-132935a20a2e",
@@ -9507,6 +9547,14 @@
             "Value": {
                 "id": "f14a019c-a304-488b-b5ee-da7445f89dbd",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\TYRANITAR.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "6a79a242-583f-47b9-b773-5cd343bd6be4",
+            "Value": {
+                "id": "256f32ff-200a-4b6d-923d-c4941b71f380",
+                "resourcePath": "datafiles_yy\\Icons\\Regular\\VENUSAUR-GIGANTAMAX.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -11231,6 +11279,14 @@
             }
         },
         {
+            "Key": "7fd1badd-1545-4aab-9356-371f428e150b",
+            "Value": {
+                "id": "b91de1a5-6974-4eaa-a72f-7aa7bfae4a55",
+                "resourcePath": "datafiles_yy\\Icons\\Regular\\CINDERACE-GIGANTAMAX.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "7fdd7ce6-1203-4eeb-bce9-bf4a0209836a",
             "Value": {
                 "id": "05d9b8c1-e42c-455f-913c-2b7ab93532de",
@@ -11644,6 +11700,14 @@
                 "id": "ba472be4-5877-4bfa-b6c7-dd6a3402bb97",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "842f775b-7dab-4183-ba1a-cb42b5dfb7a1",
+            "Value": {
+                "id": "519695d7-7d89-41f7-b0f3-681af8f9f7a3",
+                "resourcePath": "datafiles_yy\\Icons\\Regular\\URSHIFU-SINGLE STRIKE STYLE.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -12395,6 +12459,14 @@
             "Value": {
                 "id": "b0e68587-1e74-43d9-be1f-f507c894d5a6",
                 "resourcePath": "datafiles_yy\\Icons\\Regular\\ALAKAZAM-MALE.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "8c8e310f-7cc0-44c5-8403-0e90393e97d0",
+            "Value": {
+                "id": "f8299a15-cfa9-4c41-b619-ce0e497a3648",
+                "resourcePath": "datafiles_yy\\Icons\\Regular\\SLOWBRO-GALARIAN.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -21251,6 +21323,14 @@
             "Value": {
                 "id": "f7cbfc1b-48df-42d1-a416-b688b8cb5e8e",
                 "resourcePath": "datafiles_yy\\Icons\\Shiny\\ALCREMIE-RUBY SWIRL LOVE.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f53316fc-c8b5-41a4-916a-76a4e8a0d77f",
+            "Value": {
+                "id": "583e42ee-d5fa-4f47-ac17-53db22d286fe",
+                "resourcePath": "datafiles_yy\\Icons\\Regular\\BLASTOISE-GIGANTAMAX.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },

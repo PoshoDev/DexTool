@@ -1325,7 +1325,16 @@
         "85d705c4-b1e8-4293-8c80-3c88da004559",
         "081c9ac3-b409-4650-a28b-b412d625cd3a",
         "f3940cf8-cc3c-47b9-9d6a-e886f7ffc56c",
-        "1db19231-d201-4aa9-b81a-1958175751c5"
+        "1db19231-d201-4aa9-b81a-1958175751c5",
+        "7fd1badd-1545-4aab-9356-371f428e150b",
+        "f53316fc-c8b5-41a4-916a-76a4e8a0d77f",
+        "01bb1e47-a018-4ac3-8211-c870481e15bb",
+        "6a79a242-583f-47b9-b773-5cd343bd6be4",
+        "47c8a09b-b8c5-433e-b968-78302181f503",
+        "8c8e310f-7cc0-44c5-8403-0e90393e97d0",
+        "69dce1af-32f2-4795-a733-ff36507c5985",
+        "3c9691ec-86e9-4eff-b71a-70d9a924443a",
+        "842f775b-7dab-4183-ba1a-cb42b5dfb7a1"
     ],
     "filterType": "GMIncludedFile",
     "folderName": "Regular",
