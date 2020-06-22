@@ -45,6 +45,7 @@ It also lets you take screenshots of your current progress for you to flaunt at 
 | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_G.png?raw=true) | Switch between National and Galar dex.                       |
 | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_I.png?raw=true) | Export progress image.<br/>Saved as *C:\Users\USER\AppData\Local\DexTool\dex.png* |
 | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_S.png?raw=true) | Switch between Shiny and Regular dex.                        |
+| C | Change the count number for the selected Pokémon. |
 
 
 
