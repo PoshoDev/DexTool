@@ -1,8 +1,12 @@
 {
-    "id": "fe4fdbbd-947b-8e06-4930-f2b97cf5a423",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "hud_draw_counter",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "hud_draw_counter",
+  "tags": [],
+  "resourceType": "GMScript",
 }

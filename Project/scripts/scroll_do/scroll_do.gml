@@ -1,12 +1,17 @@
-// Saving
+function scroll_do() {
+	// Saving
 
-if (!savedata_write("Navigation", "Current Box", global.current_box))
-    show_debug_message("ERROR: Can't save scrolling. Save file somehow went missing.");
+	if (!savedata_write("Navigation", "Current Box", global.current_box))
+	    show_debug_message("ERROR: Can't save scrolling. Save file somehow went missing.");
 
-// Warp
+	// Warp
 
-scroll_warp();
+	scroll_warp();
 
-button_update_all();
+	button_update_all();
 
-show_debug_message("Scrolled to Box "+string(global.current_box));
+	show_debug_message("Scrolled to Box "+string(global.current_box));
+
+
+
+}

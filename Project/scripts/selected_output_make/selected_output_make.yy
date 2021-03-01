@@ -1,8 +1,12 @@
 {
-    "id": "b4ff0585-7cbf-020b-86b6-71a74247d56a",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "selected_output_make",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "selected_output_make",
+  "tags": [],
+  "resourceType": "GMScript",
 }

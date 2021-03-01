@@ -1,8 +1,12 @@
 {
-    "id": "c07397b8-105a-cf00-f119-47f5091762ab",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "button_create",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Buttons",
+    "path": "folders/Scripts/Buttons.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "button_create",
+  "tags": [],
+  "resourceType": "GMScript",
 }

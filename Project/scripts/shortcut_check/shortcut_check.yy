@@ -1,8 +1,12 @@
 {
-    "id": "c6341f0c-570d-0e72-8439-2672f5cbb32e",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "shortcut_check",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "shortcut_check",
+  "tags": [],
+  "resourceType": "GMScript",
 }

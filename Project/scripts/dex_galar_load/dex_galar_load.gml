@@ -1,15 +1,19 @@
 ///dex_galar_load()
+function dex_galar_load() {
 
-// Galar Dex data loading
+	// Galar Dex data loading
 
-enum gdex
-{
-    galarno,
-    dexno,
-    pokemon,
-    type1,
-    type2
+	enum gdex
+	{
+	    galarno,
+	    dexno,
+	    pokemon,
+	    type1,
+	    type2
+	}
+
+	//if (global.show_galar)
+	    global.galardata = csv_load("galardex");
+
+
 }
-
-//if (global.show_galar)
-    global.galardata = csv_load("galardex");

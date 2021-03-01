@@ -1,8 +1,12 @@
 {
-    "id": "936d6e83-fc19-4fdf-948c-2bb853e8fe06",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "get_color3",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "get_color3",
+  "tags": [],
+  "resourceType": "GMScript",
 }

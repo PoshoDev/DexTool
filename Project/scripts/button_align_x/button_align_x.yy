@@ -1,8 +1,12 @@
 {
-    "id": "6ee30c99-62bc-bcf5-3853-e159533ab6d0",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "button_align_x",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Buttons",
+    "path": "folders/Scripts/Buttons.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "button_align_x",
+  "tags": [],
+  "resourceType": "GMScript",
 }

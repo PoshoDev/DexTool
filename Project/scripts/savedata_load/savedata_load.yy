@@ -1,8 +1,12 @@
 {
-    "id": "9d9efccc-e28a-2782-ecbe-3ea08da108d6",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "savedata_load",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "savedata_load",
+  "tags": [],
+  "resourceType": "GMScript",
 }
