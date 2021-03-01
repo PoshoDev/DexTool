@@ -42,10 +42,10 @@ It also lets you take screenshots of your current progress for you to flaunt at 
 | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_-.png?raw=true) | Count down (for selected Pokémon).                           |
 | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_1.png?raw=true) to ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_8.png?raw=true) | Jump to box containing first Pokémon of a generation.        |
 | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_0.png?raw=true) and ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_9.png?raw=true) | Jump to last box.                                            |
-| ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_G.png?raw=true) | Switch between National and Galar dex.                       |
+|                              D                               | Switch between National, Galar Dex and Armor Dex.            |
+| ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_G.png?raw=true) | Toggle Gigantamax forms.                                     |
 | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_I.png?raw=true) | Export progress image.<br/>Saved as *C:\Users\USER\AppData\Local\DexTool\dex.png* |
 | ![](https://github.com/PoshoDev/DexTool/blob/master/Promo/Buttons/icon_button_S.png?raw=true) | Switch between Shiny and Regular dex.                        |
-| C | Change the count number for the selected Pokémon. |
 
 
 
