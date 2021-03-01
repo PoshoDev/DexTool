@@ -109,6 +109,7 @@
     {"id":{"name":"notes","path":"notes/notes/notes.yy",},"order":1,},
     {"id":{"name":"compatibility_report_280220_200614614","path":"notes/compatibility_report_280220_200614614/compatibility_report_280220_200614614.yy",},"order":3,},
     {"id":{"name":"CSV_Manager","path":"extensions/CSV_Manager/CSV_Manager.yy",},"order":1,},
+    {"id":{"name":"show_gigantamax_toggle","path":"scripts/show_gigantamax_toggle/show_gigantamax_toggle.yy",},"order":73,},
   ],
   "Options": [
     {"name":"iOS","path":"options/ios/options_ios.yy",},

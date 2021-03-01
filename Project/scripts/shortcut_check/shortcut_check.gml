@@ -2,9 +2,10 @@
 function shortcut_check() {
 
 	// Letters
-	     if (keyboard_check_pressed(ord("G")))  show_dex_toggle();
+	     if (keyboard_check_pressed(ord("D")))  show_dex_toggle();
 	else if (keyboard_check_pressed(ord("I")))  make_screenshot();
 	else if (keyboard_check_pressed(ord("S")))  show_shiny_toggle();
+	else if (keyboard_check_pressed(ord("G")))  show_gigantamax_toggle();
 	else if (keyboard_check_pressed(ord("C")))  counter_set();
 
 	// Plus and Minus
@@ -21,6 +22,4 @@ function shortcut_check() {
 	for (var i=ord("0"); i<=ord("9"); i++)
 	    if (keyboard_check_pressed(i))
 	        box_gen_jump(i - ord("0"));
-
-
 }

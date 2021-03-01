@@ -37,7 +37,4 @@ function initials_set() {
 
 	global.progress =     0;
 	global.progress_max = 0;
-
-
-
 }

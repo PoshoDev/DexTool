@@ -3,7 +3,7 @@ function check_skip(argument0) {
 	var form = global.dexdata[argument0, dex.form];
 	var bank = global.dexdata[argument0, dex.bankable];
 
-	if (bank == "FALSE")
+	if (bank=="FALSE" || (form=="GIGANTAMAX" && !global.show_gigantamax))
 	    return false;
 
 	switch(form)

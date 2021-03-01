@@ -7,6 +7,4 @@ function show_dex_toggle() {
 	savedata_write("Display", "Galar Dex", global.show_dex);
 
 	room_restart();
-
-
 }
