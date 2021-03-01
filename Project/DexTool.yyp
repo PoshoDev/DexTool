@@ -12759,6 +12759,14 @@
             }
         },
         {
+            "Key": "909009b0-c6df-4042-971d-2ab15fdcc713",
+            "Value": {
+                "id": "01f74b3d-6229-4401-a184-76d3bdefd373",
+                "resourcePath": "sprites\\spr_badge\\spr_badge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "90a1aabd-2a9d-4a08-8d38-850ea6545852",
             "Value": {
                 "id": "3401daf6-687f-4795-850c-957153948820",
