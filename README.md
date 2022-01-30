@@ -1,6 +1,6 @@
 
 
-# DexTool
+# 📦 DexTool
 DexTool is a Box-based management tool for maintaining and keeping track of a Pokémon Living Dex.
 
 
