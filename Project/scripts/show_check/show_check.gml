@@ -25,6 +25,12 @@ function show_check() {
 	            if (nat == global.armordata[i, gdex.dexno])
 	                return true;
 	    break;
+	    
+	    case shw.hisui:
+	        for (var i=1; i<array_height_2d(global.hisuidata); i++)
+	            if (nat == global.hisuidata[i, gdex.dexno])
+	                return true;
+	    break;
 	}
         
 	return false;

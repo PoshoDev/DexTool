@@ -4,7 +4,7 @@ function initials_set() {
 	enum region { boxes, top, mid_left, mid_right, bot_left, bot_right,
 	              _0, _25, _50, _75, _100 };
               
-	enum shw { national, galar, armor, LENGTH};
+	enum shw { national, galar, armor, hisui, LENGTH};
 
 	global.window_width = window_get_width();
 	global.window_height = window_get_height();

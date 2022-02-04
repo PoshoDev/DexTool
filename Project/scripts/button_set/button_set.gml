@@ -61,6 +61,7 @@ function button_set(argument0, argument1, argument2) {
 	            case shw.national: text="NATIONAL"; break;
 	            case shw.galar:    text="GALAR";    break;
 	            case shw.armor:    text="ARMOR";    break;
+	            case shw.hisui:    text="HISUI";    break;
 	        }
         
 	        scale = global.icon_scale * 0.75;
